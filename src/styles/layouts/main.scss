@@ -2,4 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
+
+.container{
+    max-width: $container-size;
+    margin: 0 auto;
+
+    @media (max-width: calc($container-size + 100px)) {
+        margin: 0 50px;
+    }
+   
+}
+
+body{
+    background: $background-color;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+}
+

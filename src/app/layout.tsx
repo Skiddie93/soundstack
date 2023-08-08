@@ -1,3 +1,4 @@
+import Header from "@/components/partials/_header";
 import "../styles/global.scss";
 
 interface children {
@@ -5,10 +6,12 @@ interface children {
 }
 
 export default function RootLayout({ children }: children) {
-
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <div className="container">{children}</div>
+      </body>
     </html>
   );
 }

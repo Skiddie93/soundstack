@@ -1,14 +1,14 @@
 import queryData from "@/utils/querySearch";
-import { Dispatch, SetStateAction, useState } from "react";
+import {ChangeEvent, Dispatch, FormEvent, SetStateAction, useState } from "react";
 
 interface Props {
-  setSearchData: Dispatch<SetStateAction<null>>;
+  setSearchData: Dispatch<SetStateAction<Record<any,any> | undefined | null >>
 }
 
-const Search = ({ setSearchData }) => {
+const Search = ({ setSearchData }:Props) => {
   const [term, setTerm] = useState<string>("");
 
-  const searchOnChange = (e) => {
+  const searchOnChange = (e:ChangeEvent<HTMLInputElement>) => {
     const newTerm = e.target.value;
     setTerm(newTerm);
   };
@@ -20,9 +20,18 @@ const Search = ({ setSearchData }) => {
   };
 
   return (
-    <div>
-      <input onChange={searchOnChange} value={term} type="text" />
-      <button onClick={searchInit}>Click</button>
+    <div className="search-box">
+      <div className="search-box-wrapper">
+        <input
+          onKeyPress={(e) => {
+            e.key === "Enter" && searchInit();
+          }}
+          onChange={searchOnChange}
+          value={term}
+          type="text"
+        />
+        <span onClick={searchInit}> <img src="img/icons/search.svg" alt="" /> </span>
+      </div>
     </div>
   );
 };
