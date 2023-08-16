@@ -1,17 +1,14 @@
 import getToken from "./getToken";
 
-const queryData = async (term:string ):Promise<Record<any,any> | undefined > => {
+const queryData = async (url:string ):Promise<Record<any,any> | undefined > => {
 
     let token = await getToken()
     
     
     if (!token) return 
       
-    const queryString = encodeURIComponent(term);
-
-  
     const req = await fetch(
-      `https://api.spotify.com/v1/search?q=${queryString}&type=album`,
+      url,
       {
         headers: {
           Authorization: "Bearer " + token.access_token,

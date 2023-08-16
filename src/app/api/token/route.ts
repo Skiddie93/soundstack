@@ -1,14 +1,14 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
+
+
 export const GET = async (req: Request, res: Response) => {
   const clientId = process.env.CLIENT_ID;
   const clientSecret = process.env.CLIENT_SECRET;
 
- 
-  
-
   const params = {
+    next: { revalidate: 3600 },
     method: "POST",
     headers: {
       "content-type": "application/x-www-form-urlencoded",
@@ -19,7 +19,10 @@ export const GET = async (req: Request, res: Response) => {
   const call = await fetch("https://accounts.spotify.com/api/token", params);
   const data = await call.json();
 
-  const expiration = new Date().getTime() + 60000
+ 
+  
+
+  const expiration = new Date().getTime() + 1000 ;
 
   cookies().set({
     name: "credentials",
@@ -27,6 +30,5 @@ export const GET = async (req: Request, res: Response) => {
     expires: expiration,
   });
 
-  
   return NextResponse.json(data);
 };
