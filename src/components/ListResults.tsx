@@ -1,6 +1,7 @@
 import { useEffect, useState, Dispatch, SetStateAction } from "react";
 import queryData from "@/utils/querySearch";
 
+
 interface ListResultsPorps {
   searchData: Record<any, any>;
   setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
@@ -15,6 +16,8 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
   const [items, setItems] = useState(searchData.albums.items);
   const [urlNext, setUrlNext] = useState(searchData.albums.next);
   const [loading, setLodaing] = useState(false);
+
+ 
 
   useEffect(() => {
     setItems(searchData.albums.items);
@@ -50,11 +53,17 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
 
     const getAlbum = async () => {
       const album = await queryData(href);
+      const player = document.querySelector("#player");
+
+      if (player) {
+        player.scrollIntoView({ behavior: "smooth" });
+      }
+
       setAlbum(album);
     };
 
     return (
-      <a href="/#player" onClick={getAlbum} className="album-wrapper">
+      <div onClick={getAlbum} className="album-wrapper">
         <div className="album-info-modal">
           <p className="name"> {albumName}</p>
           <p className="artist">{artist}</p>
@@ -63,7 +72,7 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
         <div className="album">
           <img src={albumCoverSmall} alt={albumName} />
         </div>
-      </a>
+      </div>
     );
   };
 

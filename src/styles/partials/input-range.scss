@@ -1,0 +1,35 @@
+.input-range {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  .input-overlay {
+    position: absolute;
+    top: 50%;
+    height: 10px;
+    width: 100%;
+    background: $light;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    background: $element;
+    transform: translateY(-50%);
+    z-index: 1;
+    
+  }
+  input {
+    position: relative;
+    opacity: 0;
+    z-index: 3;
+    cursor: pointer;
+  }
+}

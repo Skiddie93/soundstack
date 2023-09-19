@@ -13,7 +13,7 @@ const fetchToken = async () => {
 
 export default async () => {
   const cookie = getCookie("credentials");
-
+  console.log("stored token");
   if (cookie) return JSON.parse(cookie as string);
   const newToken = await fetchToken();
   console.log("newToken");

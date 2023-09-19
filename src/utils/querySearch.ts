@@ -17,8 +17,7 @@ const queryData = async (url:string ):Promise<Record<any,any> | undefined > => {
     );
   
     const data = await req.json();
-  
-
+      
     return data;
   };
 

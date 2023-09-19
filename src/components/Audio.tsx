@@ -26,7 +26,7 @@ const Audio = ({
           onLoadedData={handleLoaded}
           onEnded={() => handleMoveTrack("next")}
           ref={playerRef}
-          controls
+          
         >
           <source src={track || ""} type="audio/mp3" />
         </audio>

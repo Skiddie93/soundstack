@@ -10,9 +10,10 @@ const Player = ({ album }: Props) => {
   const tracks = album.tracks;
   const [currentTrack, setCurrentTrack] = useState(tracks.items[0]);
   const [audioIsLoaded, setAudioIsLoaded] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(false);
 
   const playerRef = useRef<HTMLAudioElement | null>(null);
+  const albumLink = album.external_urls.spotify;
+  const albumName = album.name;
 
   useEffect(() => {
     setCurrentTrack(tracks.items[0]);
@@ -48,44 +49,62 @@ const Player = ({ album }: Props) => {
     }
   };
 
+  const tracksClass = (trackId: any, preview: any) => {
+    const base = "track-wrapper ";
+    const isActive = trackId == currentTrack.id ? "active" : "";
+    const hasPreview = preview ? "" : "disabled ";
+    return base + hasPreview + isActive;
+  };
+
   return (
     <div className="player">
-      <div className="img-wrapper">
-        <img src={albumImage} alt="" />
+      <p className="album-title">
+        {albumName}{" "}
+        <span>
+          <a href={albumLink} target="_blank" className="spotify-link">
+            <img src="img/icons/spotify.svg" alt="" />
+          </a>
+        </span>
+      </p>
+      <div className="player-top">
+        <div className="img-wrapper">
+          <img src={albumImage} alt="" />
+        </div>
+        <div className="tracks-container">
+          <div className="tracks">
+            {tracks.items.map((track: any) => {
+              return (
+                <div
+                  className={tracksClass(track.id, track.preview_url)}
+                  onClick={(e) => {
+                    if (track.preview_url) handleTrackChange(e);
+                  }}
+                  id={track.id}
+                  key={track.id}
+                >
+                  <div className="track" key={track.name}>
+                    <p>{track.name}<span>No preview</span></p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </div>
-      <p>{currentTrack.name}</p>
-      <Controls
-        handleMoveTrack={handleMoveTrack}
-        audioIsLoaded={audioIsLoaded}
-        playerRef={playerRef}
-      />
-      <Audio
-        currentTrack={currentTrack}
-        handleMoveTrack={handleMoveTrack}
-        playerRef={playerRef}
-        setAudioIsLoaded={setAudioIsLoaded}
-      />
-      <div className="tracks">
-        {tracks.items.map((track: any) => {
-          return (
-            <div
-              className="track-wrapper"
-              onClick={handleTrackChange}
-              id={track.id}
-              key={track.id}
-            >
-              {track.preview_url ? (
-                <div className="track" key={track.name}>
-                  <p>{track.name}</p>
-                </div>
-              ) : (
-                <div className="track">
-                  No Preview <p>{track.name}</p>
-                </div>
-              )}
-            </div>
-          );
-        })}
+      <div className="player-bottom">
+        <p>{currentTrack.name}</p>
+        <Controls
+          handleMoveTrack={handleMoveTrack}
+          audioIsLoaded={audioIsLoaded}
+          playerRef={playerRef}
+          currentTrack={currentTrack}
+        />
+        <Audio
+          currentTrack={currentTrack}
+          handleMoveTrack={handleMoveTrack}
+          playerRef={playerRef}
+          setAudioIsLoaded={setAudioIsLoaded}
+        />
       </div>
     </div>
   );

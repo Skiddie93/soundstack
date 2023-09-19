@@ -1,66 +1,182 @@
 .player {
-  margin: 0px auto;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   flex-direction: column;
-  border: 5px solid $element;
-  border-radius: 5px;
-  max-width: 500px;
-  background-color: $element;
-  .tracks {
-    height: 300px;
-    overflow: auto;
-  }
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0px auto;
+  max-width: 1000px;
 
-  .track-wrapper{
-    cursor: pointer;
-  }
-
-  .track {
-    height: 50px;
-  }
-  .img-wrapper {
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+  .album-title {
+    width: 50%;
+    margin-bottom: 10px;
+    .spotify-link {
+      img {
+        path {
+          stroke: white;
+          fill: white;
+        }
+        height: 16px;
+        width: 16px;
+      }
     }
   }
-}
-
-.controls {
-  width: 100%;
-  .navigation {
+  .player-top {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 25px 0;
-    .nav-btn {
-      height: 60px;
-      width: 60px;
-      border-radius: 50%;
-      background: $background-color;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 500px;
+    width: 100%;
+    .tracks-container {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      overflow: auto;
+    }
 
-      svg {
-        fill: $light;
-        height: 25px;
-        width: 25px;
+    .tracks {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0px 10px 0px 30px;
+      max-width: 100%;
+    }
+
+    .track-wrapper {
+      cursor: pointer;
+      position: relative;
+
+      .track {
+        padding: 5px 0;
+
+        p {
+          color: $light;
+        }
+        span {
+          display: none;
+        }
+      }
+
+      &.disabled {
+        p {
+          color: $light;
+        }
+
+        .track {
+          span {
+            display: inline-block;
+            background: $light;
+            color: $element;
+            font-size: 10px;
+            padding: 1px 4px;
+            margin-left: 10px;
+            white-space: nowrap;
+          }
+        }
+      }
+      &.active:not(.disabled) {
+        .track {
+          p {
+            color: $lighter !important;
+          }
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: -20px;
+          top: 50%;
+          transform: translate(0, -50%);
+          width: 11px;
+          height: 11px;
+          clip-path: polygon(
+            100% 49%,
+            100% 49%,
+            46% 77%,
+            46% 26%,
+            46% 25%,
+            46% 77%,
+            0 100%,
+            0 0
+          );
+          background: $lighter;
+        }
+      }
+    }
+
+    .img-wrapper {
+      height: 100%;
+      aspect-ratio: 1/1;
+      position: relative;
+
+      > img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .player-bottom {
+    width: 500px;
+    margin-top: 10px;
+  }
+  .controls {
+    width: 100%;
+    .timeline {
+      width: 100%;
+      display: flex;
+
+      .input-range {
+        width: 100%;
+        input {
+          width: 100%;
+        }
+      }
+    }
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+
+      .input-range {
+        flex: 0;
+        min-width: 100px;
+        input {
+          max-width: 100%;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        gap: 10px;
+        flex: 1;
+        max-width: 125px;
+        justify-content: space-between;
+        margin: 15px 0;
+      }
+
+      .nav-btn {
+        border-radius: 50%;
+        background: $background-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        svg {
+          fill: $light;
+          height: 25px;
+          width: 25px;
+        }
       }
     }
   }
 }
-
 #player {
-  padding-top: 100px;
   max-height: 0;
   transition: max-height linear 1s;
   &.open {
     max-height: 500vh;
+    padding: 100px 0;
   }
 }
