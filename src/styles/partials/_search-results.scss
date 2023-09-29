@@ -35,7 +35,6 @@
   }
 
   .album-wrapper {
-    position: relative;
     border-radius: 5px;
     overflow: hidden;
     height: 100%;
@@ -79,12 +78,62 @@
     height: 100%;
     aspect-ratio: 1/1;
     grid-column: span 1;
-    z-index: 1;
-
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
+    }
+  }
+
+  .add-album {
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .context-menu {
+    position: absolute;
+    background-color: $element;
+    bottom: 0px;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, calc(100% + 10px));
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    isolation: isolate;
+    .context-menu-wrapper {
+      margin: 20px 5px;
+    }
+
+    .lists{
+      ul{
+        li{
+          list-style: none;
+          font-size: 13px;
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+
+  .input {
+    background-color: $element;
+
+    input {
+      background-color: transparent;
+      border: none;
+      &:focus {
+        outline: none;
+        background-color: $element;
+      }
     }
   }
 

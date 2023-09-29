@@ -1,14 +1,10 @@
 import { useEffect, useState, Dispatch, SetStateAction } from "react";
 import queryData from "@/utils/querySearch";
-
+import { setLocalStorage, getLocalStorage } from "@/utils/useLocalStorage";
+import AlbumItem from "./AlbumItem";
 
 interface ListResultsPorps {
   searchData: Record<any, any>;
-  setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
-}
-
-interface ListItemProps {
-  albumData: any;
   setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
 }
 
@@ -17,7 +13,9 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
   const [urlNext, setUrlNext] = useState(searchData.albums.next);
   const [loading, setLodaing] = useState(false);
 
- 
+  const [listData, setListData] = useState(
+    JSON.parse(getLocalStorage("albumsList") || "[]")
+  );
 
   useEffect(() => {
     setItems(searchData.albums.items);
@@ -41,48 +39,18 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
     setLodaing(false);
   };
 
-  const ResultItem = ({ albumData, setAlbum }: ListItemProps) => {
-    const albumName = albumData.name;
-    const albumCoverSmall = albumData.images[1].url;
-    const albumYear = albumData.release_date.split("-")[0];
-    const artist = albumData.artists
-      .map((artist: Record<any, any>) => artist.name)
-      .join(" & ");
-
-    const href = albumData.href;
-
-    const getAlbum = async () => {
-      const album = await queryData(href);
-      const player = document.querySelector("#player");
-
-      if (player) {
-        player.scrollIntoView({ behavior: "smooth" });
-      }
-
-      setAlbum(album);
-    };
-
-    return (
-      <div onClick={getAlbum} className="album-wrapper">
-        <div className="album-info-modal">
-          <p className="name"> {albumName}</p>
-          <p className="artist">{artist}</p>
-          <p className="year"> {albumYear}</p>
-        </div>
-        <div className="album">
-          <img src={albumCoverSmall} alt={albumName} />
-        </div>
-      </div>
-    );
-  };
-
   return (
     <div>
       {items.length ? (
         <div className="search-results">
           {items.map((item: Record<any, any>) => {
             return (
-              <ResultItem key={item.id} setAlbum={setAlbum} albumData={item} />
+              <AlbumItem
+                key={item.id}
+                listData={[listData, setListData]}
+                setAlbum={setAlbum}
+                albumData={item}
+              />
             );
           })}
           <div className="load-more">
