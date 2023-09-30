@@ -109,30 +109,62 @@
     flex-direction: column;
     z-index: 10;
     isolation: isolate;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     .context-menu-wrapper {
-      margin: 20px 5px;
+      margin: 10px 10px;
     }
 
-    .lists{
-      ul{
-        li{
+    .lists {
+      ul {
+        li {
           list-style: none;
           font-size: 13px;
           padding: 10px 0;
+          cursor: pointer;
+          &.occupied {
+            color: $light;
+          }
         }
       }
     }
   }
 
-  .input {
+  .new-list {
     background-color: $element;
-
+    display: flex;
+    align-items: center;
+    position: relative;
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all ease-in-out 0.5s;
+      user-select: none;
+      pointer-events: none;
+    }
+    input:focus + svg {
+      left: 0% !important;
+      transform: translate(0%, -50%);
+     
+      pointer-events: all !important;
+      cursor: pointer;
+    }
     input {
       background-color: transparent;
       border: none;
+      width: 100%;
+      padding: 10px 0px 10px 20px;
+      transition: all ease-in-out 0.5s;
+      cursor: pointer;
+      color: transparent;
+      border-radius: 5px;
       &:focus {
+        background-color: $background-color;
         outline: none;
-        background-color: $element;
+        cursor: text;
+        color: $lighter;
       }
     }
   }

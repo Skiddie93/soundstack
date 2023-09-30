@@ -1,4 +1,4 @@
-import { useState, useEffect, ChangeEventHandler, ChangeEvent } from "react";
+import { useState, useEffect, ChangeEvent } from "react";
 import {
   BsFillPlayFill,
   BsSkipBackwardFill,
@@ -22,9 +22,10 @@ const Controls = ({
   currentTrack,
 }: Props) => {
   const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(0);
-  const [volume, setVolume] = useState(getLocalStorage("volume") || 50);
+  const [volume, setVolume] = useState(getLocalStorage("volume") || '50');
   const [isPlaying, setIsPlaying] = useState(false);
+
+  const duration = playerRef.current?.duration || "0";
 
   const handlePlayPause = () => {
     if (audioIsLoaded && playerRef.current) {
@@ -36,23 +37,17 @@ const Controls = ({
 
   const handleScrollTrack = (e: ChangeEvent<HTMLInputElement>) => {
     if (audioIsLoaded && playerRef.current) {
-      const time = parseInt(e.currentTarget.value);
+      const time = parseFloat(e.currentTarget.value);
       setCurrentTime(time);
       playerRef.current.currentTime = time;
     }
   };
 
-  const getDuration = () => {
-    if (audioIsLoaded && playerRef.current) {
-      setDuration(playerRef.current.duration - 1);
-    }
-  };
-
   const handleVolume = (e: ChangeEvent<HTMLInputElement>) => {
-    const volume = parseInt(e.currentTarget.value);
+    const volume = e.currentTarget.value;
     setVolume(volume);
-    setLocalStorage("volume", volume.toFixed(1));
-    playerRef.current.volume = volume / 100;
+    setLocalStorage("volume", volume);
+    playerRef.current.volume = +volume / 100;
   };
 
   useEffect(() => {
@@ -61,9 +56,8 @@ const Controls = ({
 
   useEffect(() => {
     handlePlayPause();
-    getDuration();
     if (audioIsLoaded) {
-      playerRef.current.volume = volume / 100;
+      playerRef.current.volume = +volume / 100;
     }
   }, [isPlaying, audioIsLoaded]);
 
@@ -113,12 +107,16 @@ const Controls = ({
           className="volume"
           onChange={handleVolume}
           max={100}
-          value={volume}
+          value={+volume}
           step={1}
         />
       </div>
       <div className="timeline">
-        <RangeInput onChange={handleScrollTrack} value={currentTime} max={29} />
+        <RangeInput
+          onChange={handleScrollTrack}
+          value={currentTime}
+          max={duration}
+        />
       </div>
     </div>
   );

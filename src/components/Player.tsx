@@ -32,7 +32,7 @@ const Player = ({ album }: Props) => {
         setCurrentTrack(tracks.items[nextTrackIndex]);
       } else {
         const nextTrackIndex = (currentTrackIndex - 1) % albumTracksTotal;
-        nextTrackIndex > 0
+        nextTrackIndex >= 0
           ? setCurrentTrack(tracks.items[nextTrackIndex])
           : setCurrentTrack(tracks.items[albumTracksTotal - 1]);
       }

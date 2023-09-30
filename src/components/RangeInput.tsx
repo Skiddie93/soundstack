@@ -12,9 +12,12 @@ const RangeInput = ({ className, onChange, max, value, step }: Props) => {
   const [offset, setOffset] = useState(0);
 
   useEffect(() => {
-    const percent = Math.min((value / max) * 100 - 100, 0);
-
-    setOffset(percent);
+    if (value == 0) {
+      setOffset(100);
+    } else {
+      const percent = Math.min((value / max) * 100 - 100, 0);
+      setOffset(percent);
+    }
   }, [value]);
 
   return (
