@@ -13,10 +13,6 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
   const [urlNext, setUrlNext] = useState(searchData.albums.next);
   const [loading, setLodaing] = useState(false);
 
-  const [listData, setListData] = useState(
-    JSON.parse(getLocalStorage("albumsList") || "[]")
-  );
-
   useEffect(() => {
     setItems(searchData.albums.items);
     setUrlNext(searchData.albums.next);
@@ -45,12 +41,7 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
         <div className="search-results">
           {items.map((item: Record<any, any>) => {
             return (
-              <AlbumItem
-                key={item.id}
-                listData={[listData, setListData]}
-                setAlbum={setAlbum}
-                albumData={item}
-              />
+              <AlbumItem key={item.id} setAlbum={setAlbum} albumData={item} />
             );
           })}
           <div className="load-more">

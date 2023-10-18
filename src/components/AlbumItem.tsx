@@ -5,11 +5,11 @@ import StackListContext from "./StackListContext";
 interface ListItemProps {
   albumData: Record<string, any>;
   setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
-  listData: any[];
+  
 }
 
 
-const AlbumItem = ({ albumData, setAlbum, listData }: ListItemProps) => {
+const AlbumItem = ({ albumData, setAlbum}: ListItemProps) => {
   const [contextState, setContextState] = useState<Boolean>(false);
   const openMenu = useRef<any>(null);
   const contextMenuRef = useRef<any>(null);
@@ -81,7 +81,6 @@ const AlbumItem = ({ albumData, setAlbum, listData }: ListItemProps) => {
         <StackListContext
           contextMenuRef={contextMenuRef}
           albumData={albumData}
-          listData={listData}
         />
       )}
     </div>

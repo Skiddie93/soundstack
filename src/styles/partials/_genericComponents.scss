@@ -1,0 +1,70 @@
+.new-list {
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease-in-out 0.5s;
+    pointer-events: none;
+    user-select: none;
+  }
+  input:focus + svg {
+    left: 0% !important;
+    transform: translate(0%, -50%);
+    cursor: pointer;
+    pointer-events: all;
+  }
+  input {
+    padding: 10px 0px 10px 25px;
+  }
+}
+
+.chart-input {
+  svg {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    transition: all ease-in-out 0.5s;
+    pointer-events: none;
+    user-select: none;
+    height: 20px;
+    width: 20px;
+  }
+  input:focus + svg {
+    right: 0% !important;
+    transform: translate(0%, -50%);
+    cursor: pointer;
+    pointer-events: all;
+  }
+
+  input {
+    font-size: 18px !important;
+    padding: 5px 25px 5px 0px;
+  }
+}
+
+.input-text {
+  background-color: $element;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    color: transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    &:focus {
+      background-color: $background-color;
+      outline: none;
+      cursor: text;
+      color: $lighter;
+    }
+  }
+}

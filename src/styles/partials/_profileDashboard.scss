@@ -1,0 +1,55 @@
+.your-lists {
+  margin: 50px 0;
+  width: 20%;
+  min-width: calc(320px - 2rem);
+  .section-title {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .list-item {
+    margin: 10px 0;
+    font-size: 20px;
+    position: relative;
+
+    input {
+      + .tools {
+        opacity: 1 !important;
+      }
+    }
+
+    .tools {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: auto;
+      opacity: 0;
+      padding: 5px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      background-color: $background-color;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      transition: all ease-in-out 0.2s;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.input {
+  height: 100%;
+  background-color: $element;
+  cursor: text;
+  color: $lighter;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+

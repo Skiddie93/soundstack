@@ -1,26 +1,20 @@
 import { useState, useEffect } from "react";
 import { setLocalStorage } from "@/utils/useLocalStorage";
-import { IoMdRemove, IoMdAdd } from "react-icons/io";
+import { IoMdAdd } from "react-icons/io";
+import { List } from "@/types/types";
+import onClickEnter from "@/utils/onClickEnter";
+import { getLocalStorage } from "@/utils/useLocalStorage";
 
 interface StackListProps {
-  listData: any[];
   albumData: Record<string, any>;
   contextMenuRef: any;
 }
 
-const StackListContext = ({
-  listData,
-  contextMenuRef,
-  albumData,
-}: StackListProps) => {
-  interface List {
-    id: string;
-    name: string;
-    albums: any[];
-  }
-
+const StackListContext = ({ contextMenuRef, albumData }: StackListProps) => {
   const [listName, setListName] = useState("");
-  const [lists, setLists] = listData;
+  const [lists, setLists] = useState(
+    JSON.parse(getLocalStorage("albumsList") || "[]")
+  );
   const [inLists, setInLists] = useState<string[]>([]);
 
   const isInList = (key: string, inLists: string[]) => inLists.includes(key);
@@ -115,17 +109,15 @@ const StackListContext = ({
             })}
           </ul>
         </div>
-        <div className="input new-list">
+        <div className="input-text new-list">
           <input
             onChange={(e) => setListName(e.currentTarget.value)}
-            onKeyPress={(e) => {
-              e.key === "Enter" && createList(listName);
-            }}
+            onKeyPress={(e) => onClickEnter(e, () => createList(listName))}
             value={listName}
             placeholder=""
             type="text"
           />
-          <IoMdAdd onClick={() => createList(listName)} />
+          <IoMdAdd onMouseDown={() => createList(listName)} />
         </div>
       </div>
     </div>

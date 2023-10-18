@@ -1,6 +1,9 @@
 import { useEffect, useState, useRef } from "react";
 import Controls from "./Controls";
 import Audio from "./Audio";
+import { IoMdAdd } from "react-icons/io";
+import isVisible from "@/utils/useIsVisible";
+import StackListContext from "@/components/StackListContext";
 interface Props {
   album: Record<any, any>;
 }
@@ -83,7 +86,10 @@ const Player = ({ album }: Props) => {
                   key={track.id}
                 >
                   <div className="track" key={track.name}>
-                    <p>{track.name}<span>No preview</span></p>
+                    <p>
+                      {track.name}
+                      <span>No preview</span>
+                    </p>
                   </div>
                 </div>
               );
@@ -92,7 +98,10 @@ const Player = ({ album }: Props) => {
         </div>
       </div>
       <div className="player-bottom">
-        <p>{currentTrack.name}</p>
+        <div className="track-name">
+          {currentTrack.name}
+          <PlayerContext album={album} />
+        </div>
         <Controls
           handleMoveTrack={handleMoveTrack}
           audioIsLoaded={audioIsLoaded}
@@ -106,6 +115,26 @@ const Player = ({ album }: Props) => {
           setAudioIsLoaded={setAudioIsLoaded}
         />
       </div>
+    </div>
+  );
+};
+
+const PlayerContext = ({ album }: any) => {
+  const visibility = isVisible();
+  return (
+    <div className="p-context">
+      <IoMdAdd
+        data-ignore="true"
+        onMouseDown={() => {
+          visibility.setVisible(true);
+        }}
+      />
+      {visibility.visible && (
+        <StackListContext
+          contextMenuRef={visibility.element}
+          albumData={album}
+        />
+      )}
     </div>
   );
 };

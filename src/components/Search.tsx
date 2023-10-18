@@ -8,9 +8,10 @@ import {
   useEffect,
 } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import onClickEnter from "@/utils/onClickEnter";
 
 interface Props {
-  setSearchData: Dispatch<SetStateAction<Record<any, any> | undefined>>;
+  setSearchData?: Dispatch<SetStateAction<Record<any, any> | undefined>>;
 }
 
 const Search = ({ setSearchData }: Props) => {
@@ -24,7 +25,9 @@ const Search = ({ setSearchData }: Props) => {
     const queryString = encodeURIComponent(searchTerm || "");
     const url = `https://api.spotify.com/v1/search?q=${queryString}&type=album&limit=12`;
     const searchResults = await queryData(url);
-    setSearchData(searchResults);
+    if (setSearchData) {
+      setSearchData(searchResults);
+    }
   };
 
   useEffect(() => {
@@ -46,9 +49,7 @@ const Search = ({ setSearchData }: Props) => {
     <div className="search-box">
       <div className="search-box-wrapper">
         <input
-          onKeyPress={(e) => {
-            e.key === "Enter" && queryRouting();
-          }}
+          onKeyPress={(e) => onClickEnter(e, () => queryRouting())}
           onChange={searchOnChange}
           value={term}
           type="text"
