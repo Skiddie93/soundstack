@@ -5,6 +5,7 @@ import { setLocalStorage } from "@/utils/useLocalStorage";
 import { List } from "@/types/types";
 import { useState, useEffect } from "react";
 import isVisible from "@/utils/useIsVisible";
+import Link from "next/link";
 
 interface ChartProps {
   list: Record<string, any>;
@@ -14,6 +15,10 @@ interface ChartProps {
 export const Chart = ({ list, setListData }: ChartProps) => {
   const [inputValue, setInputValue] = useState(list.name);
   const visibility = isVisible();
+
+  const editorPath = `/edit/${list.id}`;
+
+  const LinkData = {};
 
   useEffect(() => {
     if (!visibility.visible) setInputValue(list.name);
@@ -46,7 +51,8 @@ export const Chart = ({ list, setListData }: ChartProps) => {
     <div ref={visibility.element} className="list-item" key={list.id}>
       {!visibility.visible ? (
         <>
-          {list.name} <small>({list.albums.length})</small>
+          <Link href={editorPath}>{list.name}</Link>{" "}
+          <small>({list.albums.length})</small>
         </>
       ) : (
         <>
