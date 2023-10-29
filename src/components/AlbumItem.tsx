@@ -5,11 +5,10 @@ import StackListContext from "./StackListContext";
 interface ListItemProps {
   albumData: Record<string, any>;
   setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
-  
+  editMode?: Boolean;
 }
 
-
-const AlbumItem = ({ albumData, setAlbum}: ListItemProps) => {
+const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
   const [contextState, setContextState] = useState<Boolean>(false);
   const openMenu = useRef<any>(null);
   const contextMenuRef = useRef<any>(null);
@@ -65,13 +64,15 @@ const AlbumItem = ({ albumData, setAlbum}: ListItemProps) => {
           <p className="name"> {albumName}</p>
           <p className="artist">{artist}</p>
           <p className="year"> {albumYear}</p>
-          <div
-            onClick={(e) => openContextMenu(e)}
-            ref={openMenu}
-            className="add-album"
-          >
-            +
-          </div>
+          {!editMode && (
+            <div
+              onClick={(e) => openContextMenu(e)}
+              ref={openMenu}
+              className="add-album"
+            >
+              +
+            </div>
+          )}
         </div>
         <div className="album">
           <img src={albumCoverSmall} alt={albumName} />
@@ -86,6 +87,5 @@ const AlbumItem = ({ albumData, setAlbum}: ListItemProps) => {
     </div>
   );
 };
-
 
 export default AlbumItem;

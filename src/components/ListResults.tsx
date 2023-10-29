@@ -1,6 +1,5 @@
 import { useEffect, useState, Dispatch, SetStateAction } from "react";
 import queryData from "@/utils/querySearch";
-import { setLocalStorage, getLocalStorage } from "@/utils/useLocalStorage";
 import AlbumItem from "./AlbumItem";
 
 interface ListResultsPorps {

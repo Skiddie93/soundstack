@@ -65,7 +65,7 @@ const Player = ({ album }: Props) => {
         {albumName}{" "}
         <span>
           <a href={albumLink} target="_blank" className="spotify-link">
-            <img src="img/icons/spotify.svg" alt="" />
+            <img src="/img/icons/spotify.svg" alt="" />
           </a>
         </span>
       </p>

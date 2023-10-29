@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-
 import Search from "@/components/Search";
 import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";

@@ -1,0 +1,37 @@
+.editor-view {
+  display: flex;
+  justify-content: space-between;
+  .album-list {
+    width: 75%;
+    .search-results {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .album {
+        max-width: 280px;
+
+        .album-wrapper {
+          cursor: grab !important;
+        }
+      }
+    }
+  }
+
+  .list-names {
+    width: 25%;
+    margin: 50px 0;
+
+    .album {
+      padding: 7px 0;
+      border: 1px solid transparent;
+      cursor: grab;
+      border-radius: 5px;
+      &:first-child {
+        padding-top: 0;
+      }
+      &.over-album {
+        border: 1px solid $lighter;
+      }
+    }
+  }
+}
