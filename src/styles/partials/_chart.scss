@@ -1,0 +1,52 @@
+.chart {
+  &.photo {
+    width: 1920px;
+    background-color: $background-color;
+
+    .inner {
+      padding-top: 50px;
+    }
+  }
+
+  .inner {
+    max-width: $container-size;
+    margin: 0 auto;
+  }
+  .chart-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .album-list {
+    width: 75%;
+    .search-results {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .album {
+        max-width: 200px;
+
+        .album-wrapper {
+          cursor: pointer !important;
+        }
+      }
+    }
+  }
+
+  .list-names {
+    width: 25%;
+    margin: 50px 0;
+
+    .album {
+      padding: 7px 0;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      cursor: pointer;
+      &:first-child {
+        padding-top: 0;
+      }
+      &.over-album {
+        border: 1px solid $lighter;
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import EditListResults from "@/components/EditListResults";
 import Player from "@/components/Player";
 import EditListNames from "@/components/EditListNames";
+import { saveDivAsImage } from "@/utils/screenPhoto";
 
 interface PageProps {
   params: { id: string };
@@ -22,20 +23,25 @@ export const page = ({ params }: PageProps) => {
     getChart();
   }, []);
 
-  console.log(chart);
-
   return (
     <>
       <div className={album ? "open" : ""} id="player">
         {album && <Player album={album} />}
       </div>
-      <h1>{chart ? chart.name : "Loading"}</h1>
-      {chart && (
-        <div className="editor-view">
-          <EditListResults setAlbum={setAlbum} listData={chart.albums} />
-          <EditListNames setAlbum={setAlbum} albums={chart.albums} />
+
+      <div id="chart" className="chart">
+        <div className="inner">
+          <h1>{chart ? chart.name : "Loading"}</h1>
+
+          {chart && (
+            <div className="chart-wrapper">
+              <EditListResults setAlbum={setAlbum} listData={chart.albums} />
+              <EditListNames setAlbum={setAlbum} albums={chart.albums} />
+            </div>
+          )}
         </div>
-      )}
+      </div>
+      <button onClick={saveDivAsImage}>Take Photo</button>
     </>
   );
 };
