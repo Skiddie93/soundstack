@@ -1,15 +1,18 @@
 .editor-view {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
   .album-list {
     width: 75%;
     .search-results {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      .album {
-        max-width: 200px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
 
+      .album-envelope {
+        grid-column: span 1;
+      }
+
+      .album {
         .album-wrapper {
           cursor: grab !important;
         }
@@ -32,6 +35,18 @@
       &.over-album {
         border: 1px solid $lighter;
       }
+    }
+  }
+}
+
+.album-edit {
+  .remove {
+    display: none;
+    cursor: pointer;
+  }
+  &:hover {
+    .remove {
+      display: block;
     }
   }
 }

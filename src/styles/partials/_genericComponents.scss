@@ -68,3 +68,28 @@
     }
   }
 }
+
+.button {
+  background-color: $element;
+  color: $light;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+  &:hover {
+    color: $lighter;
+  }
+}
+
+.editor-button {
+  margin-bottom: 50px;
+}
+
+.flex-center-vertical {
+  display: flex;
+  align-items: center;
+  &.gap-12 {
+    gap: 12px;
+  }
+}

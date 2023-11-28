@@ -1,7 +1,6 @@
 import { Dispatch, SetStateAction } from "react";
 import AlbumItem from "./AlbumItem";
 
-
 interface ListResultsPorps {
   listData: Record<any, any>;
   setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
@@ -22,6 +21,7 @@ const EditListResults = ({
           listData.map((item: Record<any, any>, index: number) => {
             return (
               <div
+                className="album-envelope"
                 key={item.id}
                 draggable={editMode}
                 onDrop={(e) => {

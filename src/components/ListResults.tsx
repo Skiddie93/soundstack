@@ -13,7 +13,21 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
   const [loading, setLodaing] = useState(false);
 
   useEffect(() => {
-    setItems(searchData.albums.items);
+    const usableData = searchData.albums.items.map(
+      (item: Record<string, any>) => {
+        return {
+          id: item.id,
+          external_urls: { spotify: item.external_urls.spotify },
+          name: item.name,
+          images: item.images,
+          release_date: item.release_date,
+          artists: item.artists,
+          href: item.href,
+        };
+      }
+    );
+
+    setItems(usableData);
     setUrlNext(searchData.albums.next);
   }, [searchData]);
 

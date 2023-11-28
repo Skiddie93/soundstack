@@ -11,18 +11,7 @@
     grid-column: 1/-1;
     display: flex;
     justify-content: center;
-    .button {
-      background-color: $element;
-      color: $light;
-      display: inline-block;
-      padding: 10px;
-      cursor: pointer;
-      border-radius: 5px;
-      transition: all ease-in-out 0.2s;
-      &:hover {
-        color: $lighter;
-      }
-    }
+   
   }
   .no-results {
     animation: fadeIn 1s;

@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import { setLocalStorage } from "@/utils/useLocalStorage";
-import { IoMdAdd } from "react-icons/io";
-import { List } from "@/types/types";
-import onClickEnter from "@/utils/onClickEnter";
 import { getLocalStorage } from "@/utils/useLocalStorage";
+import { IoMdAdd } from "react-icons/io";
+import onClickEnter from "@/utils/onClickEnter";
+import { chartSingle } from "@/services/charts";
 
 interface StackListProps {
   albumData: Record<string, any>;
@@ -39,53 +38,22 @@ const StackListContext = ({ contextMenuRef, albumData }: StackListProps) => {
   }, [lists]);
 
   const createList = (name: string) => {
-    if (!listName) return;
+    const newLists = chartSingle.createList(name);
 
-    const newItem: List = {
-      id: Math.floor(Math.random() * 100000).toString(),
-      name: name,
-      albums: [],
-    };
-
-    const newLists = [...lists, newItem];
-
-    setLists(newLists);
-    setListName("");
-
-    setLocalStorage("albumsList", JSON.stringify(newLists));
+    if (newLists) {
+      setLists(newLists);
+      setListName("");
+    }
   };
 
   const addAlbum = (key: string) => {
-    setLists((prev: []) => {
-      const newLists = prev.map((list: List) => {
-        if (list.id == key) {
-          list.albums = [...list.albums, albumData];
-          return list;
-        }
-        return list;
-      });
-
-      setLocalStorage("albumsList", JSON.stringify(newLists));
-      return newLists;
-    });
+    const newCharts = chartSingle.addAlbum(key, albumData);
+    setLists(newCharts);
   };
 
   const removeAlbum = (key: string) => {
-    setLists((prev: []) => {
-      const newLists = prev.map((list: List) => {
-        if (list.id == key) {
-          const removeAlbum = list.albums.filter(
-            (album) => album.id != albumData.id
-          );
-          list.albums = removeAlbum;
-          return list;
-        } else {
-          return list;
-        }
-      });
-      setLocalStorage("albumsList", JSON.stringify(newLists));
-      return newLists;
-    });
+    const newCharts = chartSingle.removeAlbum(key, albumData);
+    setLists(newCharts);
   };
 
   return (

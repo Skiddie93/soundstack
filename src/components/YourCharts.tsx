@@ -4,7 +4,7 @@ import { List } from "@/types/types";
 import { IoMdAdd } from "react-icons/io";
 import Chart from "@/components/Chart";
 import onClickEnter from "@/utils/onClickEnter";
-
+import { chartSingle } from "@/services/charts";
 export const YourCharts = () => {
   const [listData, setListData] = useState<List[]>([]);
   const [listName, setListName] = useState("");
@@ -14,20 +14,12 @@ export const YourCharts = () => {
   }, []);
 
   const addList = (name: string) => {
-    if (!listName) return;
+    const newLists = chartSingle.createList(name);
 
-    const newItem: List = {
-      id: Math.floor(Math.random() * 100000).toString(),
-      name: name,
-      albums: [],
-    };
-
-    const newLists = [...listData, newItem];
-
-    setListData(newLists);
-    setListName("");
-
-    setLocalStorage("albumsList", JSON.stringify(newLists));
+    if (newLists) {
+      setListData(newLists);
+      setListName("");
+    }
   };
 
   return (

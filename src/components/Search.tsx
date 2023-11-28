@@ -1,40 +1,15 @@
-import queryData from "@/utils/querySearch";
-import {
-  ChangeEvent,
-  Dispatch,
-  FormEvent,
-  SetStateAction,
-  useState,
-  useEffect,
-} from "react";
+"use client";
+
+import { ChangeEvent, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import onClickEnter from "@/utils/onClickEnter";
 
-interface Props {
-  setSearchData?: Dispatch<SetStateAction<Record<any, any> | undefined>>;
-}
-
-const Search = ({ setSearchData }: Props) => {
-  const [term, setTerm] = useState<string>("");
-  const router = useRouter();
-
+const Search = () => {
   const searchParams = useSearchParams();
   const searchTerm = searchParams.get("query");
 
-  const searchInit = async () => {
-    const queryString = encodeURIComponent(searchTerm || "");
-    const url = `https://api.spotify.com/v1/search?q=${queryString}&type=album&limit=12`;
-    const searchResults = await queryData(url);
-    if (setSearchData) {
-      setSearchData(searchResults);
-    }
-  };
-
-  useEffect(() => {
-    if (searchTerm) {
-      searchInit();
-    }
-  }, [searchTerm]);
+  const [term, setTerm] = useState<string>(searchTerm || "");
+  const router = useRouter();
 
   const searchOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     const newTerm = e.target.value;
@@ -56,7 +31,7 @@ const Search = ({ setSearchData }: Props) => {
         />
         <span onClick={queryRouting}>
           {" "}
-          <img src="img/icons/search.svg" alt="" />{" "}
+          <img src="/img/icons/search.svg" alt="" />{" "}
         </span>
       </div>
     </div>

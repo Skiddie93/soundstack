@@ -1,12 +1,13 @@
 "use client";
-import Search from "@/components/Search";
-import { YourCharts } from "@/components/YourCharts";
 
+import { YourCharts } from "@/components/YourCharts";
+import { PublishedCharts } from "@/components/PublishedCharts";
 export default function Page() {
   return (
     <>
-      <Search />
+    
       <YourCharts />
+      <PublishedCharts />
     </>
   );
 }

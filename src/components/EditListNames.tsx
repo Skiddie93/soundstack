@@ -1,11 +1,13 @@
 import { useState } from "react";
 import queryData from "@/utils/querySearch";
+import { IoMdRemove } from "react-icons/io";
 
 interface EditListNamesProps {
   albums: Record<string, any> | undefined;
   handleDrag?: any;
   editMode?: boolean;
   setAlbum?: any;
+  removeAlbum: (id: string) => void;
 }
 
 interface AlbumProps {
@@ -14,6 +16,7 @@ interface AlbumProps {
   handleDrag?: any;
   editMode?: boolean;
   setAlbum?: any;
+  removeAlbum: (id: string) => void;
 }
 
 const EditListNames = ({
@@ -21,6 +24,7 @@ const EditListNames = ({
   handleDrag,
   editMode,
   setAlbum,
+  removeAlbum,
 }: EditListNamesProps) => {
   return (
     <div className="list-names">
@@ -33,6 +37,7 @@ const EditListNames = ({
             album={album}
             editMode={editMode}
             setAlbum={setAlbum}
+            removeAlbum={removeAlbum}
           />
         ))}
     </div>
@@ -45,6 +50,7 @@ const Album = ({
   index,
   editMode,
   setAlbum,
+  removeAlbum,
 }: AlbumProps) => {
   const [isOverElement, setIsOverElement] = useState(false);
   const name = album.name;
@@ -54,14 +60,12 @@ const Album = ({
 
   const href = album.href;
 
-
   const handleClassName = () => {
-    let base = ["album"];
+    let base = ["album", "album-edit"];
     isOverElement && base.push("over-album");
     const newClass = base.join(" ");
     return newClass;
   };
-  console.log("this is album: ", album);
 
   const getAlbum = async () => {
     const album = await queryData(href);
@@ -92,7 +96,18 @@ const Album = ({
       }}
       onDragLeave={() => setIsOverElement(false)}
     >
-      {name} - {artist}
+      <div className="flex-center-vertical gap-12">
+     
+
+        <div>
+          {name} - {artist}
+        </div>
+        {editMode && (
+          <div className="remove">
+            <IoMdRemove onClick={() => removeAlbum(album.id)} />
+          </div>
+        )}
+      </div>
     </div>
   );
 };

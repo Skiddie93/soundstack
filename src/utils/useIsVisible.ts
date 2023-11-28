@@ -10,6 +10,7 @@ export const isVisible = () => {
   );
   useEffect(() => {
     if (clickedTarget && clickedTarget.getAttribute("data-ignore")) return;
+    
 
     if (
       element.current &&

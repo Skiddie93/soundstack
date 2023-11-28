@@ -11,7 +11,7 @@ interface ListItemProps {
 const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
   const [contextState, setContextState] = useState<Boolean>(false);
   const openMenu = useRef<any>(null);
-  const contextMenuRef = useRef<any>(null);
+  const contextMenuRef = useRef<any>(null);  
 
   const albumName = albumData.name;
   const albumCoverSmall = albumData.images[1].url;
@@ -47,6 +47,7 @@ const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
     if (player) {
       player.scrollIntoView({ behavior: "smooth" });
     }
+    console.log(href, album);
 
     setAlbum(album);
   };

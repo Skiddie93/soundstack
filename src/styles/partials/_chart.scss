@@ -15,15 +15,15 @@
   .chart-wrapper {
     display: flex;
     justify-content: space-between;
+      gap: 40px;
   }
   .album-list {
     width: 75%;
     .search-results {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
       .album {
-        max-width: 200px;
+        grid-column: span 1;
 
         .album-wrapper {
           cursor: pointer !important;
