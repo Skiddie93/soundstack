@@ -5,7 +5,7 @@ import EditListResults from "@/components/EditListResults";
 import Player from "@/components/Player";
 import EditListNames from "@/components/EditListNames";
 import { saveDivAsImage } from "@/utils/screenPhoto";
-
+import { IoCamera } from "react-icons/io5";
 interface PageProps {
   params: { id: string };
 }
@@ -31,17 +31,24 @@ export const page = ({ params }: PageProps) => {
 
       <div id="chart" className="chart">
         <div className="inner">
-          <h1>{chart ? chart.name : "Loading"}</h1>
-
-          {chart && (
-            <div className="chart-wrapper">
-              <EditListResults setAlbum={setAlbum} listData={chart.albums} />
-              <EditListNames setAlbum={setAlbum} albums={chart.albums} />
-            </div>
+          {chart ? (
+            <>
+              <div className="title-bar">
+                <h1>{chart.name}</h1>
+                <div onClick={saveDivAsImage}>
+                  <IoCamera />
+                </div>
+              </div>
+              <div className="chart-wrapper">
+                <EditListResults setAlbum={setAlbum} listData={chart.albums} />
+                <EditListNames setAlbum={setAlbum} albums={chart.albums} />
+              </div>
+            </>
+          ) : (
+            "Loading"
           )}
         </div>
       </div>
-      <button onClick={saveDivAsImage}>Take Photo</button>
     </>
   );
 };

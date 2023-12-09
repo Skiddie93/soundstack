@@ -6,6 +6,7 @@ import { List } from "@/types/types";
 import { useState, useEffect } from "react";
 import isVisible from "@/utils/useIsVisible";
 import Link from "next/link";
+import {onClickEnter} from "@/utils/onClickEnter"
 
 interface ChartProps {
   list: Record<string, any>;
@@ -17,8 +18,6 @@ export const Chart = ({ list, setListData }: ChartProps) => {
   const visibility = isVisible();
 
   const editorPath = `/edit/${list.id}`;
-
-  const LinkData = {};
 
   useEffect(() => {
     if (!visibility.visible) setInputValue(list.name);
@@ -51,12 +50,25 @@ export const Chart = ({ list, setListData }: ChartProps) => {
     <div ref={visibility.element} className="list-item" key={list.id}>
       {!visibility.visible ? (
         <>
+        {list.albums.length > 0 ?
+         <>
           <Link href={editorPath}>{list.name}</Link>{" "}
           <small>({list.albums.length})</small>
+          </>
+          :
+          <>
+          <p>{list.name}</p>
+          <small>({list.albums.length})</small>
+          </>
+        }
         </>
       ) : (
         <>
           <input
+          onKeyPress={(e) => onClickEnter(e, () => {
+            editListName(list.id, inputValue);
+            visibility.setVisible(false);})
+          }
             onChange={(e) => {
               setInputValue(e.target.value);
             }}

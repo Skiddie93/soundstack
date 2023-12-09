@@ -23,6 +23,7 @@ export const GET = async (req: Request, res: Response) => {
     name: "credentials",
     value: JSON.stringify(data),
     expires: expiration,
+    path:"/"
   });
 
   return NextResponse.json(data);

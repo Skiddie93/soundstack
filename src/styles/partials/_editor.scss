@@ -23,12 +23,22 @@
   .list-names {
     width: 25%;
     margin: 50px 0;
-
+    line-height: 1.2;
     .album {
       padding: 7px 0;
       border: 1px solid transparent;
       cursor: grab;
       border-radius: 5px;
+      .remove svg{
+  
+        fill: $light;
+      }
+      div {
+        &:hover {
+          color: $light;
+        }
+      }
+
       &:first-child {
         padding-top: 0;
       }
@@ -46,7 +56,8 @@
   }
   &:hover {
     .remove {
-      display: block;
+      display: flex;
+      align-items: center;
     }
   }
 }

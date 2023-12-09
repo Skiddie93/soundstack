@@ -75,7 +75,7 @@ const Page = ({ params }: PageProps) => {
             removeAlbum={removeAlbum}
           />
         </div>
-        {chart && albums.lengh > 0 && (
+        {chart && albums.length > 0 && (
           <div
             className="button editor-button"
             onClick={() => chartRequest.createChart(chart)}

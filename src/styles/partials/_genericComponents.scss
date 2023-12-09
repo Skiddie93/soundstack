@@ -20,27 +20,34 @@
 }
 
 .chart-input {
+  max-width: 350px;
+  margin-top: 25px;
+  background-color: $background-color !important;
   svg {
     position: absolute;
     top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
+    right: 100%;
+    transform: translate(100%, -50%);
     transition: all ease-in-out 0.5s;
     pointer-events: none;
     user-select: none;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
+  }
+  input:focus{
+    background-color: $element !important;
   }
   input:focus + svg {
     right: 0% !important;
     transform: translate(0%, -50%);
     cursor: pointer;
     pointer-events: all;
+   
   }
 
   input {
-    font-size: 18px !important;
-    padding: 5px 25px 5px 0px;
+    font-size: 20px !important;
+    padding: 5px 25px 5px 5px;
   }
 }
 

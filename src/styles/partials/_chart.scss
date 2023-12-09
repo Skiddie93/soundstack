@@ -1,10 +1,35 @@
 .chart {
+  .title-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    h1 {
+      font-size: 40px;
+    }
+    svg {
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+      display: none;
+    }
+    &:hover {
+      svg {
+        display: block;
+      }
+    }
+  }
   &.photo {
     width: 1920px;
     background-color: $background-color;
 
-    .inner {
+    .title-bar {
       padding-top: 50px;
+      svg {
+        display: none !important;
+      }
     }
   }
 
@@ -15,13 +40,14 @@
   .chart-wrapper {
     display: flex;
     justify-content: space-between;
-      gap: 40px;
+    gap: 40px;
   }
   .album-list {
     width: 75%;
     .search-results {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
+      margin-top: 50px;
       .album {
         grid-column: span 1;
 
@@ -37,12 +63,21 @@
     margin: 50px 0;
 
     .album {
-      padding: 7px 0;
       border: 1px solid transparent;
       border-radius: 5px;
       cursor: pointer;
+      padding: 3px;
+      line-height: 1.2;
       &:first-child {
         padding-top: 0;
+      }
+      &:hover {
+        div {
+          color: $light;
+        }
+      }
+      &:nth-child(6n + 6) {
+        margin-top: 50px;
       }
       &.over-album {
         border: 1px solid $lighter;

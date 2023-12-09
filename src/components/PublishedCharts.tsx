@@ -16,6 +16,7 @@ export const PublishedCharts = () => {
       {listData.length > 0 && (
         <div className="your-lists">
           <h2 className="section-title">Your published charts</h2>
+          
           {listData.map((item: List) => (
             <div key={item.id} className="list-item">
               <Link href={`/chart/${item.id}`}> {item.name}</Link>

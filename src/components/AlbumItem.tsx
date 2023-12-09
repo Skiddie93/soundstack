@@ -1,6 +1,7 @@
 import { Dispatch, SetStateAction, useState, useRef, useEffect } from "react";
 import queryData from "@/utils/querySearch";
 import StackListContext from "./StackListContext";
+import { IoMdAdd } from "react-icons/io";
 
 interface ListItemProps {
   albumData: Record<string, any>;
@@ -11,7 +12,7 @@ interface ListItemProps {
 const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
   const [contextState, setContextState] = useState<Boolean>(false);
   const openMenu = useRef<any>(null);
-  const contextMenuRef = useRef<any>(null);  
+  const contextMenuRef = useRef<any>(null);
 
   const albumName = albumData.name;
   const albumCoverSmall = albumData.images[1].url;
@@ -71,7 +72,7 @@ const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
               ref={openMenu}
               className="add-album"
             >
-              +
+              <IoMdAdd />
             </div>
           )}
         </div>

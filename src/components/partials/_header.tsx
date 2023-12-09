@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="container">
-        <h1>SoundCheck</h1>
+        <a href="/"><h1>SoundCheck</h1></a>
       </div>
     </div>
   );

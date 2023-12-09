@@ -26,23 +26,25 @@ export const YourCharts = () => {
     <>
       <div className="your-lists">
         <h2 className="section-title">Your charts</h2>
-        {listData.length > 0 &&
-          listData.map((item: List) => (
-            <Chart key={item.id} list={item} setListData={setListData} />
-          ))}
-        <div className="input-text chart-input">
-          <input
-            type="text"
-            onBlur={() => setListName("")}
-            onKeyPress={(e) => onClickEnter(e, () => addList(listName))}
-            onChange={(e) => {
-              setListName(e.currentTarget.value);
-            }}
-            value={listName}
-          />
-          <IoMdAdd onMouseDown={() => addList(listName)} />
+        
+          {listData.length > 0 &&
+            listData.map((item: List) => (
+              <Chart key={item.id} list={item} setListData={setListData} />
+            ))}
+          <div className="input-text chart-input">
+            <input
+              type="text"
+              onBlur={() => setListName("")}
+              onKeyPress={(e) => onClickEnter(e, () => addList(listName))}
+              onChange={(e) => {
+                setListName(e.currentTarget.value);
+              }}
+              value={listName}
+            />
+            <IoMdAdd onMouseDown={() => addList(listName)} />
+          </div>
         </div>
-      </div>
+      
     </>
   );
 };
