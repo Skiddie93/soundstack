@@ -1,0 +1,450 @@
+[
+  {
+    "id": "4MkdTflpaaGGcXb5vtOYRs",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4MkdTflpaaGGcXb5vtOYRs"
+    },
+    "name": "Billie Holiday",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f8743d2c7812763f7f66e83b",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f8743d2c7812763f7f66e83b",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f8743d2c7812763f7f66e83b",
+        "width": 64
+      }
+    ],
+    "release_date": "1957-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1YzCsTRb22dQkh9lghPIrp"
+        },
+        "href": "https://api.spotify.com/v1/artists/1YzCsTRb22dQkh9lghPIrp",
+        "id": "1YzCsTRb22dQkh9lghPIrp",
+        "name": "Billie Holiday",
+        "type": "artist",
+        "uri": "spotify:artist:1YzCsTRb22dQkh9lghPIrp"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4MkdTflpaaGGcXb5vtOYRs"
+  },
+  {
+    "id": "2eldyZjuzvTbr59RSMH2sk",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2eldyZjuzvTbr59RSMH2sk"
+    },
+    "name": "Folk Songs Of The Hills",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27325516ef2eaf4a414baca8d23",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0225516ef2eaf4a414baca8d23",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485125516ef2eaf4a414baca8d23",
+        "width": 64
+      }
+    ],
+    "release_date": "1947",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/30SpGunnNpbbUL4IfkvC5q"
+        },
+        "href": "https://api.spotify.com/v1/artists/30SpGunnNpbbUL4IfkvC5q",
+        "id": "30SpGunnNpbbUL4IfkvC5q",
+        "name": "Merle Travis",
+        "type": "artist",
+        "uri": "spotify:artist:30SpGunnNpbbUL4IfkvC5q"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2eldyZjuzvTbr59RSMH2sk"
+  },
+  {
+    "id": "5GMWZbNXGJSWhFq8661HhO",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5GMWZbNXGJSWhFq8661HhO"
+    },
+    "name": "Music Out Of The Moon: Music Unusual Featuring The Theremin",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27346775f917b9b9177e0b30e67",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0246775f917b9b9177e0b30e67",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485146775f917b9b9177e0b30e67",
+        "width": 64
+      }
+    ],
+    "release_date": "1947-04-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4CcqyDWCT71rXYlV8lG0W2"
+        },
+        "href": "https://api.spotify.com/v1/artists/4CcqyDWCT71rXYlV8lG0W2",
+        "id": "4CcqyDWCT71rXYlV8lG0W2",
+        "name": "Dr. Samuel J. Hoffman",
+        "type": "artist",
+        "uri": "spotify:artist:4CcqyDWCT71rXYlV8lG0W2"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5GMWZbNXGJSWhFq8661HhO"
+  },
+  {
+    "id": "4hkOezkrO3cpik54zkeQSm",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4hkOezkrO3cpik54zkeQSm"
+    },
+    "name": "Stravinsky - Ansermet: The First Decca Recordings",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f0a7d616265d66d0be89db42",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f0a7d616265d66d0be89db42",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f0a7d616265d66d0be89db42",
+        "width": 64
+      }
+    ],
+    "release_date": "1946-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7ie36YytMoKtPiL7tUvmoE"
+        },
+        "href": "https://api.spotify.com/v1/artists/7ie36YytMoKtPiL7tUvmoE",
+        "id": "7ie36YytMoKtPiL7tUvmoE",
+        "name": "Igor Stravinsky",
+        "type": "artist",
+        "uri": "spotify:artist:7ie36YytMoKtPiL7tUvmoE"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1e8TlvBk6qegjR3fkYZ9hV"
+        },
+        "href": "https://api.spotify.com/v1/artists/1e8TlvBk6qegjR3fkYZ9hV",
+        "id": "1e8TlvBk6qegjR3fkYZ9hV",
+        "name": "Ernest Ansermet",
+        "type": "artist",
+        "uri": "spotify:artist:1e8TlvBk6qegjR3fkYZ9hV"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4NzLn7UyhvBlgzhF7WwMM1"
+        },
+        "href": "https://api.spotify.com/v1/artists/4NzLn7UyhvBlgzhF7WwMM1",
+        "id": "4NzLn7UyhvBlgzhF7WwMM1",
+        "name": "Orchestre de la Suisse Romande",
+        "type": "artist",
+        "uri": "spotify:artist:4NzLn7UyhvBlgzhF7WwMM1"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3PfJE6ebCbCHeuqO4BfNeA"
+        },
+        "href": "https://api.spotify.com/v1/artists/3PfJE6ebCbCHeuqO4BfNeA",
+        "id": "3PfJE6ebCbCHeuqO4BfNeA",
+        "name": "London Philharmonic Orchestra",
+        "type": "artist",
+        "uri": "spotify:artist:3PfJE6ebCbCHeuqO4BfNeA"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4hkOezkrO3cpik54zkeQSm"
+  },
+  {
+    "id": "2gRHeMDeFbKqT5uPa5G3bb",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2gRHeMDeFbKqT5uPa5G3bb"
+    },
+    "name": "Kentucky Mountain Ballads",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27384b13dcd04f1684ba67b97e6",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0284b13dcd04f1684ba67b97e6",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485184b13dcd04f1684ba67b97e6",
+        "width": 64
+      }
+    ],
+    "release_date": "2009-05-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7GcI4qqLnvVY1wlRdRixpx"
+        },
+        "href": "https://api.spotify.com/v1/artists/7GcI4qqLnvVY1wlRdRixpx",
+        "id": "7GcI4qqLnvVY1wlRdRixpx",
+        "name": "Cousin Emmy",
+        "type": "artist",
+        "uri": "spotify:artist:7GcI4qqLnvVY1wlRdRixpx"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2gRHeMDeFbKqT5uPa5G3bb"
+  },
+  {
+    "id": "2WxUZrV03X0hiUqZGIZxUy",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2WxUZrV03X0hiUqZGIZxUy"
+    },
+    "name": "Lennie Tristano",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2738fb0d05124232e11c05e6ab6",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e028fb0d05124232e11c05e6ab6",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048518fb0d05124232e11c05e6ab6",
+        "width": 64
+      }
+    ],
+    "release_date": "2020-08-19",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6luIGEvq8V9A0K8zoB7dKV"
+        },
+        "href": "https://api.spotify.com/v1/artists/6luIGEvq8V9A0K8zoB7dKV",
+        "id": "6luIGEvq8V9A0K8zoB7dKV",
+        "name": "Lennie Tristano Trio",
+        "type": "artist",
+        "uri": "spotify:artist:6luIGEvq8V9A0K8zoB7dKV"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2WxUZrV03X0hiUqZGIZxUy"
+  },
+  {
+    "id": "36UzXJBOPyz4VLsindy52g",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/36UzXJBOPyz4VLsindy52g"
+    },
+    "name": "Sings Rodgers and Hart",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f1953f052f36dba5c0fd9b36",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f1953f052f36dba5c0fd9b36",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f1953f052f36dba5c0fd9b36",
+        "width": 64
+      }
+    ],
+    "release_date": "1947-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5ZGDxHhju6eE8ja4IyGe87"
+        },
+        "href": "https://api.spotify.com/v1/artists/5ZGDxHhju6eE8ja4IyGe87",
+        "id": "5ZGDxHhju6eE8ja4IyGe87",
+        "name": "Margaret Whiting",
+        "type": "artist",
+        "uri": "spotify:artist:5ZGDxHhju6eE8ja4IyGe87"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/36UzXJBOPyz4VLsindy52g"
+  },
+  {
+    "id": "6b77udf1DJ0pSBTL0ZkPlw",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/6b77udf1DJ0pSBTL0ZkPlw"
+    },
+    "name": "The Piano Man",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273eacd03cc34ee43d503ede416",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02eacd03cc34ee43d503ede416",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851eacd03cc34ee43d503ede416",
+        "width": 64
+      }
+    ],
+    "release_date": "2020-08-03",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6TlLeS8rjq1vPoEvE5LJUM"
+        },
+        "href": "https://api.spotify.com/v1/artists/6TlLeS8rjq1vPoEvE5LJUM",
+        "id": "6TlLeS8rjq1vPoEvE5LJUM",
+        "name": "Eddie Heywood and His Orchestra",
+        "type": "artist",
+        "uri": "spotify:artist:6TlLeS8rjq1vPoEvE5LJUM"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/6b77udf1DJ0pSBTL0ZkPlw"
+  },
+  {
+    "id": "6Oe9E1x4XyAN5Sbzockhys",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/6Oe9E1x4XyAN5Sbzockhys"
+    },
+    "name": "Woody Herman and His Woodchoppers",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273bfb343f6f3329ec4bd7bfb52",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02bfb343f6f3329ec4bd7bfb52",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851bfb343f6f3329ec4bd7bfb52",
+        "width": 64
+      }
+    ],
+    "release_date": "2020-08-10",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5xQeJqrA0ezfsj4WcEG5w8"
+        },
+        "href": "https://api.spotify.com/v1/artists/5xQeJqrA0ezfsj4WcEG5w8",
+        "id": "5xQeJqrA0ezfsj4WcEG5w8",
+        "name": "Woody Herman",
+        "type": "artist",
+        "uri": "spotify:artist:5xQeJqrA0ezfsj4WcEG5w8"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/6Oe9E1x4XyAN5Sbzockhys"
+  },
+  {
+    "id": "4WVv67FY0206ouMTztffqD",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4WVv67FY0206ouMTztffqD"
+    },
+    "name": "Comes Calling",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f7587aafd02552f0dc9cc854",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f7587aafd02552f0dc9cc854",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f7587aafd02552f0dc9cc854",
+        "width": 64
+      }
+    ],
+    "release_date": "2020-07-10",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2xGxkPuabcrMFaMiOCUFXQ"
+        },
+        "href": "https://api.spotify.com/v1/artists/2xGxkPuabcrMFaMiOCUFXQ",
+        "id": "2xGxkPuabcrMFaMiOCUFXQ",
+        "name": "Frankie Carle",
+        "type": "artist",
+        "uri": "spotify:artist:2xGxkPuabcrMFaMiOCUFXQ"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4WVv67FY0206ouMTztffqD"
+  },
+  {
+    "id": "78huy8revAzpTRljyYgFNm",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/78huy8revAzpTRljyYgFNm"
+    },
+    "name": "Ted Lewis and His Orchestra",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2739128499d50bd978d5038f7e3",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e029128499d50bd978d5038f7e3",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048519128499d50bd978d5038f7e3",
+        "width": 64
+      }
+    ],
+    "release_date": "2020-08-31",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5ZEyvlqSbio5WOIsEBHosg"
+        },
+        "href": "https://api.spotify.com/v1/artists/5ZEyvlqSbio5WOIsEBHosg",
+        "id": "5ZEyvlqSbio5WOIsEBHosg",
+        "name": "Ted Lewis",
+        "type": "artist",
+        "uri": "spotify:artist:5ZEyvlqSbio5WOIsEBHosg"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/78huy8revAzpTRljyYgFNm"
+  }
+]

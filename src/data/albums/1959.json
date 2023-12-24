@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "1weenld61qoidwYuZ1GESA",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1weenld61qoidwYuZ1GESA"
+    },
+    "name": "Kind Of Blue",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2737ab89c25093ea3787b1995b4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e027ab89c25093ea3787b1995b4",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048517ab89c25093ea3787b1995b4",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-08-17",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+        },
+        "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+        "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+        "name": "Miles Davis",
+        "type": "artist",
+        "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1weenld61qoidwYuZ1GESA"
+  },
+  {
+    "id": "4Z8nWz3dGybOP7lhMZpcOo",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4Z8nWz3dGybOP7lhMZpcOo"
+    },
+    "name": "Mingus Ah Um",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27394c40056445bf020b2a0e117",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0294c40056445bf020b2a0e117",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485194c40056445bf020b2a0e117",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1W8TbFzNS15VwsempfY12H"
+        },
+        "href": "https://api.spotify.com/v1/artists/1W8TbFzNS15VwsempfY12H",
+        "id": "1W8TbFzNS15VwsempfY12H",
+        "name": "Charles Mingus",
+        "type": "artist",
+        "uri": "spotify:artist:1W8TbFzNS15VwsempfY12H"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4Z8nWz3dGybOP7lhMZpcOo"
+  },
+  {
+    "id": "5PzlTnVafjgt5RtjTdIKoC",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5PzlTnVafjgt5RtjTdIKoC"
+    },
+    "name": "Moanin' (Expanded Edition)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273c653150f8ed1f6a12348ba79",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c653150f8ed1f6a12348ba79",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851c653150f8ed1f6a12348ba79",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6ykfXAed2KOLOMI3R0TZdz"
+        },
+        "href": "https://api.spotify.com/v1/artists/6ykfXAed2KOLOMI3R0TZdz",
+        "id": "6ykfXAed2KOLOMI3R0TZdz",
+        "name": "Art Blakey & The Jazz Messengers",
+        "type": "artist",
+        "uri": "spotify:artist:6ykfXAed2KOLOMI3R0TZdz"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5PzlTnVafjgt5RtjTdIKoC"
+  },
+  {
+    "id": "2iPH3iUmpa9ufIpwY76keF",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2iPH3iUmpa9ufIpwY76keF"
+    },
+    "name": "The Shape Of Jazz To Come",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273abd3f4626eb5181c0e0ac1a9",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02abd3f4626eb5181c0e0ac1a9",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851abd3f4626eb5181c0e0ac1a9",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/47odibUtrN3lnWx0p0pk2P"
+        },
+        "href": "https://api.spotify.com/v1/artists/47odibUtrN3lnWx0p0pk2P",
+        "id": "47odibUtrN3lnWx0p0pk2P",
+        "name": "Ornette Coleman",
+        "type": "artist",
+        "uri": "spotify:artist:47odibUtrN3lnWx0p0pk2P"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2iPH3iUmpa9ufIpwY76keF"
+  },
+  {
+    "id": "0nTTEAhCZsbbeplyDMIFuA",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA"
+    },
+    "name": "Time Out",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27300ace5d3c5bffc123ef1eb51",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0200ace5d3c5bffc123ef1eb51",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485100ace5d3c5bffc123ef1eb51",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-12-14",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4iRZAbYvBqnxrbs6K25aJ7"
+        },
+        "href": "https://api.spotify.com/v1/artists/4iRZAbYvBqnxrbs6K25aJ7",
+        "id": "4iRZAbYvBqnxrbs6K25aJ7",
+        "name": "The Dave Brubeck Quartet",
+        "type": "artist",
+        "uri": "spotify:artist:4iRZAbYvBqnxrbs6K25aJ7"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0nTTEAhCZsbbeplyDMIFuA"
+  },
+  {
+    "id": "4hgpxkWFglKOY3wrbbLZjh",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4hgpxkWFglKOY3wrbbLZjh"
+    },
+    "name": "Beethoven: Egmont Overture; Symphony No.9",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273356bda86223e58f2eacaccdc",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02356bda86223e58f2eacaccdc",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851356bda86223e58f2eacaccdc",
+        "width": 64
+      }
+    ],
+    "release_date": "1958-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2wOqMjp9TyABvtHdOSOTUS"
+        },
+        "href": "https://api.spotify.com/v1/artists/2wOqMjp9TyABvtHdOSOTUS",
+        "id": "2wOqMjp9TyABvtHdOSOTUS",
+        "name": "Ludwig van Beethoven",
+        "type": "artist",
+        "uri": "spotify:artist:2wOqMjp9TyABvtHdOSOTUS"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7sdIwHhEEFS9TtoBseTlGA"
+        },
+        "href": "https://api.spotify.com/v1/artists/7sdIwHhEEFS9TtoBseTlGA",
+        "id": "7sdIwHhEEFS9TtoBseTlGA",
+        "name": "Irmgard Seefried",
+        "type": "artist",
+        "uri": "spotify:artist:7sdIwHhEEFS9TtoBseTlGA"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6qSsYTbt6l80JYki1i4SlA"
+        },
+        "href": "https://api.spotify.com/v1/artists/6qSsYTbt6l80JYki1i4SlA",
+        "id": "6qSsYTbt6l80JYki1i4SlA",
+        "name": "Maureen Forrester",
+        "type": "artist",
+        "uri": "spotify:artist:6qSsYTbt6l80JYki1i4SlA"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/01Ti9tP1kNrsjr5qE1sNIS"
+        },
+        "href": "https://api.spotify.com/v1/artists/01Ti9tP1kNrsjr5qE1sNIS",
+        "id": "01Ti9tP1kNrsjr5qE1sNIS",
+        "name": "Ernst Haefliger",
+        "type": "artist",
+        "uri": "spotify:artist:01Ti9tP1kNrsjr5qE1sNIS"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/10CN8N2O3FlGlPVJWBiu5D"
+        },
+        "href": "https://api.spotify.com/v1/artists/10CN8N2O3FlGlPVJWBiu5D",
+        "id": "10CN8N2O3FlGlPVJWBiu5D",
+        "name": "Dietrich Fischer-Dieskau",
+        "type": "artist",
+        "uri": "spotify:artist:10CN8N2O3FlGlPVJWBiu5D"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4VbDAX2WGMySXs9ONXUdqf"
+        },
+        "href": "https://api.spotify.com/v1/artists/4VbDAX2WGMySXs9ONXUdqf",
+        "id": "4VbDAX2WGMySXs9ONXUdqf",
+        "name": "Chor der St. Hedwigs-Kathedrale Berlin",
+        "type": "artist",
+        "uri": "spotify:artist:4VbDAX2WGMySXs9ONXUdqf"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6uRJnvQ3f8whVnmeoecv5Z"
+        },
+        "href": "https://api.spotify.com/v1/artists/6uRJnvQ3f8whVnmeoecv5Z",
+        "id": "6uRJnvQ3f8whVnmeoecv5Z",
+        "name": "Berliner Philharmoniker",
+        "type": "artist",
+        "uri": "spotify:artist:6uRJnvQ3f8whVnmeoecv5Z"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0BjUTtTzgWxoQkbGjz4NmZ"
+        },
+        "href": "https://api.spotify.com/v1/artists/0BjUTtTzgWxoQkbGjz4NmZ",
+        "id": "0BjUTtTzgWxoQkbGjz4NmZ",
+        "name": "Ferenc Fricsay",
+        "type": "artist",
+        "uri": "spotify:artist:0BjUTtTzgWxoQkbGjz4NmZ"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4hgpxkWFglKOY3wrbbLZjh"
+  },
+  {
+    "id": "00d6wTUJHGsrxPmbETXGWm",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/00d6wTUJHGsrxPmbETXGWm"
+    },
+    "name": "Shostakovich: Symphony No. 5 in D Minor, Op. 47 (Remastered)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273ed94461b8e8346614de71d95",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02ed94461b8e8346614de71d95",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851ed94461b8e8346614de71d95",
+        "width": 64
+      }
+    ],
+    "release_date": "2017-11-17",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6s1pCNXcbdtQJlsnM1hRIA"
+        },
+        "href": "https://api.spotify.com/v1/artists/6s1pCNXcbdtQJlsnM1hRIA",
+        "id": "6s1pCNXcbdtQJlsnM1hRIA",
+        "name": "Dmitri Shostakovich",
+        "type": "artist",
+        "uri": "spotify:artist:6s1pCNXcbdtQJlsnM1hRIA"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2LmyJyCF5V1eQyvHgJNbTn"
+        },
+        "href": "https://api.spotify.com/v1/artists/2LmyJyCF5V1eQyvHgJNbTn",
+        "id": "2LmyJyCF5V1eQyvHgJNbTn",
+        "name": "Leonard Bernstein",
+        "type": "artist",
+        "uri": "spotify:artist:2LmyJyCF5V1eQyvHgJNbTn"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3gacryguGmpmCvgPGt2CBI"
+        },
+        "href": "https://api.spotify.com/v1/artists/3gacryguGmpmCvgPGt2CBI",
+        "id": "3gacryguGmpmCvgPGt2CBI",
+        "name": "New York Philharmonic",
+        "type": "artist",
+        "uri": "spotify:artist:3gacryguGmpmCvgPGt2CBI"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/00d6wTUJHGsrxPmbETXGWm"
+  },
+  {
+    "id": "1MJrVisqlSwkJLnqeYdKTB",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1MJrVisqlSwkJLnqeYdKTB"
+    },
+    "name": "Gershwin: Rhapsody in Blue; An American in Paris & Bernstein: Symphonic Dances from \"West Side Story\"; Symphonic Suite from \"On the Waterfront\" - Sony Classical Originals",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27349b38e898b701596c94e7cb5",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0249b38e898b701596c94e7cb5",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485149b38e898b701596c94e7cb5",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2LmyJyCF5V1eQyvHgJNbTn"
+        },
+        "href": "https://api.spotify.com/v1/artists/2LmyJyCF5V1eQyvHgJNbTn",
+        "id": "2LmyJyCF5V1eQyvHgJNbTn",
+        "name": "Leonard Bernstein",
+        "type": "artist",
+        "uri": "spotify:artist:2LmyJyCF5V1eQyvHgJNbTn"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1MJrVisqlSwkJLnqeYdKTB"
+  },
+  {
+    "id": "4YhE3SpbIMjT3ysFdLDGmM",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4YhE3SpbIMjT3ysFdLDGmM"
+    },
+    "name": "Bach: Matthäus-Passion",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f767115ab7581fa0bdbe74e3",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f767115ab7581fa0bdbe74e3",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f767115ab7581fa0bdbe74e3",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+        },
+        "href": "https://api.spotify.com/v1/artists/5aIqB5nVVvmFsvSdExz408",
+        "id": "5aIqB5nVVvmFsvSdExz408",
+        "name": "Johann Sebastian Bach",
+        "type": "artist",
+        "uri": "spotify:artist:5aIqB5nVVvmFsvSdExz408"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/38hliKqnaGCbRmZcLNoDvX"
+        },
+        "href": "https://api.spotify.com/v1/artists/38hliKqnaGCbRmZcLNoDvX",
+        "id": "38hliKqnaGCbRmZcLNoDvX",
+        "name": "Münchener Bach-Orchester",
+        "type": "artist",
+        "uri": "spotify:artist:38hliKqnaGCbRmZcLNoDvX"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3iamDPaou6RYgX0C43Qm6j"
+        },
+        "href": "https://api.spotify.com/v1/artists/3iamDPaou6RYgX0C43Qm6j",
+        "id": "3iamDPaou6RYgX0C43Qm6j",
+        "name": "Karl Richter",
+        "type": "artist",
+        "uri": "spotify:artist:3iamDPaou6RYgX0C43Qm6j"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4YhE3SpbIMjT3ysFdLDGmM"
+  },
+  {
+    "id": "58gOQaPc4RCw8eWdTDRes7",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/58gOQaPc4RCw8eWdTDRes7"
+    },
+    "name": "Little Girl Blue (2013 Remastered Version)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273d7cd1d8168aaca9041daad61",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02d7cd1d8168aaca9041daad61",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851d7cd1d8168aaca9041daad61",
+        "width": 64
+      }
+    ],
+    "release_date": "1958-06-24",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
+        },
+        "href": "https://api.spotify.com/v1/artists/7G1GBhoKtEPnP86X2PvEYO",
+        "id": "7G1GBhoKtEPnP86X2PvEYO",
+        "name": "Nina Simone",
+        "type": "artist",
+        "uri": "spotify:artist:7G1GBhoKtEPnP86X2PvEYO"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/58gOQaPc4RCw8eWdTDRes7"
+  },
+  {
+    "id": "6sQ78Wtt2izwmuVrGySHZq",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/6sQ78Wtt2izwmuVrGySHZq"
+    },
+    "name": "Dvorák: Symphony No. 9 - Smetana: Die Moldau",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27354fd2359d83c4b46be29193d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0254fd2359d83c4b46be29193d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485154fd2359d83c4b46be29193d",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5zCaQxjl110XTrm4LQ1CxY"
+        },
+        "href": "https://api.spotify.com/v1/artists/5zCaQxjl110XTrm4LQ1CxY",
+        "id": "5zCaQxjl110XTrm4LQ1CxY",
+        "name": "Herbert von Karajan",
+        "type": "artist",
+        "uri": "spotify:artist:5zCaQxjl110XTrm4LQ1CxY"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6uRJnvQ3f8whVnmeoecv5Z"
+        },
+        "href": "https://api.spotify.com/v1/artists/6uRJnvQ3f8whVnmeoecv5Z",
+        "id": "6uRJnvQ3f8whVnmeoecv5Z",
+        "name": "Berliner Philharmoniker",
+        "type": "artist",
+        "uri": "spotify:artist:6uRJnvQ3f8whVnmeoecv5Z"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/6sQ78Wtt2izwmuVrGySHZq"
+  },
+  {
+    "id": "7w6igphwvr1eurhVEQqYEK",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/7w6igphwvr1eurhVEQqYEK"
+    },
+    "name": "Wagner: Das Rheingold",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2739646f1407d393ede6a4b432a",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e029646f1407d393ede6a4b432a",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048519646f1407d393ede6a4b432a",
+        "width": 64
+      }
+    ],
+    "release_date": "2013-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1C1x4MVkql8AiABuTw6DgE"
+        },
+        "href": "https://api.spotify.com/v1/artists/1C1x4MVkql8AiABuTw6DgE",
+        "id": "1C1x4MVkql8AiABuTw6DgE",
+        "name": "Richard Wagner",
+        "type": "artist",
+        "uri": "spotify:artist:1C1x4MVkql8AiABuTw6DgE"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0dicUFoK5LIbqu6OoHu8VH"
+        },
+        "href": "https://api.spotify.com/v1/artists/0dicUFoK5LIbqu6OoHu8VH",
+        "id": "0dicUFoK5LIbqu6OoHu8VH",
+        "name": "Sir Georg Solti",
+        "type": "artist",
+        "uri": "spotify:artist:0dicUFoK5LIbqu6OoHu8VH"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5iOcU9R0uuvRGUjRvj2UVl"
+        },
+        "href": "https://api.spotify.com/v1/artists/5iOcU9R0uuvRGUjRvj2UVl",
+        "id": "5iOcU9R0uuvRGUjRvj2UVl",
+        "name": "Kirsten Flagstad",
+        "type": "artist",
+        "uri": "spotify:artist:5iOcU9R0uuvRGUjRvj2UVl"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1BRT8fSeUEiPLirfsETvfn"
+        },
+        "href": "https://api.spotify.com/v1/artists/1BRT8fSeUEiPLirfsETvfn",
+        "id": "1BRT8fSeUEiPLirfsETvfn",
+        "name": "George London",
+        "type": "artist",
+        "uri": "spotify:artist:1BRT8fSeUEiPLirfsETvfn"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1vIEQHJ9WLEcH2SFujRLvJ"
+        },
+        "href": "https://api.spotify.com/v1/artists/1vIEQHJ9WLEcH2SFujRLvJ",
+        "id": "1vIEQHJ9WLEcH2SFujRLvJ",
+        "name": "Gustav Neidlinger",
+        "type": "artist",
+        "uri": "spotify:artist:1vIEQHJ9WLEcH2SFujRLvJ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3PlDYb3oIDKpxUZ5t1JxiV"
+        },
+        "href": "https://api.spotify.com/v1/artists/3PlDYb3oIDKpxUZ5t1JxiV",
+        "id": "3PlDYb3oIDKpxUZ5t1JxiV",
+        "name": "Set Svanholm",
+        "type": "artist",
+        "uri": "spotify:artist:3PlDYb3oIDKpxUZ5t1JxiV"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/003f4bk13c6Q3gAUXv7dGJ"
+        },
+        "href": "https://api.spotify.com/v1/artists/003f4bk13c6Q3gAUXv7dGJ",
+        "id": "003f4bk13c6Q3gAUXv7dGJ",
+        "name": "Wiener Philharmoniker",
+        "type": "artist",
+        "uri": "spotify:artist:003f4bk13c6Q3gAUXv7dGJ"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/7w6igphwvr1eurhVEQqYEK"
+  },
+  {
+    "id": "2PUVdwOzX6B6FT9iGfSuJY",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2PUVdwOzX6B6FT9iGfSuJY"
+    },
+    "name": "Sonny Side Up",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273649ac42ad238ba36f9d1b167",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02649ac42ad238ba36f9d1b167",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851649ac42ad238ba36f9d1b167",
+        "width": 64
+      }
+    ],
+    "release_date": "1957",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+        },
+        "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+        "id": "1VEzN9lxvG6KPR3QQGsebR",
+        "name": "Sonny Rollins",
+        "type": "artist",
+        "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/217b0uqAzsOOhGcnoANZqj"
+        },
+        "href": "https://api.spotify.com/v1/artists/217b0uqAzsOOhGcnoANZqj",
+        "id": "217b0uqAzsOOhGcnoANZqj",
+        "name": "Sonny Stitt",
+        "type": "artist",
+        "uri": "spotify:artist:217b0uqAzsOOhGcnoANZqj"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5RzjqfPS0Bu4bUMkyNNDpn"
+        },
+        "href": "https://api.spotify.com/v1/artists/5RzjqfPS0Bu4bUMkyNNDpn",
+        "id": "5RzjqfPS0Bu4bUMkyNNDpn",
+        "name": "Dizzy Gillespie",
+        "type": "artist",
+        "uri": "spotify:artist:5RzjqfPS0Bu4bUMkyNNDpn"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2PUVdwOzX6B6FT9iGfSuJY"
+  },
+  {
+    "id": "3kQpBS26lAj0A0VGl1snRl",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3kQpBS26lAj0A0VGl1snRl"
+    },
+    "name": "Gunfighter Ballads And Trail Songs",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273084051346f432cc68a1279cd",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02084051346f432cc68a1279cd",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851084051346f432cc68a1279cd",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0Xi59sEw38vRvwleSAVqoo"
+        },
+        "href": "https://api.spotify.com/v1/artists/0Xi59sEw38vRvwleSAVqoo",
+        "id": "0Xi59sEw38vRvwleSAVqoo",
+        "name": "Marty Robbins",
+        "type": "artist",
+        "uri": "spotify:artist:0Xi59sEw38vRvwleSAVqoo"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3kQpBS26lAj0A0VGl1snRl"
+  },
+  {
+    "id": "40p57XYL6ou71eIQWkf8hI",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/40p57XYL6ou71eIQWkf8hI"
+    },
+    "name": "Chega de Saudade",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2730fe84b902c10537acb09a6db",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e020fe84b902c10537acb09a6db",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048510fe84b902c10537acb09a6db",
+        "width": 64
+      }
+    ],
+    "release_date": "2010-01-18",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/77ZUbcdoU5KCPHNUl8bgQy"
+        },
+        "href": "https://api.spotify.com/v1/artists/77ZUbcdoU5KCPHNUl8bgQy",
+        "id": "77ZUbcdoU5KCPHNUl8bgQy",
+        "name": "João Gilberto",
+        "type": "artist",
+        "uri": "spotify:artist:77ZUbcdoU5KCPHNUl8bgQy"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/40p57XYL6ou71eIQWkf8hI"
+  },
+  {
+    "id": "1mGkIZVToeCNAseve9I1nv",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1mGkIZVToeCNAseve9I1nv"
+    },
+    "name": "Workin' With The Miles Davis Quintet",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27390fe0cc71331245296467fdf",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0290fe0cc71331245296467fdf",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485190fe0cc71331245296467fdf",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/71Ur25Abq58vksqJINpGdx"
+        },
+        "href": "https://api.spotify.com/v1/artists/71Ur25Abq58vksqJINpGdx",
+        "id": "71Ur25Abq58vksqJINpGdx",
+        "name": "Miles Davis Quintet",
+        "type": "artist",
+        "uri": "spotify:artist:71Ur25Abq58vksqJINpGdx"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1mGkIZVToeCNAseve9I1nv"
+  },
+  {
+    "id": "2zSAVheEFBPMuUozd6C9gt",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2zSAVheEFBPMuUozd6C9gt"
+    },
+    "name": "Everybody Digs Bill Evans",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27386ae75aef90b01b817da4378",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0286ae75aef90b01b817da4378",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485186ae75aef90b01b817da4378",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4jXfFzeP66Zy67HM2mvIIF"
+        },
+        "href": "https://api.spotify.com/v1/artists/4jXfFzeP66Zy67HM2mvIIF",
+        "id": "4jXfFzeP66Zy67HM2mvIIF",
+        "name": "Bill Evans",
+        "type": "artist",
+        "uri": "spotify:artist:4jXfFzeP66Zy67HM2mvIIF"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2zSAVheEFBPMuUozd6C9gt"
+  },
+  {
+    "id": "6foGf3FKwBRFWQfpYSYz4O",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/6foGf3FKwBRFWQfpYSYz4O"
+    },
+    "name": "The Sermon (The Rudy Van Gelder Edition)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27399ca6bde261f339365a73c8d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0299ca6bde261f339365a73c8d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485199ca6bde261f339365a73c8d",
+        "width": 64
+      }
+    ],
+    "release_date": "2000-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5GXruybcLmXPjR9rKKFyS6"
+        },
+        "href": "https://api.spotify.com/v1/artists/5GXruybcLmXPjR9rKKFyS6",
+        "id": "5GXruybcLmXPjR9rKKFyS6",
+        "name": "Jimmy Smith",
+        "type": "artist",
+        "uri": "spotify:artist:5GXruybcLmXPjR9rKKFyS6"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/6foGf3FKwBRFWQfpYSYz4O"
+  },
+  {
+    "id": "0PVjDkptaHbw2wrpsWupoV",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0PVjDkptaHbw2wrpsWupoV"
+    },
+    "name": "La Valse A Mille Temps (Vol.4)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273d2fd135e270391bc72623986",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02d2fd135e270391bc72623986",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851d2fd135e270391bc72623986",
+        "width": 64
+      }
+    ],
+    "release_date": "2004-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4RN2vlFWepLa46qQIU2PHs"
+        },
+        "href": "https://api.spotify.com/v1/artists/4RN2vlFWepLa46qQIU2PHs",
+        "id": "4RN2vlFWepLa46qQIU2PHs",
+        "name": "Jacques Brel",
+        "type": "artist",
+        "uri": "spotify:artist:4RN2vlFWepLa46qQIU2PHs"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0PVjDkptaHbw2wrpsWupoV"
+  },
+  {
+    "id": "4euFXiaCTmBkwh9HXjagp9",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4euFXiaCTmBkwh9HXjagp9"
+    },
+    "name": "All Or Nothing At All",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2738ce5e77f95cca9b114e4bedb",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e028ce5e77f95cca9b114e4bedb",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048518ce5e77f95cca9b114e4bedb",
+        "width": 64
+      }
+    ],
+    "release_date": "1958-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1YzCsTRb22dQkh9lghPIrp"
+        },
+        "href": "https://api.spotify.com/v1/artists/1YzCsTRb22dQkh9lghPIrp",
+        "id": "1YzCsTRb22dQkh9lghPIrp",
+        "name": "Billie Holiday",
+        "type": "artist",
+        "uri": "spotify:artist:1YzCsTRb22dQkh9lghPIrp"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4euFXiaCTmBkwh9HXjagp9"
+  },
+  {
+    "id": "1nnCD4VLdJ4n6lnOOUNUMc",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1nnCD4VLdJ4n6lnOOUNUMc"
+    },
+    "name": "No One Cares (Remastered / Expanded Edition)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273763db3ee289429c20550e4b8",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02763db3ee289429c20550e4b8",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851763db3ee289429c20550e4b8",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-07",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1Mxqyy3pSjf8kZZL4QVxS0"
+        },
+        "href": "https://api.spotify.com/v1/artists/1Mxqyy3pSjf8kZZL4QVxS0",
+        "id": "1Mxqyy3pSjf8kZZL4QVxS0",
+        "name": "Frank Sinatra",
+        "type": "artist",
+        "uri": "spotify:artist:1Mxqyy3pSjf8kZZL4QVxS0"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1nnCD4VLdJ4n6lnOOUNUMc"
+  },
+  {
+    "id": "1YPBXkcPa4KYio6Ziyp7d3",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1YPBXkcPa4KYio6Ziyp7d3"
+    },
+    "name": "T-Bone Blues",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f7552225cf22b11067ba4656",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f7552225cf22b11067ba4656",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f7552225cf22b11067ba4656",
+        "width": 64
+      }
+    ],
+    "release_date": "2005-03-29",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6nPKmEbQmR8jGZEm7ArOFX"
+        },
+        "href": "https://api.spotify.com/v1/artists/6nPKmEbQmR8jGZEm7ArOFX",
+        "id": "6nPKmEbQmR8jGZEm7ArOFX",
+        "name": "T-Bone Walker",
+        "type": "artist",
+        "uri": "spotify:artist:6nPKmEbQmR8jGZEm7ArOFX"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1YPBXkcPa4KYio6Ziyp7d3"
+  },
+  {
+    "id": "3buPlC7VvOytPdHoobl8on",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3buPlC7VvOytPdHoobl8on"
+    },
+    "name": "Finger Poppin' (The Rudy Van Gelder Edition)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27392b38e83b9555e44615362e9",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0292b38e83b9555e44615362e9",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485192b38e83b9555e44615362e9",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-04-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4PNIQCDBeVCSSqKUhvkP8Y"
+        },
+        "href": "https://api.spotify.com/v1/artists/4PNIQCDBeVCSSqKUhvkP8Y",
+        "id": "4PNIQCDBeVCSSqKUhvkP8Y",
+        "name": "Horace Silver Quintet",
+        "type": "artist",
+        "uri": "spotify:artist:4PNIQCDBeVCSSqKUhvkP8Y"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3buPlC7VvOytPdHoobl8on"
+  },
+  {
+    "id": "0ZS5TAPF4Hsqvzk33ruNfI",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0ZS5TAPF4Hsqvzk33ruNfI"
+    },
+    "name": "Caymmi E Seu Violão",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2736a05c0dcbe94d755f69b70e7",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e026a05c0dcbe94d755f69b70e7",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048516a05c0dcbe94d755f69b70e7",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-06-22",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7zsxdMsODmHKTbTB00t9wS"
+        },
+        "href": "https://api.spotify.com/v1/artists/7zsxdMsODmHKTbTB00t9wS",
+        "id": "7zsxdMsODmHKTbTB00t9wS",
+        "name": "Dorival Caymmi",
+        "type": "artist",
+        "uri": "spotify:artist:7zsxdMsODmHKTbTB00t9wS"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0ZS5TAPF4Hsqvzk33ruNfI"
+  },
+  {
+    "id": "3zsFVmSZTQBr1sLEBkRdwl",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3zsFVmSZTQBr1sLEBkRdwl"
+    },
+    "name": "Jazz in Silhouette",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27328c02dc986f42fbf5ff158b5",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0228c02dc986f42fbf5ff158b5",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485128c02dc986f42fbf5ff158b5",
+        "width": 64
+      }
+    ],
+    "release_date": "2014-04-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0tIODqvzGUoEaK26rK4pvX"
+        },
+        "href": "https://api.spotify.com/v1/artists/0tIODqvzGUoEaK26rK4pvX",
+        "id": "0tIODqvzGUoEaK26rK4pvX",
+        "name": "Sun Ra",
+        "type": "artist",
+        "uri": "spotify:artist:0tIODqvzGUoEaK26rK4pvX"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3zsFVmSZTQBr1sLEBkRdwl"
+  },
+  {
+    "id": "0WeZi2Z3aZrcywBC4XEMHB",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0WeZi2Z3aZrcywBC4XEMHB"
+    },
+    "name": "Pres & Teddy",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2737c79ec2361ffd1b809c78c80",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e027c79ec2361ffd1b809c78c80",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048517c79ec2361ffd1b809c78c80",
+        "width": 64
+      }
+    ],
+    "release_date": "1987-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/15d02wSxkwEGsLTsOzPTC7"
+        },
+        "href": "https://api.spotify.com/v1/artists/15d02wSxkwEGsLTsOzPTC7",
+        "id": "15d02wSxkwEGsLTsOzPTC7",
+        "name": "The Lester Young - Teddy Wilson Quartet",
+        "type": "artist",
+        "uri": "spotify:artist:15d02wSxkwEGsLTsOzPTC7"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0WeZi2Z3aZrcywBC4XEMHB"
+  },
+  {
+    "id": "5XrBfIAn0HPSmeOvcmkNpk",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5XrBfIAn0HPSmeOvcmkNpk"
+    },
+    "name": "Cannonball Adderley Quintet In Chicago",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2735c51da1488fd80a43a61685a",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e025c51da1488fd80a43a61685a",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048515c51da1488fd80a43a61685a",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-02-03",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2o346NHhUAlVxl5uXBVxK7"
+        },
+        "href": "https://api.spotify.com/v1/artists/2o346NHhUAlVxl5uXBVxK7",
+        "id": "2o346NHhUAlVxl5uXBVxK7",
+        "name": "The Cannonball Adderley Quintet",
+        "type": "artist",
+        "uri": "spotify:artist:2o346NHhUAlVxl5uXBVxK7"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5XrBfIAn0HPSmeOvcmkNpk"
+  },
+  {
+    "id": "5AmT3edRjRxnDR2ZVW3QJZ",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5AmT3edRjRxnDR2ZVW3QJZ"
+    },
+    "name": "Coleman Hawkins Encounters Ben Webster (Expanded Edition)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273a4a5edccf99e77660ce27b09",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02a4a5edccf99e77660ce27b09",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851a4a5edccf99e77660ce27b09",
+        "width": 64
+      }
+    ],
+    "release_date": "1959-11-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0JM134st8VY7Ld9T2wQiH0"
+        },
+        "href": "https://api.spotify.com/v1/artists/0JM134st8VY7Ld9T2wQiH0",
+        "id": "0JM134st8VY7Ld9T2wQiH0",
+        "name": "Coleman Hawkins",
+        "type": "artist",
+        "uri": "spotify:artist:0JM134st8VY7Ld9T2wQiH0"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/34W7ZCX0LZeJd8q6boKGOk"
+        },
+        "href": "https://api.spotify.com/v1/artists/34W7ZCX0LZeJd8q6boKGOk",
+        "id": "34W7ZCX0LZeJd8q6boKGOk",
+        "name": "Ben Webster",
+        "type": "artist",
+        "uri": "spotify:artist:34W7ZCX0LZeJd8q6boKGOk"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5AmT3edRjRxnDR2ZVW3QJZ"
+  },
+  {
+    "id": "61ZMZem0tvxv63NqN8mesY",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/61ZMZem0tvxv63NqN8mesY"
+    },
+    "name": "Newk's Time",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273a9f3c93f3ca6c6cb82c09b89",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02a9f3c93f3ca6c6cb82c09b89",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851a9f3c93f3ca6c6cb82c09b89",
+        "width": 64
+      }
+    ],
+    "release_date": "2004-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+        },
+        "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+        "id": "1VEzN9lxvG6KPR3QQGsebR",
+        "name": "Sonny Rollins",
+        "type": "artist",
+        "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/61ZMZem0tvxv63NqN8mesY"
+  },
+  {
+    "id": "4eYThL3jG2Uyxz9IUJKIvR",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4eYThL3jG2Uyxz9IUJKIvR"
+    },
+    "name": "House Party",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2737972812bf1f05defe6626903",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e027972812bf1f05defe6626903",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048517972812bf1f05defe6626903",
+        "width": 64
+      }
+    ],
+    "release_date": "2000-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5GXruybcLmXPjR9rKKFyS6"
+        },
+        "href": "https://api.spotify.com/v1/artists/5GXruybcLmXPjR9rKKFyS6",
+        "id": "5GXruybcLmXPjR9rKKFyS6",
+        "name": "Jimmy Smith",
+        "type": "artist",
+        "uri": "spotify:artist:5GXruybcLmXPjR9rKKFyS6"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4eYThL3jG2Uyxz9IUJKIvR"
+  },
+  {
+    "id": "0WRlg56yojn2oenS3pub5h",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0WRlg56yojn2oenS3pub5h"
+    },
+    "name": "We Three",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273af62282487bf655318b786d5",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02af62282487bf655318b786d5",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851af62282487bf655318b786d5",
+        "width": 64
+      }
+    ],
+    "release_date": "2013-07-18",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0M1UOBJZ9tcKJbrbnVlHZG"
+        },
+        "href": "https://api.spotify.com/v1/artists/0M1UOBJZ9tcKJbrbnVlHZG",
+        "id": "0M1UOBJZ9tcKJbrbnVlHZG",
+        "name": "Paul Chambers",
+        "type": "artist",
+        "uri": "spotify:artist:0M1UOBJZ9tcKJbrbnVlHZG"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1tGINpEJVUsQXssRC28ugo"
+        },
+        "href": "https://api.spotify.com/v1/artists/1tGINpEJVUsQXssRC28ugo",
+        "id": "1tGINpEJVUsQXssRC28ugo",
+        "name": "Roy Haynes",
+        "type": "artist",
+        "uri": "spotify:artist:1tGINpEJVUsQXssRC28ugo"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1WsMRWV5KEC2AxpYkeb2Cf"
+        },
+        "href": "https://api.spotify.com/v1/artists/1WsMRWV5KEC2AxpYkeb2Cf",
+        "id": "1WsMRWV5KEC2AxpYkeb2Cf",
+        "name": "Phineas Newborn Jr.",
+        "type": "artist",
+        "uri": "spotify:artist:1WsMRWV5KEC2AxpYkeb2Cf"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0WRlg56yojn2oenS3pub5h"
+  },
+  {
+    "id": "3mxJGwGTUj9uX5YRVJXDDs",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3mxJGwGTUj9uX5YRVJXDDs"
+    },
+    "name": "Blowin' The Blues Away",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27389011e5c79cc06496071e167",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0289011e5c79cc06496071e167",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485189011e5c79cc06496071e167",
+        "width": 64
+      }
+    ],
+    "release_date": "2010-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4PNIQCDBeVCSSqKUhvkP8Y"
+        },
+        "href": "https://api.spotify.com/v1/artists/4PNIQCDBeVCSSqKUhvkP8Y",
+        "id": "4PNIQCDBeVCSSqKUhvkP8Y",
+        "name": "Horace Silver Quintet",
+        "type": "artist",
+        "uri": "spotify:artist:4PNIQCDBeVCSSqKUhvkP8Y"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3mxJGwGTUj9uX5YRVJXDDs"
+  },
+  {
+    "id": "1vvnTmmNWnGmqvVFjVIINf",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1vvnTmmNWnGmqvVFjVIINf"
+    },
+    "name": "Porgy And Bess",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27311aafea0ad62648d4669626f",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0211aafea0ad62648d4669626f",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485111aafea0ad62648d4669626f",
+        "width": 64
+      }
+    ],
+    "release_date": "1958-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5V0MlUE1Bft0mbLlND7FJz"
+        },
+        "href": "https://api.spotify.com/v1/artists/5V0MlUE1Bft0mbLlND7FJz",
+        "id": "5V0MlUE1Bft0mbLlND7FJz",
+        "name": "Ella Fitzgerald",
+        "type": "artist",
+        "uri": "spotify:artist:5V0MlUE1Bft0mbLlND7FJz"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/19eLuQmk9aCobbVDHc6eek"
+        },
+        "href": "https://api.spotify.com/v1/artists/19eLuQmk9aCobbVDHc6eek",
+        "id": "19eLuQmk9aCobbVDHc6eek",
+        "name": "Louis Armstrong",
+        "type": "artist",
+        "uri": "spotify:artist:19eLuQmk9aCobbVDHc6eek"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1vvnTmmNWnGmqvVFjVIINf"
+  },
+  {
+    "id": "5TZUz4IkdUZY8i1cnbaAHz",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5TZUz4IkdUZY8i1cnbaAHz"
+    },
+    "name": "Porgy And Bess",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2736d7683097cc1f201aa935d39",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e026d7683097cc1f201aa935d39",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048516d7683097cc1f201aa935d39",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+        },
+        "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+        "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+        "name": "Miles Davis",
+        "type": "artist",
+        "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5TZUz4IkdUZY8i1cnbaAHz"
+  },
+  {
+    "id": "05dECqC2jTJKERNKAOykqk",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/05dECqC2jTJKERNKAOykqk"
+    },
+    "name": "Blues Walk",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273d94380c918abb94d55758650",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02d94380c918abb94d55758650",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851d94380c918abb94d55758650",
+        "width": 64
+      }
+    ],
+    "release_date": "1958",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/063xkuRULzZu8fcoPR2rKR"
+        },
+        "href": "https://api.spotify.com/v1/artists/063xkuRULzZu8fcoPR2rKR",
+        "id": "063xkuRULzZu8fcoPR2rKR",
+        "name": "Lou Donaldson",
+        "type": "artist",
+        "uri": "spotify:artist:063xkuRULzZu8fcoPR2rKR"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/05dECqC2jTJKERNKAOykqk"
+  },
+  {
+    "id": "3gC1VIb2EW7e1wnxQWiRn7",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3gC1VIb2EW7e1wnxQWiRn7"
+    },
+    "name": "5 By Monk By 5",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2737218fa12ae5e8d50ad7b9ed4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e027218fa12ae5e8d50ad7b9ed4",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048517218fa12ae5e8d50ad7b9ed4",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"
+        },
+        "href": "https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN",
+        "id": "4PDpGtF16XpqvXxsrFwQnN",
+        "name": "Thelonious Monk",
+        "type": "artist",
+        "uri": "spotify:artist:4PDpGtF16XpqvXxsrFwQnN"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3gC1VIb2EW7e1wnxQWiRn7"
+  },
+  {
+    "id": "3QYOWNnvJBThutwlzjBhry",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3QYOWNnvJBThutwlzjBhry"
+    },
+    "name": "New Orleans Street Singer",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273777de78c5f906d6b91fc5f7f",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02777de78c5f906d6b91fc5f7f",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851777de78c5f906d6b91fc5f7f",
+        "width": 64
+      }
+    ],
+    "release_date": "2005-08-30",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4ReGayOtLkcAsNi6d2n7LS"
+        },
+        "href": "https://api.spotify.com/v1/artists/4ReGayOtLkcAsNi6d2n7LS",
+        "id": "4ReGayOtLkcAsNi6d2n7LS",
+        "name": "Snooks Eaglin",
+        "type": "artist",
+        "uri": "spotify:artist:4ReGayOtLkcAsNi6d2n7LS"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3QYOWNnvJBThutwlzjBhry"
+  },
+  {
+    "id": "0mgUrEyxaymxq5hCKqNQ9B",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0mgUrEyxaymxq5hCKqNQ9B"
+    },
+    "name": "Kelly Blue (Keepnews Collection)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27399f4dd19ff152eb8a379afcc",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0299f4dd19ff152eb8a379afcc",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485199f4dd19ff152eb8a379afcc",
+        "width": 64
+      }
+    ],
+    "release_date": "1959",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5ncBRFyyylFng7kQJaRXN0"
+        },
+        "href": "https://api.spotify.com/v1/artists/5ncBRFyyylFng7kQJaRXN0",
+        "id": "5ncBRFyyylFng7kQJaRXN0",
+        "name": "Wynton Kelly",
+        "type": "artist",
+        "uri": "spotify:artist:5ncBRFyyylFng7kQJaRXN0"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0mgUrEyxaymxq5hCKqNQ9B"
+  },
+  {
+    "id": "24gavJ6O46xWEAW2nDJX1m",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/24gavJ6O46xWEAW2nDJX1m"
+    },
+    "name": "Side By Side",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27366c94efe01d22535f9fa32ab",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0266c94efe01d22535f9fa32ab",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485166c94efe01d22535f9fa32ab",
+        "width": 64
+      }
+    ],
+    "release_date": "1999-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A"
+        },
+        "href": "https://api.spotify.com/v1/artists/4F7Q5NV6h5TSwCainz8S5A",
+        "id": "4F7Q5NV6h5TSwCainz8S5A",
+        "name": "Duke Ellington",
+        "type": "artist",
+        "uri": "spotify:artist:4F7Q5NV6h5TSwCainz8S5A"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7lRFrrINQTY35g8hq0kXY5"
+        },
+        "href": "https://api.spotify.com/v1/artists/7lRFrrINQTY35g8hq0kXY5",
+        "id": "7lRFrrINQTY35g8hq0kXY5",
+        "name": "Johnny Hodges",
+        "type": "artist",
+        "uri": "spotify:artist:7lRFrrINQTY35g8hq0kXY5"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/24gavJ6O46xWEAW2nDJX1m"
+  },
+  {
+    "id": "1LTKBZNFRu4f6dnlJuH3wh",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1LTKBZNFRu4f6dnlJuH3wh"
+    },
+    "name": "The Scene Changes: The Amazing Bud Powell Vol. 5 (Remastered)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273819b48839efcd1d6b76a44d0",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02819b48839efcd1d6b76a44d0",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851819b48839efcd1d6b76a44d0",
+        "width": 64
+      }
+    ],
+    "release_date": "2007-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/570vCzcespB48HIQyTbDO6"
+        },
+        "href": "https://api.spotify.com/v1/artists/570vCzcespB48HIQyTbDO6",
+        "id": "570vCzcespB48HIQyTbDO6",
+        "name": "Bud Powell",
+        "type": "artist",
+        "uri": "spotify:artist:570vCzcespB48HIQyTbDO6"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1LTKBZNFRu4f6dnlJuH3wh"
+  }
+]

@@ -1,0 +1,384 @@
+[
+  {
+    "id": "0rNgP6dA7elgUCINGUUeyI",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0rNgP6dA7elgUCINGUUeyI"
+    },
+    "name": "Zodiac Suite",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273dfd95d949e8e8edd47dff95f",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02dfd95d949e8e8edd47dff95f",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851dfd95d949e8e8edd47dff95f",
+        "width": 64
+      }
+    ],
+    "release_date": "1995-10-17",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6hrEc1XqVcGLK0Di6zVADR"
+        },
+        "href": "https://api.spotify.com/v1/artists/6hrEc1XqVcGLK0Di6zVADR",
+        "id": "6hrEc1XqVcGLK0Di6zVADR",
+        "name": "Mary Lou Williams",
+        "type": "artist",
+        "uri": "spotify:artist:6hrEc1XqVcGLK0Di6zVADR"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0rNgP6dA7elgUCINGUUeyI"
+  },
+  {
+    "id": "140c2XKKcvUcYZ9WDw1HS7",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/140c2XKKcvUcYZ9WDw1HS7"
+    },
+    "name": "Ellington, Duke: Black, Brown and Beige (1943-1945)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2730eb82f3642801997a69d22cc",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e020eb82f3642801997a69d22cc",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048510eb82f3642801997a69d22cc",
+        "width": 64
+      }
+    ],
+    "release_date": "2006-01-17",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A"
+        },
+        "href": "https://api.spotify.com/v1/artists/4F7Q5NV6h5TSwCainz8S5A",
+        "id": "4F7Q5NV6h5TSwCainz8S5A",
+        "name": "Duke Ellington",
+        "type": "artist",
+        "uri": "spotify:artist:4F7Q5NV6h5TSwCainz8S5A"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3W4GTSHxlqXfXjdmSNIbTB"
+        },
+        "href": "https://api.spotify.com/v1/artists/3W4GTSHxlqXfXjdmSNIbTB",
+        "id": "3W4GTSHxlqXfXjdmSNIbTB",
+        "name": "Duke Ellington Orchestra",
+        "type": "artist",
+        "uri": "spotify:artist:3W4GTSHxlqXfXjdmSNIbTB"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/140c2XKKcvUcYZ9WDw1HS7"
+  },
+  {
+    "id": "3srRzvRIk0SLJtit9clZnF",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3srRzvRIk0SLJtit9clZnF"
+    },
+    "name": "Bach: Variations Goldberg (Mono Version)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273dda29614de92d9a4c47d69d3",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02dda29614de92d9a4c47d69d3",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851dda29614de92d9a4c47d69d3",
+        "width": 64
+      }
+    ],
+    "release_date": "1952-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+        },
+        "href": "https://api.spotify.com/v1/artists/5aIqB5nVVvmFsvSdExz408",
+        "id": "5aIqB5nVVvmFsvSdExz408",
+        "name": "Johann Sebastian Bach",
+        "type": "artist",
+        "uri": "spotify:artist:5aIqB5nVVvmFsvSdExz408"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1L4ntGcjd7D13AJnaeANHU"
+        },
+        "href": "https://api.spotify.com/v1/artists/1L4ntGcjd7D13AJnaeANHU",
+        "id": "1L4ntGcjd7D13AJnaeANHU",
+        "name": "Wanda Landowska",
+        "type": "artist",
+        "uri": "spotify:artist:1L4ntGcjd7D13AJnaeANHU"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3srRzvRIk0SLJtit9clZnF"
+  },
+  {
+    "id": "4SlxZP7U4SkRfiBUp6RdsI",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4SlxZP7U4SkRfiBUp6RdsI"
+    },
+    "name": "Freddie Slack's Boogie Woogie",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f08cc7e86868bf1ccfe99d9c",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f08cc7e86868bf1ccfe99d9c",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f08cc7e86868bf1ccfe99d9c",
+        "width": 64
+      }
+    ],
+    "release_date": "1945-12-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2agJBUWKu6tIjput3rtl8y"
+        },
+        "href": "https://api.spotify.com/v1/artists/2agJBUWKu6tIjput3rtl8y",
+        "id": "2agJBUWKu6tIjput3rtl8y",
+        "name": "Freddie Slack",
+        "type": "artist",
+        "uri": "spotify:artist:2agJBUWKu6tIjput3rtl8y"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4SlxZP7U4SkRfiBUp6RdsI"
+  },
+  {
+    "id": "7bY5ugXK6Luc0od508QI3A",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/7bY5ugXK6Luc0od508QI3A"
+    },
+    "name": "Music for Dreaming",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273f4b69df585ec23391ee06693",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f4b69df585ec23391ee06693",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851f4b69df585ec23391ee06693",
+        "width": 64
+      }
+    ],
+    "release_date": "1945",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3EVyH5tLgdq62aXTdKfzey"
+        },
+        "href": "https://api.spotify.com/v1/artists/3EVyH5tLgdq62aXTdKfzey",
+        "id": "3EVyH5tLgdq62aXTdKfzey",
+        "name": "Paul Weston And His Orchestra",
+        "type": "artist",
+        "uri": "spotify:artist:3EVyH5tLgdq62aXTdKfzey"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/7bY5ugXK6Luc0od508QI3A"
+  },
+  {
+    "id": "3OX90EeW9KfaIElbC4xRYK",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3OX90EeW9KfaIElbC4xRYK"
+    },
+    "name": "Piano Solos",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2734ab2d5f350a6fec967024bd7",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e024ab2d5f350a6fec967024bd7",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048514ab2d5f350a6fec967024bd7",
+        "width": 64
+      }
+    ],
+    "release_date": "2020-07-02",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3DtSOCXYU6o4EV0K1NgIKq"
+        },
+        "href": "https://api.spotify.com/v1/artists/3DtSOCXYU6o4EV0K1NgIKq",
+        "id": "3DtSOCXYU6o4EV0K1NgIKq",
+        "name": "Art Tatum",
+        "type": "artist",
+        "uri": "spotify:artist:3DtSOCXYU6o4EV0K1NgIKq"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3OX90EeW9KfaIElbC4xRYK"
+  },
+  {
+    "id": "7emsuBwSOfPrOXuBAoaTrM",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/7emsuBwSOfPrOXuBAoaTrM"
+    },
+    "name": "After Dark",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2739c809d71ebe20c05ab609892",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e029c809d71ebe20c05ab609892",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048519c809d71ebe20c05ab609892",
+        "width": 64
+      }
+    ],
+    "release_date": "2018-01-06",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/27vUIN5n6wAIoug4KMJZHp"
+        },
+        "href": "https://api.spotify.com/v1/artists/27vUIN5n6wAIoug4KMJZHp",
+        "id": "27vUIN5n6wAIoug4KMJZHp",
+        "name": "Morton Gould",
+        "type": "artist",
+        "uri": "spotify:artist:27vUIN5n6wAIoug4KMJZHp"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/7emsuBwSOfPrOXuBAoaTrM"
+  },
+  {
+    "id": "3lBrCuFTHNyPfa05l1USc2",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3lBrCuFTHNyPfa05l1USc2"
+    },
+    "name": "Song of Norway",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27368abd17d660ddff84dfcd906",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0268abd17d660ddff84dfcd906",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485168abd17d660ddff84dfcd906",
+        "width": 64
+      }
+    ],
+    "release_date": "2004-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2ZJTM7KeBdMbbbUykwZXDN"
+        },
+        "href": "https://api.spotify.com/v1/artists/2ZJTM7KeBdMbbbUykwZXDN",
+        "id": "2ZJTM7KeBdMbbbUykwZXDN",
+        "name": "George Forrest",
+        "type": "artist",
+        "uri": "spotify:artist:2ZJTM7KeBdMbbbUykwZXDN"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5Y3Oa62lkjpNzmjWtDwDrc"
+        },
+        "href": "https://api.spotify.com/v1/artists/5Y3Oa62lkjpNzmjWtDwDrc",
+        "id": "5Y3Oa62lkjpNzmjWtDwDrc",
+        "name": "Robert Wright",
+        "type": "artist",
+        "uri": "spotify:artist:5Y3Oa62lkjpNzmjWtDwDrc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+        },
+        "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+        "id": "0LyfQWJT6nXafLPZqxe9Of",
+        "name": "Various Artists",
+        "type": "artist",
+        "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3lBrCuFTHNyPfa05l1USc2"
+  },
+  {
+    "id": "6Yi6PZCrzztyGKbfstqZNG",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/6Yi6PZCrzztyGKbfstqZNG"
+    },
+    "name": "John Kirby and Orchestra",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273095a09d1c684665512badef1",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02095a09d1c684665512badef1",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851095a09d1c684665512badef1",
+        "width": 64
+      }
+    ],
+    "release_date": "2020-07-05",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2LuEkUppU8ExsoMYDaNMnm"
+        },
+        "href": "https://api.spotify.com/v1/artists/2LuEkUppU8ExsoMYDaNMnm",
+        "id": "2LuEkUppU8ExsoMYDaNMnm",
+        "name": "John Kirby",
+        "type": "artist",
+        "uri": "spotify:artist:2LuEkUppU8ExsoMYDaNMnm"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/6Yi6PZCrzztyGKbfstqZNG"
+  }
+]
