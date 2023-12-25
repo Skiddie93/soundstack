@@ -14,6 +14,9 @@ const EditListResults = ({
   handleDrag,
   editMode,
 }: ListResultsPorps) => {
+
+
+
   return (
     <div className="album-list">
       <div className="search-results">

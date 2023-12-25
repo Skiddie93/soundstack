@@ -35,6 +35,8 @@ export default function Page() {
     }
   }, [searchTerm]);
 
+  console.log(searchData);
+
   return (
     <>
       <div className={album ? "open" : ""} id="player">
