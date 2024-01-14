@@ -44,10 +44,27 @@
   }
   .album-list {
     width: 75%;
+    &.frontpage-list {
+      width: 100% !important;
+    }
     .search-results {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
       margin-top: 50px;
+
+      @media (max-width: 1400px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      @media (max-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @media (max-width: 700px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 450px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
       .album {
         grid-column: span 1;
 
@@ -76,12 +93,59 @@
           color: $light;
         }
       }
-      &:nth-child(6n + 6) {
-        margin-top: 50px;
+
+      @media (min-width: 1401px) {
+        &:nth-child(6n + 6) {
+          margin-top: 50px;
+        }
+      }
+      @media (min-width: 1025px) and (max-width: 1400px) {
+        &:nth-child(5n + 5) {
+          margin-top: 50px;
+        }
+      }
+
+      @media (min-width: 701px) and (max-width: 1024px) {
+        &:nth-child(4n + 4) {
+          margin-top: 50px;
+        }
+      }
+
+      @media (min-width: 451px) and (max-width: 700px) {
+        &:nth-child(3n + 3) {
+          margin-top: 50px;
+        }
+      }
+
+      @media (max-width: 450px) {
+        &:nth-child(2n + 2) {
+          margin-top: 50px;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @media (max-width: 700px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 450px) {
+        grid-template-columns: repeat(1, 1fr);
       }
       &.over-album {
         border: 1px solid $lighter;
       }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .chart {
+    .album-list {
+      width: 100%;
+    }
+    .list-names {
+      display: none;
     }
   }
 }

@@ -6,6 +6,7 @@ interface ListResultsPorps {
   setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
   handleDrag?: any;
   editMode?: boolean;
+  extraClass?: string;
 }
 
 const EditListResults = ({
@@ -13,12 +14,10 @@ const EditListResults = ({
   setAlbum,
   handleDrag,
   editMode,
+  extraClass,
 }: ListResultsPorps) => {
-
-
-
   return (
-    <div className="album-list">
+    <div className={extraClass ? extraClass + "album-list" : "album-list"}>
       <div className="search-results">
         {listData &&
           listData.map((item: Record<any, any>, index: number) => {

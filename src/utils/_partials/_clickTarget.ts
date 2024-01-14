@@ -3,9 +3,11 @@
 let target: any = null;
 let listeners: any[] = [];
 
-document.addEventListener("click", (e) => {
-  clickTarget.setClickTarget(e);
-});
+if (typeof window !== "undefined") {
+  document.addEventListener("click", (e) => {
+    clickTarget.setClickTarget(e);
+  });
+}
 
 const emitChange = () => {
   listeners.forEach((listener: any) => listener());

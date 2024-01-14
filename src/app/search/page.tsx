@@ -1,10 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
-import Search from "@/components/Search";
 import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";
 import queryData from "@/utils/querySearch";
 import { useSearchParams } from "next/navigation";
+
 
 export default function Page() {
   const [searchData, setSearchData] = useState<undefined | Record<any, any>>(

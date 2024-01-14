@@ -6,6 +6,10 @@
   font-family: "Roboto Mono", monospace;
 }
 
+html {
+  background-color: $background-color;
+}
+
 .container {
   max-width: $container-size;
   margin: 0 auto;

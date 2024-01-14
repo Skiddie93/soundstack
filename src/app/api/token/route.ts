@@ -16,7 +16,7 @@ export const GET = async (req: Request, res: Response) => {
   const call = await fetch("https://accounts.spotify.com/api/token", params);
   const data = await call.json();
 
-  const expiration = new Date().getTime() + 1000 * (data.expires_in - 60);
+  const expiration = new Date().getTime() + 1000 * (data.expires_in - 300);
 
 
   cookies().set({

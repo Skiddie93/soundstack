@@ -18,38 +18,73 @@ const Player = ({ album }: Props) => {
   const albumLink = album.external_urls.spotify;
   const albumName = album.name;
 
+  const nextValidTrackId = (currentId: number, direction: boolean = true) => {
+    const [...sortedCopy] = tracks.items;
+
+    const splitLeft: Record<string, any>[] = sortedCopy.slice(0, currentId);
+    const splitRight: Record<string, any>[] = sortedCopy.slice(
+      currentId,
+      sortedCopy.length
+    );
+
+    const reorderQueue = direction
+      ? [...splitRight, ...splitLeft]
+      : [...splitLeft.reverse(), ...splitRight.reverse()];
+
+    const firstValidTrack = reorderQueue.find(
+      (track: Record<string, any>) => track.preview_url
+    );
+
+    const validTrackId: string = firstValidTrack?.id || reorderQueue[0]?.id;
+
+    const index = tracks.items.findIndex(
+      (item: any) => item.id == validTrackId
+    );
+
+    return index;
+  };
+
   useEffect(() => {
-    setCurrentTrack(tracks.items[0]);
+    setCurrentTrack(tracks.items[nextValidTrackId(0)]);
   }, [album]);
 
   const handleMoveTrack = (direction: "next" | "prev") => {
-    if (audioIsLoaded) {
-      const currentTrackIndex = tracks.items.findIndex(
-        (track: Record<any, any>) => track.id == currentTrack.id
-      );
+    const currentTrackIndex = tracks.items.findIndex(
+      (track: Record<any, any>) => track.id == currentTrack.id
+    );
 
-      const albumTracksTotal = tracks.items.length;
+    const albumTracksTotal = tracks.items.length;
 
-      if (direction == "next") {
-        const nextTrackIndex = (currentTrackIndex + 1) % albumTracksTotal;
+    if (direction == "next") {
+      const nextTrackIndex = (currentTrackIndex + 1) % albumTracksTotal;
+
+      console.log(tracks.items[nextTrackIndex].preview_url);
+
+      if (tracks.items[nextTrackIndex].preview_url) {
         setCurrentTrack(tracks.items[nextTrackIndex]);
       } else {
-        const nextTrackIndex = (currentTrackIndex - 1) % albumTracksTotal;
-        nextTrackIndex >= 0
-          ? setCurrentTrack(tracks.items[nextTrackIndex])
-          : setCurrentTrack(tracks.items[albumTracksTotal - 1]);
+        const firsValidId = nextValidTrackId(nextTrackIndex);
+        setCurrentTrack(tracks.items[firsValidId]);
+      }
+    } else {
+      let nextTrackIndex = (currentTrackIndex - 1) % albumTracksTotal;
+      nextTrackIndex =
+        nextTrackIndex >= 0 ? nextTrackIndex : albumTracksTotal - 1;
+      if (tracks.items[nextTrackIndex].preview_url) {
+        setCurrentTrack(tracks.items[nextTrackIndex]);
+      } else {
+        const firsValidId = nextValidTrackId(nextTrackIndex + 1, false);
+        setCurrentTrack(tracks.items[firsValidId]);
       }
     }
   };
 
-  const handleTrackChange: any = (event: any, key: any) => {
-    if (audioIsLoaded) {
-      const newTrackId = event.currentTarget.id;
-      const newTrack = tracks.items.find(
-        (track: Record<any, any>) => track.id == newTrackId
-      );
-      setCurrentTrack(newTrack);
-    }
+  const handleTrackChange: any = (event: any) => {
+    const newTrackId = event.currentTarget.id;
+    const newTrack = tracks.items.find(
+      (track: Record<any, any>) => track.id == newTrackId
+    );
+    setCurrentTrack(newTrack);
   };
 
   const tracksClass = (trackId: any, preview: any) => {
@@ -85,7 +120,7 @@ const Player = ({ album }: Props) => {
                   id={track.id}
                   key={track.id}
                 >
-                  <div className="track" key={track.name}>
+                  <div className="track" key={track.id}>
                     <p>
                       {track.name}
                       <span>No preview</span>
@@ -100,7 +135,7 @@ const Player = ({ album }: Props) => {
       <div className="player-bottom">
         <div className="track-name">
           {currentTrack.name}
-          <PlayerContext album={album} />
+          <PlayerContextMenu album={album} />
         </div>
         <Controls
           handleMoveTrack={handleMoveTrack}
@@ -119,7 +154,7 @@ const Player = ({ album }: Props) => {
   );
 };
 
-const PlayerContext = ({ album }: any) => {
+const PlayerContextMenu = ({ album }: any) => {
   const visibility = isVisible();
   return (
     <div className="p-context">

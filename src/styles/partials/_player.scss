@@ -193,6 +193,41 @@
     margin: 0px 0;
     display: flex;
     align-items: center;
-   
+  }
+  @media (max-width: 1100px) {
+    max-height: unset !important;
+    height: auto !important;
+    margin-top: 50px !important;
+    .album-title {
+      width: 100%;
+      height: auto;
+    }
+    .player-bottom {
+      width: 100%;
+      height: auto;
+    }
+    .player-top {
+      flex-direction: column;
+      height: auto !important;
+
+      .img-wrapper {
+        width: 100%;
+        height: auto;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .tracks-container {
+        width: 100% !important;
+        height: auto;
+        max-height: 300px;
+        margin: 25px 0;
+        .tracks {
+          position: static;
+        }
+      }
+    }
   }
 }

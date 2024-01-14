@@ -1,7 +1,6 @@
 import { useEffect, useState, Dispatch, SetStateAction } from "react";
 import queryData from "@/utils/querySearch";
 import AlbumItem from "./AlbumItem";
-
 interface ListResultsPorps {
   searchData: Record<any, any>;
   setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;

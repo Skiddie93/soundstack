@@ -7,6 +7,7 @@
       background-color: transparent;
       height: 45px;
       width: 350px;
+      max-width: 100%;
       border: none;
       border-radius: 30px;
       padding: 0 40px;
@@ -30,6 +31,14 @@
         stroke: white;
         fill: white;
         width: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .search-box-wrapper {
+      input {
+        width: 100%;
       }
     }
   }

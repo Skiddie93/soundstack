@@ -48,6 +48,7 @@ export const Chart = ({ list, setListData }: ChartProps) => {
 
   return (
     <div ref={visibility.element} className="list-item" key={list.id}>
+      
       {!visibility.visible ? (
         <>
         {list.albums.length > 0 ?

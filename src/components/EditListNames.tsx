@@ -7,7 +7,7 @@ interface EditListNamesProps {
   handleDrag?: any;
   editMode?: boolean;
   setAlbum?: any;
-  removeAlbum: (id: string) => void;
+  removeAlbum?: (id: string) => void;
 }
 
 interface AlbumProps {
@@ -16,7 +16,7 @@ interface AlbumProps {
   handleDrag?: any;
   editMode?: boolean;
   setAlbum?: any;
-  removeAlbum: (id: string) => void;
+  removeAlbum?: (id: string) => void;
 }
 
 const EditListNames = ({
@@ -97,14 +97,12 @@ const Album = ({
       onDragLeave={() => setIsOverElement(false)}
     >
       <div className="flex-center-vertical gap-12">
-     
-
         <div>
           {name} - {artist}
         </div>
         {editMode && (
           <div className="remove">
-            <IoMdRemove onClick={() => removeAlbum(album.id)} />
+            <IoMdRemove onClick={() => removeAlbum && removeAlbum(album.id)} />
           </div>
         )}
       </div>

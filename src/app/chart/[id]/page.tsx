@@ -10,7 +10,7 @@ interface PageProps {
   params: { id: string };
 }
 
-export const page = ({ params }: PageProps) => {
+const Page = ({ params }: PageProps) => {
   const [chart, setChart] = useState<any>(undefined);
   const [album, setAlbum] = useState<Record<any, any> | undefined>(undefined);
 
@@ -53,4 +53,4 @@ export const page = ({ params }: PageProps) => {
   );
 };
 
-export default page;
+export default Page;

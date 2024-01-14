@@ -2,14 +2,17 @@
 import { setLocalStorage, getLocalStorage } from "@/utils/useLocalStorage";
 import { List } from "@/types/types";
 
-let charts: any = JSON.parse(getLocalStorage("albumsList") || "[]");
+
 
 export const chartSingle = {
+  
   getChart(id: string) {
+    const charts: any = JSON.parse(getLocalStorage("albumsList") || "[]");
     const theChart = charts.find((i: Record<string, any>) => i.id == id);
     return theChart;
   },
   addAlbum(id: string, albumData: Record<string, any>) {
+    const charts: any = JSON.parse(getLocalStorage("albumsList") || "[]");
     const newLists = charts.map((list: List) => {
       if (list.id == id) {
         list.albums = [...list.albums, albumData];
@@ -22,6 +25,7 @@ export const chartSingle = {
     return newLists;
   },
   removeAlbum(id: string, albumData: Record<string, any>) {
+    const charts: any = JSON.parse(getLocalStorage("albumsList") || "[]");
     const newLists = charts.map((list: List) => {
       if (list.id == id) {
         const removeAlbum = list.albums.filter(
@@ -37,6 +41,7 @@ export const chartSingle = {
     return newLists;
   },
   setSingle(id: string, newState: Record<string, any>) {
+    const charts: any = JSON.parse(getLocalStorage("albumsList") || "[]");
     const newCharts = charts.map((item: Record<string, any>) =>
       item.id == id ? newState : item
     );
@@ -45,6 +50,7 @@ export const chartSingle = {
   },
 
   createList(listName: string) {
+    const charts: any = JSON.parse(getLocalStorage("albumsList") || "[]");
     if (!listName) return;
 
     const newItem: List = {
@@ -60,6 +66,7 @@ export const chartSingle = {
     return newLists;
   },
   moveToPublished(id: string) {
+    const charts: any = JSON.parse(getLocalStorage("albumsList") || "[]");
     const toPublish = charts.find((item: List) => item.id == id);
     if (toPublish) {
       let publishedCharts: any[] = JSON.parse(

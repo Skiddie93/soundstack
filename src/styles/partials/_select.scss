@@ -1,0 +1,58 @@
+.select-component {
+  cursor: pointer;
+  position: relative;
+
+  .default {
+    display: flex;
+  }
+  &.open {
+    background-color: $element;
+    svg {
+      transform: rotate(180deg);
+    }
+    * {
+      background-color: $element;
+    }
+  }
+
+  .default-wrapper {
+  }
+  .data-wrapper {
+    .options {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 100%);
+      z-index: 99;
+    }
+  }
+  .options {
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.select-title {
+  display: flex;
+  align-self: center;
+  font-size: 25px;
+  font-weight: bold;
+
+  svg {
+    display: block !important;
+  }
+  .select-component {
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    .option {
+      font-size: 18px;
+      padding: 5px 0;
+    }
+    .opations {
+      padding: 5px 12px;
+    }
+  }
+}
