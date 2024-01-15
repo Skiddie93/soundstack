@@ -3,6 +3,19 @@
   a {
     text-decoration: none;
   }
+
+  .logo-title {
+    text-transform: uppercase;
+    letter-spacing: 20px;
+
+    h1 {
+      font-size: 23px;
+      font-weight: 500;
+    }
+    span {
+      font-size: 27px;
+    }
+  }
   .container {
     display: flex;
     justify-content: center;
