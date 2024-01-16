@@ -10,6 +10,16 @@ interface children {
 export default function RootLayout({ children }: children) {
   return (
     <html lang="en">
+      <head>
+        <title>Soundcheck</title>
+        <meta charSet="UTF-8" />
+        <meta name="description" content="Make album charts with song previews" />
+        <meta name="author" content="Skiddie" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+      </head>
       <body>
         <Header />
         <div className="container head-tools ">
