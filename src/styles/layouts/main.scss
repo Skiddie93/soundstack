@@ -7,7 +7,7 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
 
-  &:-webkit-scrollbar {
+  &::-webkit-scrollbar {
     display: none;
   }
 }
