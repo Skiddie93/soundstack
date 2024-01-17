@@ -6,6 +6,10 @@ import { useEffect, useState } from "react";
 
 const selectData = [
   {
+    id: "2024",
+    value: "2024",
+  },
+  {
     id: "2023",
     value: "2023",
   },
@@ -326,7 +330,7 @@ const selectData = [
 function Page() {
   const [chart, setChart] = useState<any>(undefined);
   const [album, setAlbum] = useState<Record<any, any> | undefined>(undefined);
-  const [year, setYear] = useState<string>("2023");
+  const [year, setYear] = useState<string>("2024");
 
   const getData = async () => {
     const req = await fetch(`./data/albums/${year}.json`);
