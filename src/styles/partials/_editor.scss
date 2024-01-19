@@ -58,6 +58,14 @@
       }
     }
   }
+  @media (max-width: 1024px) {
+    .album-list {
+      width: 100%;
+    }
+    .list-names {
+      display: none;
+    }
+  }
 }
 
 .album-edit {

@@ -17,7 +17,7 @@ const EditListResults = ({
   extraClass,
 }: ListResultsPorps) => {
   return (
-    <div className={extraClass ? extraClass + "album-list" : "album-list"}>
+    <div className={extraClass ? extraClass + " album-list" : "album-list"}>
       <div className="search-results">
         {listData &&
           listData.map((item: Record<any, any>, index: number) => {

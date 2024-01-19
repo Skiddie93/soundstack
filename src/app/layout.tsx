@@ -13,7 +13,10 @@ export default function RootLayout({ children }: children) {
       <head>
         <title>Soundcheck</title>
         <meta charSet="UTF-8" />
-        <meta name="description" content="Make album charts with song previews" />
+        <meta
+          name="description"
+          content="Make album charts with song previews"
+        />
         <meta name="author" content="Skiddie" />
         <meta
           name="viewport"

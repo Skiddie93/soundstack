@@ -23,6 +23,12 @@ html {
   @media (max-width: calc($container-size + 100px)) {
     margin: 0 50px;
   }
+  @media (max-width:990px) {
+    margin: 0 3rem;
+  }
+  @media (max-width:550px) {
+    margin: 0 2rem;
+  }
 }
 
 body {

@@ -199,6 +199,14 @@
     max-height: unset !important;
     height: auto !important;
     margin-top: 50px !important;
+   
+    .player{
+      max-width: 100%;
+    }
+
+    .context-menu {
+      transform: translate(-100%, calc(100% + 10px)) !important;
+    }
     .album-title {
       width: 100%;
       height: auto;

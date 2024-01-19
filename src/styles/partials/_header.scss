@@ -15,6 +15,16 @@
     span {
       font-size: 27px;
     }
+    @media(max-width:500px) {
+      letter-spacing: 10px;
+      h1 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      span {
+        font-size: 23px;
+      }
+    }
   }
   .container {
     display: flex;
