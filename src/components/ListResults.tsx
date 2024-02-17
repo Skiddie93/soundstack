@@ -51,10 +51,9 @@ const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
     <div>
       {items.length ? (
         <div className="search-results">
-          {items.map((item: Record<any, any>) => {
-            return (
-              <AlbumItem key={item.id} setAlbum={setAlbum} albumData={item} />
-            );
+          {items.map((item: Record<any, any>, i: number) => {
+            const key = item.id + i.toString();
+            return <AlbumItem key={key} setAlbum={setAlbum} albumData={item} />;
           })}
           <div className="load-more">
             {!loading && urlNext && (

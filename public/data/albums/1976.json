@@ -1,1 +1,1544 @@
-[{"id":"2HVx2tiZnLX8xeaUthed1e","external_urls":{"spotify":"https://open.spotify.com/album/2HVx2tiZnLX8xeaUthed1e"},"name":"Songs In The Key Of Life","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273492e424606db3574bf2d8823","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02492e424606db3574bf2d8823","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851492e424606db3574bf2d8823","width":64}],"release_date":"1976-09-28","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/7guDJrEfX3qb6FEbdPA5qi"},"href":"https://api.spotify.com/v1/artists/7guDJrEfX3qb6FEbdPA5qi","id":"7guDJrEfX3qb6FEbdPA5qi","name":"Stevie Wonder","type":"artist","uri":"spotify:artist:7guDJrEfX3qb6FEbdPA5qi"}],"href":"https://api.spotify.com/v1/albums/2HVx2tiZnLX8xeaUthed1e"},{"id":"0MWrKayUshRuT8maG4ZAOU","external_urls":{"spotify":"https://open.spotify.com/album/0MWrKayUshRuT8maG4ZAOU"},"name":"Station to Station (2016 Remaster)","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2738f3cdfeac0678371b16f601d","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e028f3cdfeac0678371b16f601d","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048518f3cdfeac0678371b16f601d","width":64}],"release_date":"1976-01-23","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy"},"href":"https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy","id":"0oSGxfWSnnOXhD2fKuz2Gy","name":"David Bowie","type":"artist","uri":"spotify:artist:0oSGxfWSnnOXhD2fKuz2Gy"}],"href":"https://api.spotify.com/v1/albums/0MWrKayUshRuT8maG4ZAOU"},{"id":"0lbpA4dCZfaNhy6LZrGDvJ","external_urls":{"spotify":"https://open.spotify.com/album/0lbpA4dCZfaNhy6LZrGDvJ"},"name":"El Jardin de los Presentes","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2734d52291a3146f5aea6013a69","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e024d52291a3146f5aea6013a69","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048514d52291a3146f5aea6013a69","width":64}],"release_date":"1976-05-27","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/3FjdJbt6Myq32uv7P4owM1"},"href":"https://api.spotify.com/v1/artists/3FjdJbt6Myq32uv7P4owM1","id":"3FjdJbt6Myq32uv7P4owM1","name":"Invisible","type":"artist","uri":"spotify:artist:3FjdJbt6Myq32uv7P4owM1"}],"href":"https://api.spotify.com/v1/albums/0lbpA4dCZfaNhy6LZrGDvJ"},{"id":"0esHQqYklDPje00NUNq6py","external_urls":{"spotify":"https://open.spotify.com/album/0esHQqYklDPje00NUNq6py"},"name":"Africa Brasil","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2732a3e351bbab659d55a2fadec","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e022a3e351bbab659d55a2fadec","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048512a3e351bbab659d55a2fadec","width":64}],"release_date":"1976-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/5JYtpnUKxAzXfHEYpOeeit"},"href":"https://api.spotify.com/v1/artists/5JYtpnUKxAzXfHEYpOeeit","id":"5JYtpnUKxAzXfHEYpOeeit","name":"Jorge Ben Jor","type":"artist","uri":"spotify:artist:5JYtpnUKxAzXfHEYpOeeit"}],"href":"https://api.spotify.com/v1/albums/0esHQqYklDPje00NUNq6py"},{"id":"0fVPz60pAqX2bZkBsiUSES","external_urls":{"spotify":"https://open.spotify.com/album/0fVPz60pAqX2bZkBsiUSES"},"name":"Rising","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273316b6e3bb1bc2ea005763a23","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02316b6e3bb1bc2ea005763a23","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851316b6e3bb1bc2ea005763a23","width":64}],"release_date":"1976-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/6SLAMfhOi7UJI0fMztaK0m"},"href":"https://api.spotify.com/v1/artists/6SLAMfhOi7UJI0fMztaK0m","id":"6SLAMfhOi7UJI0fMztaK0m","name":"Rainbow","type":"artist","uri":"spotify:artist:6SLAMfhOi7UJI0fMztaK0m"}],"href":"https://api.spotify.com/v1/albums/0fVPz60pAqX2bZkBsiUSES"},{"id":"67dxz02xFC7twfFj8Tyh2H","external_urls":{"spotify":"https://open.spotify.com/album/67dxz02xFC7twfFj8Tyh2H"},"name":"The Royal Scam","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2733a40e2889c1bb03525849cb3","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e023a40e2889c1bb03525849cb3","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048513a40e2889c1bb03525849cb3","width":64}],"release_date":"1976-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/6P7H3ai06vU1sGvdpBwDmE"},"href":"https://api.spotify.com/v1/artists/6P7H3ai06vU1sGvdpBwDmE","id":"6P7H3ai06vU1sGvdpBwDmE","name":"Steely Dan","type":"artist","uri":"spotify:artist:6P7H3ai06vU1sGvdpBwDmE"}],"href":"https://api.spotify.com/v1/albums/67dxz02xFC7twfFj8Tyh2H"},{"id":"1T8usYsiGEMPMQOLFgJEbE","external_urls":{"spotify":"https://open.spotify.com/album/1T8usYsiGEMPMQOLFgJEbE"},"name":"Desire","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2738e1a23e42f68260b7b274e09","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e028e1a23e42f68260b7b274e09","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048518e1a23e42f68260b7b274e09","width":64}],"release_date":"1976-01-16","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX"},"href":"https://api.spotify.com/v1/artists/74ASZWbe4lXaubB36ztrGX","id":"74ASZWbe4lXaubB36ztrGX","name":"Bob Dylan","type":"artist","uri":"spotify:artist:74ASZWbe4lXaubB36ztrGX"}],"href":"https://api.spotify.com/v1/albums/1T8usYsiGEMPMQOLFgJEbE"},{"id":"1c1rLO3NkLcGGBQvsp5mzu","external_urls":{"spotify":"https://open.spotify.com/album/1c1rLO3NkLcGGBQvsp5mzu"},"name":"Cartola (1976)","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2736819a848cb1eee4578aa7f6b","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e026819a848cb1eee4578aa7f6b","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048516819a848cb1eee4578aa7f6b","width":64}],"release_date":"2014-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/0RSWHhBUwW7lhCqXqxKxWN"},"href":"https://api.spotify.com/v1/artists/0RSWHhBUwW7lhCqXqxKxWN","id":"0RSWHhBUwW7lhCqXqxKxWN","name":"Cartola","type":"artist","uri":"spotify:artist:0RSWHhBUwW7lhCqXqxKxWN"}],"href":"https://api.spotify.com/v1/albums/1c1rLO3NkLcGGBQvsp5mzu"},{"id":"6D7LIAfyX9u8ZtZhOnRfUp","external_urls":{"spotify":"https://open.spotify.com/album/6D7LIAfyX9u8ZtZhOnRfUp"},"name":"Sad Wings Of Destiny (Remastered)","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273c5673464116e709c42ab5c1e","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02c5673464116e709c42ab5c1e","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851c5673464116e709c42ab5c1e","width":64}],"release_date":"1976","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/2tRsMl4eGxwoNabM08Dm4I"},"href":"https://api.spotify.com/v1/artists/2tRsMl4eGxwoNabM08Dm4I","id":"2tRsMl4eGxwoNabM08Dm4I","name":"Judas Priest","type":"artist","uri":"spotify:artist:2tRsMl4eGxwoNabM08Dm4I"}],"href":"https://api.spotify.com/v1/albums/6D7LIAfyX9u8ZtZhOnRfUp"},{"id":"4Pj4zPHuEUPtfacdeTlqUG","external_urls":{"spotify":"https://open.spotify.com/album/4Pj4zPHuEUPtfacdeTlqUG"},"name":"Mother Earth's Plantasia","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273a941bb5225f09137f035e4f3","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02a941bb5225f09137f035e4f3","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851a941bb5225f09137f035e4f3","width":64}],"release_date":"1976","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/0WmzT6tMLhdST5BfYagbha"},"href":"https://api.spotify.com/v1/artists/0WmzT6tMLhdST5BfYagbha","id":"0WmzT6tMLhdST5BfYagbha","name":"Mort Garson","type":"artist","uri":"spotify:artist:0WmzT6tMLhdST5BfYagbha"}],"href":"https://api.spotify.com/v1/albums/4Pj4zPHuEUPtfacdeTlqUG"},{"id":"4JgtJIcF1tOQC91OC1mt5f","external_urls":{"spotify":"https://open.spotify.com/album/4JgtJIcF1tOQC91OC1mt5f"},"name":"Moonmadness","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273af1f63ab36a87d8465ace90e","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02af1f63ab36a87d8465ace90e","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851af1f63ab36a87d8465ace90e","width":64}],"release_date":"1976-05-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/3Uz6jx81OY2J5K8Z4wmy2P"},"href":"https://api.spotify.com/v1/artists/3Uz6jx81OY2J5K8Z4wmy2P","id":"3Uz6jx81OY2J5K8Z4wmy2P","name":"Camel","type":"artist","uri":"spotify:artist:3Uz6jx81OY2J5K8Z4wmy2P"}],"href":"https://api.spotify.com/v1/albums/4JgtJIcF1tOQC91OC1mt5f"},{"id":"2TCSZn8ArTdDhXYhsTNBPm","external_urls":{"spotify":"https://open.spotify.com/album/2TCSZn8ArTdDhXYhsTNBPm"},"name":"Jailbreak","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273777fc0546dfeff4982e16cd9","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02777fc0546dfeff4982e16cd9","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851777fc0546dfeff4982e16cd9","width":64}],"release_date":"1976","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/6biWAmrHyiMkX49LkycGqQ"},"href":"https://api.spotify.com/v1/artists/6biWAmrHyiMkX49LkycGqQ","id":"6biWAmrHyiMkX49LkycGqQ","name":"Thin Lizzy","type":"artist","uri":"spotify:artist:6biWAmrHyiMkX49LkycGqQ"}],"href":"https://api.spotify.com/v1/albums/2TCSZn8ArTdDhXYhsTNBPm"},{"id":"5BPCP7WSGBG4br2o4WRmd8","external_urls":{"spotify":"https://open.spotify.com/album/5BPCP7WSGBG4br2o4WRmd8"},"name":"The Modern Lovers (Expanded Version)","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b27309ded8fd464cf38a3bd010c3","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e0209ded8fd464cf38a3bd010c3","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d0000485109ded8fd464cf38a3bd010c3","width":64}],"release_date":"1976-09-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/2eRdPaLHWAL4d1WcNUO9Vz"},"href":"https://api.spotify.com/v1/artists/2eRdPaLHWAL4d1WcNUO9Vz","id":"2eRdPaLHWAL4d1WcNUO9Vz","name":"The Modern Lovers","type":"artist","uri":"spotify:artist:2eRdPaLHWAL4d1WcNUO9Vz"}],"href":"https://api.spotify.com/v1/albums/5BPCP7WSGBG4br2o4WRmd8"},{"id":"6eOuqhCfrTPp1H0YbQ9PmL","external_urls":{"spotify":"https://open.spotify.com/album/6eOuqhCfrTPp1H0YbQ9PmL"},"name":"Beethoven: Symphonies Nos.5 & 7","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2733f26be8a62aa6532c2ed93f2","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e023f26be8a62aa6532c2ed93f2","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048513f26be8a62aa6532c2ed93f2","width":64}],"release_date":"1995-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/2wOqMjp9TyABvtHdOSOTUS"},"href":"https://api.spotify.com/v1/artists/2wOqMjp9TyABvtHdOSOTUS","id":"2wOqMjp9TyABvtHdOSOTUS","name":"Ludwig van Beethoven","type":"artist","uri":"spotify:artist:2wOqMjp9TyABvtHdOSOTUS"},{"external_urls":{"spotify":"https://open.spotify.com/artist/003f4bk13c6Q3gAUXv7dGJ"},"href":"https://api.spotify.com/v1/artists/003f4bk13c6Q3gAUXv7dGJ","id":"003f4bk13c6Q3gAUXv7dGJ","name":"Wiener Philharmoniker","type":"artist","uri":"spotify:artist:003f4bk13c6Q3gAUXv7dGJ"},{"external_urls":{"spotify":"https://open.spotify.com/artist/6aL4ovuNuBg7rmrPjOTIUN"},"href":"https://api.spotify.com/v1/artists/6aL4ovuNuBg7rmrPjOTIUN","id":"6aL4ovuNuBg7rmrPjOTIUN","name":"Carlos Kleiber","type":"artist","uri":"spotify:artist:6aL4ovuNuBg7rmrPjOTIUN"}],"href":"https://api.spotify.com/v1/albums/6eOuqhCfrTPp1H0YbQ9PmL"},{"id":"22CD3BpSvmUFK2Rf66bQcX","external_urls":{"spotify":"https://open.spotify.com/album/22CD3BpSvmUFK2Rf66bQcX"},"name":"Dois Momentos - Vol.2","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273a30992d2563cf35bf5a6d771","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02a30992d2563cf35bf5a6d771","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851a30992d2563cf35bf5a6d771","width":64}],"release_date":"1978","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/1gIa65d5ICT2xVWiUJ3u27"},"href":"https://api.spotify.com/v1/artists/1gIa65d5ICT2xVWiUJ3u27","id":"1gIa65d5ICT2xVWiUJ3u27","name":"Tom Zé","type":"artist","uri":"spotify:artist:1gIa65d5ICT2xVWiUJ3u27"}],"href":"https://api.spotify.com/v1/albums/22CD3BpSvmUFK2Rf66bQcX"},{"id":"0EM4Q0JUVZ8FNqmT5CI2E7","external_urls":{"spotify":"https://open.spotify.com/album/0EM4Q0JUVZ8FNqmT5CI2E7"},"name":"I Want You","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273076df76a34dfb290c4893850","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02076df76a34dfb290c4893850","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851076df76a34dfb290c4893850","width":64}],"release_date":"1976-03-16","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/3koiLjNrgRTNbOwViDipeA"},"href":"https://api.spotify.com/v1/artists/3koiLjNrgRTNbOwViDipeA","id":"3koiLjNrgRTNbOwViDipeA","name":"Marvin Gaye","type":"artist","uri":"spotify:artist:3koiLjNrgRTNbOwViDipeA"}],"href":"https://api.spotify.com/v1/albums/0EM4Q0JUVZ8FNqmT5CI2E7"},{"id":"2FJaS5kootX9CkS4DxL2eW","external_urls":{"spotify":"https://open.spotify.com/album/2FJaS5kootX9CkS4DxL2eW"},"name":"Still Life","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273223d126ac8d37456910cd61b","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02223d126ac8d37456910cd61b","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851223d126ac8d37456910cd61b","width":64}],"release_date":"1976","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"},"href":"https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt","id":"02frazNrWgZCxUEf4UTfHt","name":"Van Der Graaf Generator","type":"artist","uri":"spotify:artist:02frazNrWgZCxUEf4UTfHt"}],"href":"https://api.spotify.com/v1/albums/2FJaS5kootX9CkS4DxL2eW"},{"id":"4bcGQUfEhpB3KfutM2L6XQ","external_urls":{"spotify":"https://open.spotify.com/album/4bcGQUfEhpB3KfutM2L6XQ"},"name":"Geraes","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2736cad3239a79ec88cfb0addbf","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e026cad3239a79ec88cfb0addbf","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048516cad3239a79ec88cfb0addbf","width":64}],"release_date":"1976-05-03","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/3Bnq7jiU506HcPjRgQ43TM"},"href":"https://api.spotify.com/v1/artists/3Bnq7jiU506HcPjRgQ43TM","id":"3Bnq7jiU506HcPjRgQ43TM","name":"Milton Nascimento","type":"artist","uri":"spotify:artist:3Bnq7jiU506HcPjRgQ43TM"}],"href":"https://api.spotify.com/v1/albums/4bcGQUfEhpB3KfutM2L6XQ"},{"id":"6LOAcxawVW0Q56iJTczw3r","external_urls":{"spotify":"https://open.spotify.com/album/6LOAcxawVW0Q56iJTczw3r"},"name":"Alucinação","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273fdcf7a2d9c3da91b702d706d","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02fdcf7a2d9c3da91b702d706d","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851fdcf7a2d9c3da91b702d706d","width":64}],"release_date":"1976","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/0C8HhyOa7zfzIl3gmPjY52"},"href":"https://api.spotify.com/v1/artists/0C8HhyOa7zfzIl3gmPjY52","id":"0C8HhyOa7zfzIl3gmPjY52","name":"Belchior","type":"artist","uri":"spotify:artist:0C8HhyOa7zfzIl3gmPjY52"}],"href":"https://api.spotify.com/v1/albums/6LOAcxawVW0Q56iJTczw3r"},{"id":"1RX86ZDhjxJGcqUAXgJdVU","external_urls":{"spotify":"https://open.spotify.com/album/1RX86ZDhjxJGcqUAXgJdVU"},"name":"Messiaen: Quatuor pour la fin du Temps","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2735beb2766dd2d1c6408f8d89a","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e025beb2766dd2d1c6408f8d89a","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048515beb2766dd2d1c6408f8d89a","width":64}],"release_date":"1976","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/6CS9O2pE67oq44GZuBEBuD"},"href":"https://api.spotify.com/v1/artists/6CS9O2pE67oq44GZuBEBuD","id":"6CS9O2pE67oq44GZuBEBuD","name":"Olivier Messiaen","type":"artist","uri":"spotify:artist:6CS9O2pE67oq44GZuBEBuD"},{"external_urls":{"spotify":"https://open.spotify.com/artist/66hSwkXgWLCH2aTcFuyH4V"},"href":"https://api.spotify.com/v1/artists/66hSwkXgWLCH2aTcFuyH4V","id":"66hSwkXgWLCH2aTcFuyH4V","name":"Tashi","type":"artist","uri":"spotify:artist:66hSwkXgWLCH2aTcFuyH4V"}],"href":"https://api.spotify.com/v1/albums/1RX86ZDhjxJGcqUAXgJdVU"},{"id":"4uXadaCsBVwLK6s5V14Kjw","external_urls":{"spotify":"https://open.spotify.com/album/4uXadaCsBVwLK6s5V14Kjw"},"name":"La Máquina De Hacer Pájaros","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2732bafb74d62346afeaf462553","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e022bafb74d62346afeaf462553","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048512bafb74d62346afeaf462553","width":64}],"release_date":"1976-04-29","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/40c6EALi3nTmNeOAS3Eu5h"},"href":"https://api.spotify.com/v1/artists/40c6EALi3nTmNeOAS3Eu5h","id":"40c6EALi3nTmNeOAS3Eu5h","name":"La Maquina De Hacer Pájaros","type":"artist","uri":"spotify:artist:40c6EALi3nTmNeOAS3Eu5h"}],"href":"https://api.spotify.com/v1/albums/4uXadaCsBVwLK6s5V14Kjw"},{"id":"5xPMXlIf0QxtGi47SsL3lu","external_urls":{"spotify":"https://open.spotify.com/album/5xPMXlIf0QxtGi47SsL3lu"},"name":"The Afro-Eurasian Eclipse","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2738f29c1fc2b8207a5e0999604","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e028f29c1fc2b8207a5e0999604","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048518f29c1fc2b8207a5e0999604","width":64}],"release_date":"1975-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A"},"href":"https://api.spotify.com/v1/artists/4F7Q5NV6h5TSwCainz8S5A","id":"4F7Q5NV6h5TSwCainz8S5A","name":"Duke Ellington","type":"artist","uri":"spotify:artist:4F7Q5NV6h5TSwCainz8S5A"}],"href":"https://api.spotify.com/v1/albums/5xPMXlIf0QxtGi47SsL3lu"},{"id":"7a35UzxXYuKQGMGImyB0Un","external_urls":{"spotify":"https://open.spotify.com/album/7a35UzxXYuKQGMGImyB0Un"},"name":"A New World Record","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273ee5b1065368b0981e3cb0a33","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02ee5b1065368b0981e3cb0a33","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851ee5b1065368b0981e3cb0a33","width":64}],"release_date":"1976-09-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/7jefIIksOi1EazgRTfW2Pk"},"href":"https://api.spotify.com/v1/artists/7jefIIksOi1EazgRTfW2Pk","id":"7jefIIksOi1EazgRTfW2Pk","name":"Electric Light Orchestra","type":"artist","uri":"spotify:artist:7jefIIksOi1EazgRTfW2Pk"}],"href":"https://api.spotify.com/v1/albums/7a35UzxXYuKQGMGImyB0Un"},{"id":"5Uny0mkKiVGDat7H6SNDyS","external_urls":{"spotify":"https://open.spotify.com/album/5Uny0mkKiVGDat7H6SNDyS"},"name":"シーナリィ","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273b752bbaa0dd7578b736f7cc1","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02b752bbaa0dd7578b736f7cc1","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851b752bbaa0dd7578b736f7cc1","width":64}],"release_date":"1976","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/4V7Ate3UISn8cy06xnAprh"},"href":"https://api.spotify.com/v1/artists/4V7Ate3UISn8cy06xnAprh","id":"4V7Ate3UISn8cy06xnAprh","name":"Ryo Fukui","type":"artist","uri":"spotify:artist:4V7Ate3UISn8cy06xnAprh"}],"href":"https://api.spotify.com/v1/albums/5Uny0mkKiVGDat7H6SNDyS"},{"id":"3eBrvZnagmIDbdgse7cjI6","external_urls":{"spotify":"https://open.spotify.com/album/3eBrvZnagmIDbdgse7cjI6"},"name":"2112 (Remastered)","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273ae89fb5c4c8d65809e0c8ed4","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02ae89fb5c4c8d65809e0c8ed4","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851ae89fb5c4c8d65809e0c8ed4","width":64}],"release_date":"1976-04-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/2Hkut4rAAyrQxRdof7FVJq"},"href":"https://api.spotify.com/v1/artists/2Hkut4rAAyrQxRdof7FVJq","id":"2Hkut4rAAyrQxRdof7FVJq","name":"Rush","type":"artist","uri":"spotify:artist:2Hkut4rAAyrQxRdof7FVJq"}],"href":"https://api.spotify.com/v1/albums/3eBrvZnagmIDbdgse7cjI6"},{"id":"4B84Q4vYuoTPaxmFMYlbWD","external_urls":{"spotify":"https://open.spotify.com/album/4B84Q4vYuoTPaxmFMYlbWD"},"name":"A Trick of the Tail (2007 Remaster)","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b27358dccdc06dafe0d0dc170283","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e0258dccdc06dafe0d0dc170283","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d0000485158dccdc06dafe0d0dc170283","width":64}],"release_date":"1976-02-02","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/3CkvROUTQ6nRi9yQOcsB50"},"href":"https://api.spotify.com/v1/artists/3CkvROUTQ6nRi9yQOcsB50","id":"3CkvROUTQ6nRi9yQOcsB50","name":"Genesis","type":"artist","uri":"spotify:artist:3CkvROUTQ6nRi9yQOcsB50"}],"href":"https://api.spotify.com/v1/albums/4B84Q4vYuoTPaxmFMYlbWD"},{"id":"2KrmgVOpoF1ra00AHYOkIc","external_urls":{"spotify":"https://open.spotify.com/album/2KrmgVOpoF1ra00AHYOkIc"},"name":"Üdü wüdü (2020 Remastered Version)","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2731a84dbbaaaf0b6d0c29cd732","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e021a84dbbaaaf0b6d0c29cd732","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048511a84dbbaaaf0b6d0c29cd732","width":64}],"release_date":"1976-05-02","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/5JeJHWfm2ZxNd09hrIf7Zb"},"href":"https://api.spotify.com/v1/artists/5JeJHWfm2ZxNd09hrIf7Zb","id":"5JeJHWfm2ZxNd09hrIf7Zb","name":"Magma","type":"artist","uri":"spotify:artist:5JeJHWfm2ZxNd09hrIf7Zb"}],"href":"https://api.spotify.com/v1/albums/2KrmgVOpoF1ra00AHYOkIc"},{"id":"0RKTCLoNzadSG5fN1P2IOc","external_urls":{"spotify":"https://open.spotify.com/album/0RKTCLoNzadSG5fN1P2IOc"},"name":"Trenchtown Mix Up","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b27369e15ed73e1f42a7be18b8b1","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e0269e15ed73e1f42a7be18b8b1","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d0000485169e15ed73e1f42a7be18b8b1","width":64}],"release_date":"2000-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/3L5iYAziSDnuaHsSgbkcIP"},"href":"https://api.spotify.com/v1/artists/3L5iYAziSDnuaHsSgbkcIP","id":"3L5iYAziSDnuaHsSgbkcIP","name":"The Gladiators","type":"artist","uri":"spotify:artist:3L5iYAziSDnuaHsSgbkcIP"}],"href":"https://api.spotify.com/v1/albums/0RKTCLoNzadSG5fN1P2IOc"},{"id":"0lZL0rWuNlQK1THS78Awef","external_urls":{"spotify":"https://open.spotify.com/album/0lZL0rWuNlQK1THS78Awef"},"name":"Lee 'Scratch' Perry & The Upsetters: Super Ape & Return of the Super Ape","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2737951a45e4eb61be4fdd34aa3","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e027951a45e4eb61be4fdd34aa3","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048517951a45e4eb61be4fdd34aa3","width":64}],"release_date":"2012-11-26","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/1TsG4AumsMt1Tcq2nHpov9"},"href":"https://api.spotify.com/v1/artists/1TsG4AumsMt1Tcq2nHpov9","id":"1TsG4AumsMt1Tcq2nHpov9","name":"Lee \"Scratch\" Perry","type":"artist","uri":"spotify:artist:1TsG4AumsMt1Tcq2nHpov9"},{"external_urls":{"spotify":"https://open.spotify.com/artist/12CNljuN6DW9e5x61FS03b"},"href":"https://api.spotify.com/v1/artists/12CNljuN6DW9e5x61FS03b","id":"12CNljuN6DW9e5x61FS03b","name":"The Upsetters","type":"artist","uri":"spotify:artist:12CNljuN6DW9e5x61FS03b"}],"href":"https://api.spotify.com/v1/albums/0lZL0rWuNlQK1THS78Awef"},{"id":"2vTxBakVtAXupWd8I7vSDU","external_urls":{"spotify":"https://open.spotify.com/album/2vTxBakVtAXupWd8I7vSDU"},"name":"Radio Ethiopia","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273a921bf9fca48de6d1991d932","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02a921bf9fca48de6d1991d932","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851a921bf9fca48de6d1991d932","width":64}],"release_date":"1976-10-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/0vYkHhJ48Bs3jWcvZXvOrP"},"href":"https://api.spotify.com/v1/artists/0vYkHhJ48Bs3jWcvZXvOrP","id":"0vYkHhJ48Bs3jWcvZXvOrP","name":"Patti Smith","type":"artist","uri":"spotify:artist:0vYkHhJ48Bs3jWcvZXvOrP"}],"href":"https://api.spotify.com/v1/albums/2vTxBakVtAXupWd8I7vSDU"},{"id":"4Bw7hyzk37wBHptu4HglHV","external_urls":{"spotify":"https://open.spotify.com/album/4Bw7hyzk37wBHptu4HglHV"},"name":"War Ina Babylon","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b27316e6c892bf8743fce23ff247","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e0216e6c892bf8743fce23ff247","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d0000485116e6c892bf8743fce23ff247","width":64}],"release_date":"1976-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/1oqbNeqtKSD6AytDl6mHh0"},"href":"https://api.spotify.com/v1/artists/1oqbNeqtKSD6AytDl6mHh0","id":"1oqbNeqtKSD6AytDl6mHh0","name":"Max Romeo & The Upsetters","type":"artist","uri":"spotify:artist:1oqbNeqtKSD6AytDl6mHh0"}],"href":"https://api.spotify.com/v1/albums/4Bw7hyzk37wBHptu4HglHV"},{"id":"7BQPfd39YTObQGamGhDF7g","external_urls":{"spotify":"https://open.spotify.com/album/7BQPfd39YTObQGamGhDF7g"},"name":"SEYCHELLES","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2733174a9f789d91a20d3ef14aa","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e023174a9f789d91a20d3ef14aa","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048513174a9f789d91a20d3ef14aa","width":64}],"release_date":"1976","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/2Ex4vjQ6mSh5woTlDWto6d"},"href":"https://api.spotify.com/v1/artists/2Ex4vjQ6mSh5woTlDWto6d","id":"2Ex4vjQ6mSh5woTlDWto6d","name":"Masayoshi Takanaka","type":"artist","uri":"spotify:artist:2Ex4vjQ6mSh5woTlDWto6d"}],"href":"https://api.spotify.com/v1/albums/7BQPfd39YTObQGamGhDF7g"},{"id":"3e7TxckusgnC1AYnAqbl2z","external_urls":{"spotify":"https://open.spotify.com/album/3e7TxckusgnC1AYnAqbl2z"},"name":"Oxygène","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273d51e6d66cda008f80104c821","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02d51e6d66cda008f80104c821","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851d51e6d66cda008f80104c821","width":64}],"release_date":"1976-12-02","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/5MhLmv7GgyjbxGqiIGasvT"},"href":"https://api.spotify.com/v1/artists/5MhLmv7GgyjbxGqiIGasvT","id":"5MhLmv7GgyjbxGqiIGasvT","name":"Jean-Michel Jarre","type":"artist","uri":"spotify:artist:5MhLmv7GgyjbxGqiIGasvT"}],"href":"https://api.spotify.com/v1/albums/3e7TxckusgnC1AYnAqbl2z"},{"id":"0aNEUNR3LPUAJnADzFTQrN","external_urls":{"spotify":"https://open.spotify.com/album/0aNEUNR3LPUAJnADzFTQrN"},"name":"Picchio Dal Pozzo","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273bf44848a3f2a237f798570b6","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02bf44848a3f2a237f798570b6","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851bf44848a3f2a237f798570b6","width":64}],"release_date":"1976-09-08","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/0mwoJQcVk47ZjCvZ0U4J9j"},"href":"https://api.spotify.com/v1/artists/0mwoJQcVk47ZjCvZ0U4J9j","id":"0mwoJQcVk47ZjCvZ0U4J9j","name":"Picchio dal pozzo","type":"artist","uri":"spotify:artist:0mwoJQcVk47ZjCvZ0U4J9j"}],"href":"https://api.spotify.com/v1/albums/0aNEUNR3LPUAJnADzFTQrN"},{"id":"1q91XEhPVMf2HOjWMHW82d","external_urls":{"spotify":"https://open.spotify.com/album/1q91XEhPVMf2HOjWMHW82d"},"name":"Almoraima","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2735802d2e1394cf0fedc6106dd","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e025802d2e1394cf0fedc6106dd","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048515802d2e1394cf0fedc6106dd","width":64}],"release_date":"1976-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/3h8OjAdgYXVRoMZ8jFd6Uw"},"href":"https://api.spotify.com/v1/artists/3h8OjAdgYXVRoMZ8jFd6Uw","id":"3h8OjAdgYXVRoMZ8jFd6Uw","name":"Paco de Lucía","type":"artist","uri":"spotify:artist:3h8OjAdgYXVRoMZ8jFd6Uw"}],"href":"https://api.spotify.com/v1/albums/1q91XEhPVMf2HOjWMHW82d"},{"id":"01TXLHVDAd53Nr0YBSas2N","external_urls":{"spotify":"https://open.spotify.com/album/01TXLHVDAd53Nr0YBSas2N"},"name":"De Ti Depende","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273ff30d5a1a924f9503d74efbf","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02ff30d5a1a924f9503d74efbf","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851ff30d5a1a924f9503d74efbf","width":64}],"release_date":"1976-01-01","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/7opp16lU7VM3l2WBdGMYHP"},"href":"https://api.spotify.com/v1/artists/7opp16lU7VM3l2WBdGMYHP","id":"7opp16lU7VM3l2WBdGMYHP","name":"Héctor Lavoe","type":"artist","uri":"spotify:artist:7opp16lU7VM3l2WBdGMYHP"}],"href":"https://api.spotify.com/v1/albums/01TXLHVDAd53Nr0YBSas2N"},{"id":"4dMUtgiuiDgFMVHnb6iYfW","external_urls":{"spotify":"https://open.spotify.com/album/4dMUtgiuiDgFMVHnb6iYfW"},"name":"Ho Visto Anche Degli Zingari Felici","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273526665eedbea644cc6f596f4","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02526665eedbea644cc6f596f4","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851526665eedbea644cc6f596f4","width":64}],"release_date":"1976-04-07","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/6x919AU6p0wfsUAdWV6M5K"},"href":"https://api.spotify.com/v1/artists/6x919AU6p0wfsUAdWV6M5K","id":"6x919AU6p0wfsUAdWV6M5K","name":"Claudio Lolli","type":"artist","uri":"spotify:artist:6x919AU6p0wfsUAdWV6M5K"}],"href":"https://api.spotify.com/v1/albums/4dMUtgiuiDgFMVHnb6iYfW"},{"id":"3ToX9inehiXTv17hpaOyie","external_urls":{"spotify":"https://open.spotify.com/album/3ToX9inehiXTv17hpaOyie"},"name":"Ramones (2017 Remaster)","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b2730d7c0a6fdfce64964d26eda2","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e020d7c0a6fdfce64964d26eda2","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d000048510d7c0a6fdfce64964d26eda2","width":64}],"release_date":"1976-04-26","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/1co4F2pPNH8JjTutZkmgSm"},"href":"https://api.spotify.com/v1/artists/1co4F2pPNH8JjTutZkmgSm","id":"1co4F2pPNH8JjTutZkmgSm","name":"Ramones","type":"artist","uri":"spotify:artist:1co4F2pPNH8JjTutZkmgSm"}],"href":"https://api.spotify.com/v1/albums/3ToX9inehiXTv17hpaOyie"},{"id":"5O6YBiSMJZ4qB5opZCJHGH","external_urls":{"spotify":"https://open.spotify.com/album/5O6YBiSMJZ4qB5opZCJHGH"},"name":"La voglia la pazzia l'incoscienza l'allegria","images":[{"height":640,"url":"https://i.scdn.co/image/ab67616d0000b273c3b82154ee99de5e1a615cfc","width":640},{"height":300,"url":"https://i.scdn.co/image/ab67616d00001e02c3b82154ee99de5e1a615cfc","width":300},{"height":64,"url":"https://i.scdn.co/image/ab67616d00004851c3b82154ee99de5e1a615cfc","width":64}],"release_date":"1976-10-25","artists":[{"external_urls":{"spotify":"https://open.spotify.com/artist/4MR6tQyIrWK82b56cYPBDv"},"href":"https://api.spotify.com/v1/artists/4MR6tQyIrWK82b56cYPBDv","id":"4MR6tQyIrWK82b56cYPBDv","name":"Ornella Vanoni","type":"artist","uri":"spotify:artist:4MR6tQyIrWK82b56cYPBDv"},{"external_urls":{"spotify":"https://open.spotify.com/artist/7rPqFVgJYARiFsLDlN6W6y"},"href":"https://api.spotify.com/v1/artists/7rPqFVgJYARiFsLDlN6W6y","id":"7rPqFVgJYARiFsLDlN6W6y","name":"Toquinho","type":"artist","uri":"spotify:artist:7rPqFVgJYARiFsLDlN6W6y"},{"external_urls":{"spotify":"https://open.spotify.com/artist/5HlnN6xF2MD87KhGRmCRTd"},"href":"https://api.spotify.com/v1/artists/5HlnN6xF2MD87KhGRmCRTd","id":"5HlnN6xF2MD87KhGRmCRTd","name":"Vinícius de Moraes","type":"artist","uri":"spotify:artist:5HlnN6xF2MD87KhGRmCRTd"}],"href":"https://api.spotify.com/v1/albums/5O6YBiSMJZ4qB5opZCJHGH"}]
+[
+  {
+    "id": "2HVx2tiZnLX8xeaUthed1e",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2HVx2tiZnLX8xeaUthed1e"
+    },
+    "name": "Songs In The Key Of Life",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273492e424606db3574bf2d8823",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02492e424606db3574bf2d8823",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851492e424606db3574bf2d8823",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-09-28",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7guDJrEfX3qb6FEbdPA5qi"
+        },
+        "href": "https://api.spotify.com/v1/artists/7guDJrEfX3qb6FEbdPA5qi",
+        "id": "7guDJrEfX3qb6FEbdPA5qi",
+        "name": "Stevie Wonder",
+        "type": "artist",
+        "uri": "spotify:artist:7guDJrEfX3qb6FEbdPA5qi"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2HVx2tiZnLX8xeaUthed1e"
+  },
+  {
+    "id": "0MWrKayUshRuT8maG4ZAOU",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0MWrKayUshRuT8maG4ZAOU"
+    },
+    "name": "Station to Station (2016 Remaster)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2738f3cdfeac0678371b16f601d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e028f3cdfeac0678371b16f601d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048518f3cdfeac0678371b16f601d",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-01-23",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy"
+        },
+        "href": "https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy",
+        "id": "0oSGxfWSnnOXhD2fKuz2Gy",
+        "name": "David Bowie",
+        "type": "artist",
+        "uri": "spotify:artist:0oSGxfWSnnOXhD2fKuz2Gy"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0MWrKayUshRuT8maG4ZAOU"
+  },
+  {
+    "id": "0lbpA4dCZfaNhy6LZrGDvJ",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0lbpA4dCZfaNhy6LZrGDvJ"
+    },
+    "name": "El Jardin de los Presentes",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2734d52291a3146f5aea6013a69",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e024d52291a3146f5aea6013a69",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048514d52291a3146f5aea6013a69",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-05-27",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3FjdJbt6Myq32uv7P4owM1"
+        },
+        "href": "https://api.spotify.com/v1/artists/3FjdJbt6Myq32uv7P4owM1",
+        "id": "3FjdJbt6Myq32uv7P4owM1",
+        "name": "Invisible",
+        "type": "artist",
+        "uri": "spotify:artist:3FjdJbt6Myq32uv7P4owM1"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0lbpA4dCZfaNhy6LZrGDvJ"
+  },
+  {
+    "id": "0esHQqYklDPje00NUNq6py",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0esHQqYklDPje00NUNq6py"
+    },
+    "name": "Africa Brasil",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2732a3e351bbab659d55a2fadec",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e022a3e351bbab659d55a2fadec",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048512a3e351bbab659d55a2fadec",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5JYtpnUKxAzXfHEYpOeeit"
+        },
+        "href": "https://api.spotify.com/v1/artists/5JYtpnUKxAzXfHEYpOeeit",
+        "id": "5JYtpnUKxAzXfHEYpOeeit",
+        "name": "Jorge Ben Jor",
+        "type": "artist",
+        "uri": "spotify:artist:5JYtpnUKxAzXfHEYpOeeit"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0esHQqYklDPje00NUNq6py"
+  },
+  {
+    "id": "0fVPz60pAqX2bZkBsiUSES",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0fVPz60pAqX2bZkBsiUSES"
+    },
+    "name": "Rising",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273316b6e3bb1bc2ea005763a23",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02316b6e3bb1bc2ea005763a23",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851316b6e3bb1bc2ea005763a23",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6SLAMfhOi7UJI0fMztaK0m"
+        },
+        "href": "https://api.spotify.com/v1/artists/6SLAMfhOi7UJI0fMztaK0m",
+        "id": "6SLAMfhOi7UJI0fMztaK0m",
+        "name": "Rainbow",
+        "type": "artist",
+        "uri": "spotify:artist:6SLAMfhOi7UJI0fMztaK0m"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0fVPz60pAqX2bZkBsiUSES"
+  },
+  {
+    "id": "67dxz02xFC7twfFj8Tyh2H",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/67dxz02xFC7twfFj8Tyh2H"
+    },
+    "name": "The Royal Scam",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2733a40e2889c1bb03525849cb3",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e023a40e2889c1bb03525849cb3",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048513a40e2889c1bb03525849cb3",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6P7H3ai06vU1sGvdpBwDmE"
+        },
+        "href": "https://api.spotify.com/v1/artists/6P7H3ai06vU1sGvdpBwDmE",
+        "id": "6P7H3ai06vU1sGvdpBwDmE",
+        "name": "Steely Dan",
+        "type": "artist",
+        "uri": "spotify:artist:6P7H3ai06vU1sGvdpBwDmE"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/67dxz02xFC7twfFj8Tyh2H"
+  },
+  {
+    "id": "1T8usYsiGEMPMQOLFgJEbE",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1T8usYsiGEMPMQOLFgJEbE"
+    },
+    "name": "Desire",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2738e1a23e42f68260b7b274e09",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e028e1a23e42f68260b7b274e09",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048518e1a23e42f68260b7b274e09",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-01-16",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX"
+        },
+        "href": "https://api.spotify.com/v1/artists/74ASZWbe4lXaubB36ztrGX",
+        "id": "74ASZWbe4lXaubB36ztrGX",
+        "name": "Bob Dylan",
+        "type": "artist",
+        "uri": "spotify:artist:74ASZWbe4lXaubB36ztrGX"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1T8usYsiGEMPMQOLFgJEbE"
+  },
+  {
+    "id": "1c1rLO3NkLcGGBQvsp5mzu",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1c1rLO3NkLcGGBQvsp5mzu"
+    },
+    "name": "Cartola (1976)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2736819a848cb1eee4578aa7f6b",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e026819a848cb1eee4578aa7f6b",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048516819a848cb1eee4578aa7f6b",
+        "width": 64
+      }
+    ],
+    "release_date": "2014-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0RSWHhBUwW7lhCqXqxKxWN"
+        },
+        "href": "https://api.spotify.com/v1/artists/0RSWHhBUwW7lhCqXqxKxWN",
+        "id": "0RSWHhBUwW7lhCqXqxKxWN",
+        "name": "Cartola",
+        "type": "artist",
+        "uri": "spotify:artist:0RSWHhBUwW7lhCqXqxKxWN"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1c1rLO3NkLcGGBQvsp5mzu"
+  },
+  {
+    "id": "6D7LIAfyX9u8ZtZhOnRfUp",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/6D7LIAfyX9u8ZtZhOnRfUp"
+    },
+    "name": "Sad Wings Of Destiny (Remastered)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273c5673464116e709c42ab5c1e",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c5673464116e709c42ab5c1e",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851c5673464116e709c42ab5c1e",
+        "width": 64
+      }
+    ],
+    "release_date": "1976",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2tRsMl4eGxwoNabM08Dm4I"
+        },
+        "href": "https://api.spotify.com/v1/artists/2tRsMl4eGxwoNabM08Dm4I",
+        "id": "2tRsMl4eGxwoNabM08Dm4I",
+        "name": "Judas Priest",
+        "type": "artist",
+        "uri": "spotify:artist:2tRsMl4eGxwoNabM08Dm4I"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/6D7LIAfyX9u8ZtZhOnRfUp"
+  },
+  {
+    "id": "4Pj4zPHuEUPtfacdeTlqUG",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4Pj4zPHuEUPtfacdeTlqUG"
+    },
+    "name": "Mother Earth's Plantasia",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273a941bb5225f09137f035e4f3",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02a941bb5225f09137f035e4f3",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851a941bb5225f09137f035e4f3",
+        "width": 64
+      }
+    ],
+    "release_date": "1976",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0WmzT6tMLhdST5BfYagbha"
+        },
+        "href": "https://api.spotify.com/v1/artists/0WmzT6tMLhdST5BfYagbha",
+        "id": "0WmzT6tMLhdST5BfYagbha",
+        "name": "Mort Garson",
+        "type": "artist",
+        "uri": "spotify:artist:0WmzT6tMLhdST5BfYagbha"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4Pj4zPHuEUPtfacdeTlqUG"
+  },
+  {
+    "id": "4JgtJIcF1tOQC91OC1mt5f",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4JgtJIcF1tOQC91OC1mt5f"
+    },
+    "name": "Moonmadness",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273af1f63ab36a87d8465ace90e",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02af1f63ab36a87d8465ace90e",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851af1f63ab36a87d8465ace90e",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-05-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3Uz6jx81OY2J5K8Z4wmy2P"
+        },
+        "href": "https://api.spotify.com/v1/artists/3Uz6jx81OY2J5K8Z4wmy2P",
+        "id": "3Uz6jx81OY2J5K8Z4wmy2P",
+        "name": "Camel",
+        "type": "artist",
+        "uri": "spotify:artist:3Uz6jx81OY2J5K8Z4wmy2P"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4JgtJIcF1tOQC91OC1mt5f"
+  },
+  {
+    "id": "2TCSZn8ArTdDhXYhsTNBPm",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2TCSZn8ArTdDhXYhsTNBPm"
+    },
+    "name": "Jailbreak",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273777fc0546dfeff4982e16cd9",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02777fc0546dfeff4982e16cd9",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851777fc0546dfeff4982e16cd9",
+        "width": 64
+      }
+    ],
+    "release_date": "1976",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6biWAmrHyiMkX49LkycGqQ"
+        },
+        "href": "https://api.spotify.com/v1/artists/6biWAmrHyiMkX49LkycGqQ",
+        "id": "6biWAmrHyiMkX49LkycGqQ",
+        "name": "Thin Lizzy",
+        "type": "artist",
+        "uri": "spotify:artist:6biWAmrHyiMkX49LkycGqQ"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2TCSZn8ArTdDhXYhsTNBPm"
+  },
+  {
+    "id": "5BPCP7WSGBG4br2o4WRmd8",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5BPCP7WSGBG4br2o4WRmd8"
+    },
+    "name": "The Modern Lovers (Expanded Version)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27309ded8fd464cf38a3bd010c3",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0209ded8fd464cf38a3bd010c3",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485109ded8fd464cf38a3bd010c3",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-09-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2eRdPaLHWAL4d1WcNUO9Vz"
+        },
+        "href": "https://api.spotify.com/v1/artists/2eRdPaLHWAL4d1WcNUO9Vz",
+        "id": "2eRdPaLHWAL4d1WcNUO9Vz",
+        "name": "The Modern Lovers",
+        "type": "artist",
+        "uri": "spotify:artist:2eRdPaLHWAL4d1WcNUO9Vz"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5BPCP7WSGBG4br2o4WRmd8"
+  },
+  {
+    "id": "6eOuqhCfrTPp1H0YbQ9PmL",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/6eOuqhCfrTPp1H0YbQ9PmL"
+    },
+    "name": "Beethoven: Symphonies Nos.5 & 7",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2733f26be8a62aa6532c2ed93f2",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e023f26be8a62aa6532c2ed93f2",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048513f26be8a62aa6532c2ed93f2",
+        "width": 64
+      }
+    ],
+    "release_date": "1995-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2wOqMjp9TyABvtHdOSOTUS"
+        },
+        "href": "https://api.spotify.com/v1/artists/2wOqMjp9TyABvtHdOSOTUS",
+        "id": "2wOqMjp9TyABvtHdOSOTUS",
+        "name": "Ludwig van Beethoven",
+        "type": "artist",
+        "uri": "spotify:artist:2wOqMjp9TyABvtHdOSOTUS"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/003f4bk13c6Q3gAUXv7dGJ"
+        },
+        "href": "https://api.spotify.com/v1/artists/003f4bk13c6Q3gAUXv7dGJ",
+        "id": "003f4bk13c6Q3gAUXv7dGJ",
+        "name": "Wiener Philharmoniker",
+        "type": "artist",
+        "uri": "spotify:artist:003f4bk13c6Q3gAUXv7dGJ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6aL4ovuNuBg7rmrPjOTIUN"
+        },
+        "href": "https://api.spotify.com/v1/artists/6aL4ovuNuBg7rmrPjOTIUN",
+        "id": "6aL4ovuNuBg7rmrPjOTIUN",
+        "name": "Carlos Kleiber",
+        "type": "artist",
+        "uri": "spotify:artist:6aL4ovuNuBg7rmrPjOTIUN"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/6eOuqhCfrTPp1H0YbQ9PmL"
+  },
+  {
+    "id": "22CD3BpSvmUFK2Rf66bQcX",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/22CD3BpSvmUFK2Rf66bQcX"
+    },
+    "name": "Dois Momentos - Vol.2",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273a30992d2563cf35bf5a6d771",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02a30992d2563cf35bf5a6d771",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851a30992d2563cf35bf5a6d771",
+        "width": 64
+      }
+    ],
+    "release_date": "1978",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1gIa65d5ICT2xVWiUJ3u27"
+        },
+        "href": "https://api.spotify.com/v1/artists/1gIa65d5ICT2xVWiUJ3u27",
+        "id": "1gIa65d5ICT2xVWiUJ3u27",
+        "name": "Tom Zé",
+        "type": "artist",
+        "uri": "spotify:artist:1gIa65d5ICT2xVWiUJ3u27"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/22CD3BpSvmUFK2Rf66bQcX"
+  },
+  {
+    "id": "0EM4Q0JUVZ8FNqmT5CI2E7",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0EM4Q0JUVZ8FNqmT5CI2E7"
+    },
+    "name": "I Want You",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273076df76a34dfb290c4893850",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02076df76a34dfb290c4893850",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851076df76a34dfb290c4893850",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-03-16",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3koiLjNrgRTNbOwViDipeA"
+        },
+        "href": "https://api.spotify.com/v1/artists/3koiLjNrgRTNbOwViDipeA",
+        "id": "3koiLjNrgRTNbOwViDipeA",
+        "name": "Marvin Gaye",
+        "type": "artist",
+        "uri": "spotify:artist:3koiLjNrgRTNbOwViDipeA"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0EM4Q0JUVZ8FNqmT5CI2E7"
+  },
+  {
+    "id": "2FJaS5kootX9CkS4DxL2eW",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2FJaS5kootX9CkS4DxL2eW"
+    },
+    "name": "Still Life",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273223d126ac8d37456910cd61b",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02223d126ac8d37456910cd61b",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851223d126ac8d37456910cd61b",
+        "width": 64
+      }
+    ],
+    "release_date": "1976",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
+        },
+        "href": "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
+        "id": "02frazNrWgZCxUEf4UTfHt",
+        "name": "Van Der Graaf Generator",
+        "type": "artist",
+        "uri": "spotify:artist:02frazNrWgZCxUEf4UTfHt"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2FJaS5kootX9CkS4DxL2eW"
+  },
+  {
+    "id": "4bcGQUfEhpB3KfutM2L6XQ",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4bcGQUfEhpB3KfutM2L6XQ"
+    },
+    "name": "Geraes",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2736cad3239a79ec88cfb0addbf",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e026cad3239a79ec88cfb0addbf",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048516cad3239a79ec88cfb0addbf",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-05-03",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3Bnq7jiU506HcPjRgQ43TM"
+        },
+        "href": "https://api.spotify.com/v1/artists/3Bnq7jiU506HcPjRgQ43TM",
+        "id": "3Bnq7jiU506HcPjRgQ43TM",
+        "name": "Milton Nascimento",
+        "type": "artist",
+        "uri": "spotify:artist:3Bnq7jiU506HcPjRgQ43TM"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4bcGQUfEhpB3KfutM2L6XQ"
+  },
+  {
+    "id": "6LOAcxawVW0Q56iJTczw3r",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/6LOAcxawVW0Q56iJTczw3r"
+    },
+    "name": "Alucinação",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273fdcf7a2d9c3da91b702d706d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02fdcf7a2d9c3da91b702d706d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851fdcf7a2d9c3da91b702d706d",
+        "width": 64
+      }
+    ],
+    "release_date": "1976",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0C8HhyOa7zfzIl3gmPjY52"
+        },
+        "href": "https://api.spotify.com/v1/artists/0C8HhyOa7zfzIl3gmPjY52",
+        "id": "0C8HhyOa7zfzIl3gmPjY52",
+        "name": "Belchior",
+        "type": "artist",
+        "uri": "spotify:artist:0C8HhyOa7zfzIl3gmPjY52"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/6LOAcxawVW0Q56iJTczw3r"
+  },
+  {
+    "id": "1RX86ZDhjxJGcqUAXgJdVU",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1RX86ZDhjxJGcqUAXgJdVU"
+    },
+    "name": "Messiaen: Quatuor pour la fin du Temps",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2735beb2766dd2d1c6408f8d89a",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e025beb2766dd2d1c6408f8d89a",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048515beb2766dd2d1c6408f8d89a",
+        "width": 64
+      }
+    ],
+    "release_date": "1976",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6CS9O2pE67oq44GZuBEBuD"
+        },
+        "href": "https://api.spotify.com/v1/artists/6CS9O2pE67oq44GZuBEBuD",
+        "id": "6CS9O2pE67oq44GZuBEBuD",
+        "name": "Olivier Messiaen",
+        "type": "artist",
+        "uri": "spotify:artist:6CS9O2pE67oq44GZuBEBuD"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/66hSwkXgWLCH2aTcFuyH4V"
+        },
+        "href": "https://api.spotify.com/v1/artists/66hSwkXgWLCH2aTcFuyH4V",
+        "id": "66hSwkXgWLCH2aTcFuyH4V",
+        "name": "Tashi",
+        "type": "artist",
+        "uri": "spotify:artist:66hSwkXgWLCH2aTcFuyH4V"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1RX86ZDhjxJGcqUAXgJdVU"
+  },
+  {
+    "id": "4uXadaCsBVwLK6s5V14Kjw",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4uXadaCsBVwLK6s5V14Kjw"
+    },
+    "name": "La Máquina De Hacer Pájaros",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2732bafb74d62346afeaf462553",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e022bafb74d62346afeaf462553",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048512bafb74d62346afeaf462553",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-04-29",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/40c6EALi3nTmNeOAS3Eu5h"
+        },
+        "href": "https://api.spotify.com/v1/artists/40c6EALi3nTmNeOAS3Eu5h",
+        "id": "40c6EALi3nTmNeOAS3Eu5h",
+        "name": "La Maquina De Hacer Pájaros",
+        "type": "artist",
+        "uri": "spotify:artist:40c6EALi3nTmNeOAS3Eu5h"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4uXadaCsBVwLK6s5V14Kjw"
+  },
+  {
+    "id": "5xPMXlIf0QxtGi47SsL3lu",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5xPMXlIf0QxtGi47SsL3lu"
+    },
+    "name": "The Afro-Eurasian Eclipse",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2738f29c1fc2b8207a5e0999604",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e028f29c1fc2b8207a5e0999604",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048518f29c1fc2b8207a5e0999604",
+        "width": 64
+      }
+    ],
+    "release_date": "1975-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A"
+        },
+        "href": "https://api.spotify.com/v1/artists/4F7Q5NV6h5TSwCainz8S5A",
+        "id": "4F7Q5NV6h5TSwCainz8S5A",
+        "name": "Duke Ellington",
+        "type": "artist",
+        "uri": "spotify:artist:4F7Q5NV6h5TSwCainz8S5A"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5xPMXlIf0QxtGi47SsL3lu"
+  },
+  {
+    "id": "7a35UzxXYuKQGMGImyB0Un",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/7a35UzxXYuKQGMGImyB0Un"
+    },
+    "name": "A New World Record",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273ee5b1065368b0981e3cb0a33",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02ee5b1065368b0981e3cb0a33",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851ee5b1065368b0981e3cb0a33",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-09-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7jefIIksOi1EazgRTfW2Pk"
+        },
+        "href": "https://api.spotify.com/v1/artists/7jefIIksOi1EazgRTfW2Pk",
+        "id": "7jefIIksOi1EazgRTfW2Pk",
+        "name": "Electric Light Orchestra",
+        "type": "artist",
+        "uri": "spotify:artist:7jefIIksOi1EazgRTfW2Pk"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/7a35UzxXYuKQGMGImyB0Un"
+  },
+  {
+    "id": "5Uny0mkKiVGDat7H6SNDyS",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5Uny0mkKiVGDat7H6SNDyS"
+    },
+    "name": "シーナリィ",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273b752bbaa0dd7578b736f7cc1",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02b752bbaa0dd7578b736f7cc1",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851b752bbaa0dd7578b736f7cc1",
+        "width": 64
+      }
+    ],
+    "release_date": "1976",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4V7Ate3UISn8cy06xnAprh"
+        },
+        "href": "https://api.spotify.com/v1/artists/4V7Ate3UISn8cy06xnAprh",
+        "id": "4V7Ate3UISn8cy06xnAprh",
+        "name": "Ryo Fukui",
+        "type": "artist",
+        "uri": "spotify:artist:4V7Ate3UISn8cy06xnAprh"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5Uny0mkKiVGDat7H6SNDyS"
+  },
+  {
+    "id": "3eBrvZnagmIDbdgse7cjI6",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3eBrvZnagmIDbdgse7cjI6"
+    },
+    "name": "2112 (Remastered)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273ae89fb5c4c8d65809e0c8ed4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02ae89fb5c4c8d65809e0c8ed4",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851ae89fb5c4c8d65809e0c8ed4",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-04-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2Hkut4rAAyrQxRdof7FVJq"
+        },
+        "href": "https://api.spotify.com/v1/artists/2Hkut4rAAyrQxRdof7FVJq",
+        "id": "2Hkut4rAAyrQxRdof7FVJq",
+        "name": "Rush",
+        "type": "artist",
+        "uri": "spotify:artist:2Hkut4rAAyrQxRdof7FVJq"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3eBrvZnagmIDbdgse7cjI6"
+  },
+  {
+    "id": "4B84Q4vYuoTPaxmFMYlbWD",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4B84Q4vYuoTPaxmFMYlbWD"
+    },
+    "name": "A Trick of the Tail (2007 Remaster)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27358dccdc06dafe0d0dc170283",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0258dccdc06dafe0d0dc170283",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485158dccdc06dafe0d0dc170283",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-02-02",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3CkvROUTQ6nRi9yQOcsB50"
+        },
+        "href": "https://api.spotify.com/v1/artists/3CkvROUTQ6nRi9yQOcsB50",
+        "id": "3CkvROUTQ6nRi9yQOcsB50",
+        "name": "Genesis",
+        "type": "artist",
+        "uri": "spotify:artist:3CkvROUTQ6nRi9yQOcsB50"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4B84Q4vYuoTPaxmFMYlbWD"
+  },
+  {
+    "id": "2KrmgVOpoF1ra00AHYOkIc",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2KrmgVOpoF1ra00AHYOkIc"
+    },
+    "name": "Üdü wüdü (2020 Remastered Version)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2731a84dbbaaaf0b6d0c29cd732",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e021a84dbbaaaf0b6d0c29cd732",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048511a84dbbaaaf0b6d0c29cd732",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-05-02",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5JeJHWfm2ZxNd09hrIf7Zb"
+        },
+        "href": "https://api.spotify.com/v1/artists/5JeJHWfm2ZxNd09hrIf7Zb",
+        "id": "5JeJHWfm2ZxNd09hrIf7Zb",
+        "name": "Magma",
+        "type": "artist",
+        "uri": "spotify:artist:5JeJHWfm2ZxNd09hrIf7Zb"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2KrmgVOpoF1ra00AHYOkIc"
+  },
+  {
+    "id": "0RKTCLoNzadSG5fN1P2IOc",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0RKTCLoNzadSG5fN1P2IOc"
+    },
+    "name": "Trenchtown Mix Up",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27369e15ed73e1f42a7be18b8b1",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0269e15ed73e1f42a7be18b8b1",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485169e15ed73e1f42a7be18b8b1",
+        "width": 64
+      }
+    ],
+    "release_date": "2000-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3L5iYAziSDnuaHsSgbkcIP"
+        },
+        "href": "https://api.spotify.com/v1/artists/3L5iYAziSDnuaHsSgbkcIP",
+        "id": "3L5iYAziSDnuaHsSgbkcIP",
+        "name": "The Gladiators",
+        "type": "artist",
+        "uri": "spotify:artist:3L5iYAziSDnuaHsSgbkcIP"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0RKTCLoNzadSG5fN1P2IOc"
+  },
+  {
+    "id": "0lZL0rWuNlQK1THS78Awef",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0lZL0rWuNlQK1THS78Awef"
+    },
+    "name": "Lee 'Scratch' Perry & The Upsetters: Super Ape & Return of the Super Ape",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2737951a45e4eb61be4fdd34aa3",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e027951a45e4eb61be4fdd34aa3",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048517951a45e4eb61be4fdd34aa3",
+        "width": 64
+      }
+    ],
+    "release_date": "2012-11-26",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1TsG4AumsMt1Tcq2nHpov9"
+        },
+        "href": "https://api.spotify.com/v1/artists/1TsG4AumsMt1Tcq2nHpov9",
+        "id": "1TsG4AumsMt1Tcq2nHpov9",
+        "name": "Lee \"Scratch\" Perry",
+        "type": "artist",
+        "uri": "spotify:artist:1TsG4AumsMt1Tcq2nHpov9"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/12CNljuN6DW9e5x61FS03b"
+        },
+        "href": "https://api.spotify.com/v1/artists/12CNljuN6DW9e5x61FS03b",
+        "id": "12CNljuN6DW9e5x61FS03b",
+        "name": "The Upsetters",
+        "type": "artist",
+        "uri": "spotify:artist:12CNljuN6DW9e5x61FS03b"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0lZL0rWuNlQK1THS78Awef"
+  },
+  {
+    "id": "2vTxBakVtAXupWd8I7vSDU",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/2vTxBakVtAXupWd8I7vSDU"
+    },
+    "name": "Radio Ethiopia",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273a921bf9fca48de6d1991d932",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02a921bf9fca48de6d1991d932",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851a921bf9fca48de6d1991d932",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-10-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0vYkHhJ48Bs3jWcvZXvOrP"
+        },
+        "href": "https://api.spotify.com/v1/artists/0vYkHhJ48Bs3jWcvZXvOrP",
+        "id": "0vYkHhJ48Bs3jWcvZXvOrP",
+        "name": "Patti Smith",
+        "type": "artist",
+        "uri": "spotify:artist:0vYkHhJ48Bs3jWcvZXvOrP"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/2vTxBakVtAXupWd8I7vSDU"
+  },
+  {
+    "id": "4Bw7hyzk37wBHptu4HglHV",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4Bw7hyzk37wBHptu4HglHV"
+    },
+    "name": "War Ina Babylon",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27316e6c892bf8743fce23ff247",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0216e6c892bf8743fce23ff247",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485116e6c892bf8743fce23ff247",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1oqbNeqtKSD6AytDl6mHh0"
+        },
+        "href": "https://api.spotify.com/v1/artists/1oqbNeqtKSD6AytDl6mHh0",
+        "id": "1oqbNeqtKSD6AytDl6mHh0",
+        "name": "Max Romeo & The Upsetters",
+        "type": "artist",
+        "uri": "spotify:artist:1oqbNeqtKSD6AytDl6mHh0"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4Bw7hyzk37wBHptu4HglHV"
+  },
+  {
+    "id": "7BQPfd39YTObQGamGhDF7g",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/7BQPfd39YTObQGamGhDF7g"
+    },
+    "name": "SEYCHELLES",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2733174a9f789d91a20d3ef14aa",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e023174a9f789d91a20d3ef14aa",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048513174a9f789d91a20d3ef14aa",
+        "width": 64
+      }
+    ],
+    "release_date": "1976",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2Ex4vjQ6mSh5woTlDWto6d"
+        },
+        "href": "https://api.spotify.com/v1/artists/2Ex4vjQ6mSh5woTlDWto6d",
+        "id": "2Ex4vjQ6mSh5woTlDWto6d",
+        "name": "Masayoshi Takanaka",
+        "type": "artist",
+        "uri": "spotify:artist:2Ex4vjQ6mSh5woTlDWto6d"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/7BQPfd39YTObQGamGhDF7g"
+  },
+  {
+    "id": "3e7TxckusgnC1AYnAqbl2z",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3e7TxckusgnC1AYnAqbl2z"
+    },
+    "name": "Oxygène",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273d51e6d66cda008f80104c821",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02d51e6d66cda008f80104c821",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851d51e6d66cda008f80104c821",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-12-02",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5MhLmv7GgyjbxGqiIGasvT"
+        },
+        "href": "https://api.spotify.com/v1/artists/5MhLmv7GgyjbxGqiIGasvT",
+        "id": "5MhLmv7GgyjbxGqiIGasvT",
+        "name": "Jean-Michel Jarre",
+        "type": "artist",
+        "uri": "spotify:artist:5MhLmv7GgyjbxGqiIGasvT"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3e7TxckusgnC1AYnAqbl2z"
+  },
+  {
+    "id": "0aNEUNR3LPUAJnADzFTQrN",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0aNEUNR3LPUAJnADzFTQrN"
+    },
+    "name": "Picchio Dal Pozzo",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273bf44848a3f2a237f798570b6",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02bf44848a3f2a237f798570b6",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851bf44848a3f2a237f798570b6",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-09-08",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0mwoJQcVk47ZjCvZ0U4J9j"
+        },
+        "href": "https://api.spotify.com/v1/artists/0mwoJQcVk47ZjCvZ0U4J9j",
+        "id": "0mwoJQcVk47ZjCvZ0U4J9j",
+        "name": "Picchio dal pozzo",
+        "type": "artist",
+        "uri": "spotify:artist:0mwoJQcVk47ZjCvZ0U4J9j"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/0aNEUNR3LPUAJnADzFTQrN"
+  },
+  {
+    "id": "1q91XEhPVMf2HOjWMHW82d",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/1q91XEhPVMf2HOjWMHW82d"
+    },
+    "name": "Almoraima",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2735802d2e1394cf0fedc6106dd",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e025802d2e1394cf0fedc6106dd",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048515802d2e1394cf0fedc6106dd",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3h8OjAdgYXVRoMZ8jFd6Uw"
+        },
+        "href": "https://api.spotify.com/v1/artists/3h8OjAdgYXVRoMZ8jFd6Uw",
+        "id": "3h8OjAdgYXVRoMZ8jFd6Uw",
+        "name": "Paco de Lucía",
+        "type": "artist",
+        "uri": "spotify:artist:3h8OjAdgYXVRoMZ8jFd6Uw"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/1q91XEhPVMf2HOjWMHW82d"
+  },
+  {
+    "id": "01TXLHVDAd53Nr0YBSas2N",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/01TXLHVDAd53Nr0YBSas2N"
+    },
+    "name": "De Ti Depende",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273ff30d5a1a924f9503d74efbf",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02ff30d5a1a924f9503d74efbf",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851ff30d5a1a924f9503d74efbf",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-01-01",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7opp16lU7VM3l2WBdGMYHP"
+        },
+        "href": "https://api.spotify.com/v1/artists/7opp16lU7VM3l2WBdGMYHP",
+        "id": "7opp16lU7VM3l2WBdGMYHP",
+        "name": "Héctor Lavoe",
+        "type": "artist",
+        "uri": "spotify:artist:7opp16lU7VM3l2WBdGMYHP"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/01TXLHVDAd53Nr0YBSas2N"
+  },
+  {
+    "id": "4dMUtgiuiDgFMVHnb6iYfW",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/4dMUtgiuiDgFMVHnb6iYfW"
+    },
+    "name": "Ho Visto Anche Degli Zingari Felici",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273526665eedbea644cc6f596f4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02526665eedbea644cc6f596f4",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851526665eedbea644cc6f596f4",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-04-07",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6x919AU6p0wfsUAdWV6M5K"
+        },
+        "href": "https://api.spotify.com/v1/artists/6x919AU6p0wfsUAdWV6M5K",
+        "id": "6x919AU6p0wfsUAdWV6M5K",
+        "name": "Claudio Lolli",
+        "type": "artist",
+        "uri": "spotify:artist:6x919AU6p0wfsUAdWV6M5K"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/4dMUtgiuiDgFMVHnb6iYfW"
+  },
+  {
+    "id": "3ToX9inehiXTv17hpaOyie",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/3ToX9inehiXTv17hpaOyie"
+    },
+    "name": "Ramones (2017 Remaster)",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2730d7c0a6fdfce64964d26eda2",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e020d7c0a6fdfce64964d26eda2",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048510d7c0a6fdfce64964d26eda2",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-04-26",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1co4F2pPNH8JjTutZkmgSm"
+        },
+        "href": "https://api.spotify.com/v1/artists/1co4F2pPNH8JjTutZkmgSm",
+        "id": "1co4F2pPNH8JjTutZkmgSm",
+        "name": "Ramones",
+        "type": "artist",
+        "uri": "spotify:artist:1co4F2pPNH8JjTutZkmgSm"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/3ToX9inehiXTv17hpaOyie"
+  },
+  {
+    "id": "5O6YBiSMJZ4qB5opZCJHGH",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/5O6YBiSMJZ4qB5opZCJHGH"
+    },
+    "name": "La voglia la pazzia l'incoscienza l'allegria",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273c3b82154ee99de5e1a615cfc",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c3b82154ee99de5e1a615cfc",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851c3b82154ee99de5e1a615cfc",
+        "width": 64
+      }
+    ],
+    "release_date": "1976-10-25",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4MR6tQyIrWK82b56cYPBDv"
+        },
+        "href": "https://api.spotify.com/v1/artists/4MR6tQyIrWK82b56cYPBDv",
+        "id": "4MR6tQyIrWK82b56cYPBDv",
+        "name": "Ornella Vanoni",
+        "type": "artist",
+        "uri": "spotify:artist:4MR6tQyIrWK82b56cYPBDv"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7rPqFVgJYARiFsLDlN6W6y"
+        },
+        "href": "https://api.spotify.com/v1/artists/7rPqFVgJYARiFsLDlN6W6y",
+        "id": "7rPqFVgJYARiFsLDlN6W6y",
+        "name": "Toquinho",
+        "type": "artist",
+        "uri": "spotify:artist:7rPqFVgJYARiFsLDlN6W6y"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5HlnN6xF2MD87KhGRmCRTd"
+        },
+        "href": "https://api.spotify.com/v1/artists/5HlnN6xF2MD87KhGRmCRTd",
+        "id": "5HlnN6xF2MD87KhGRmCRTd",
+        "name": "Vinícius de Moraes",
+        "type": "artist",
+        "uri": "spotify:artist:5HlnN6xF2MD87KhGRmCRTd"
+      }
+    ],
+    "href": "https://api.spotify.com/v1/albums/5O6YBiSMJZ4qB5opZCJHGH"
+  }
+]

@@ -21,10 +21,11 @@ const EditListResults = ({
       <div className="search-results">
         {listData &&
           listData.map((item: Record<any, any>, index: number) => {
+            const key = item.id + index.toString();
             return (
               <div
                 className="album-envelope"
-                key={item.id}
+                key={key}
                 draggable={editMode}
                 onDrop={(e) => {
                   handleDrag && handleDrag.dragDrop(e, index);
