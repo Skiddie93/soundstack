@@ -60,6 +60,7 @@ const StackListContext = ({ contextMenuRef, albumData }: StackListProps) => {
     <div ref={contextMenuRef} className="context-menu">
       <div className="context-menu-wrapper">
         <div className="lists">
+          <div className="heading">Your charts</div>
           <ul>
             {lists.map((item: any) => {
               const occupied = isInList(item.id, inLists);
@@ -85,7 +86,10 @@ const StackListContext = ({ contextMenuRef, albumData }: StackListProps) => {
             placeholder=""
             type="text"
           />
-          <IoMdAdd onMouseDown={() => createList(listName)} />
+          <div className="add-chart">
+            <span> New chart</span>
+            <IoMdAdd onMouseDown={() => createList(listName)} />
+          </div>
         </div>
       </div>
     </div>
