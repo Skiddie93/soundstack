@@ -1,7 +1,7 @@
 "use client";
 import { chartRequest } from "@/services/dbCharts";
 import { useEffect, useState } from "react";
-import EditListResults from "@/components/EditListResults";
+import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";
 import EditListNames from "@/components/EditListNames";
 import { saveDivAsImage } from "@/utils/screenPhoto";
@@ -40,7 +40,7 @@ const Page = ({ params }: PageProps) => {
                 </div>
               </div>
               <div className="chart-wrapper">
-                <EditListResults setAlbum={setAlbum} listData={chart.albums} />
+                <ListResults setAlbum={setAlbum} listData={chart.albums} />
                 <EditListNames setAlbum={setAlbum} albums={chart.albums} />
               </div>
             </>

@@ -1,73 +1,72 @@
-import { useEffect, useState, Dispatch, SetStateAction } from "react";
-import queryData from "@/utils/querySearch";
+import { Dispatch, SetStateAction, useState } from "react";
 import AlbumItem from "./AlbumItem";
-interface ListResultsPorps {
-  searchData: Record<any, any>;
-  setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
+
+interface LoadingPorps {
+  urlNext: string;
+  searchInit: (urlNext: string) => void;
 }
 
-const ListResults = ({ searchData, setAlbum }: ListResultsPorps) => {
-  const [items, setItems] = useState(searchData.albums.items);
-  const [urlNext, setUrlNext] = useState(searchData.albums.next);
-  const [loading, setLodaing] = useState(false);
+interface ListResultsPorps {
+  listData: Record<any, any>;
+  searchInit?: (urlNext: string) => void;
+  setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
+  handleDrag?: any;
+  editMode?: boolean;
+  extraClass?: string;
+  urlNext?: string;
+}
 
-  useEffect(() => {
-    const usableData = searchData.albums.items.map(
-      (item: Record<string, any>) => {
-        return {
-          id: item.id,
-          external_urls: { spotify: item.external_urls.spotify },
-          name: item.name,
-          images: item.images,
-          release_date: item.release_date,
-          artists: item.artists,
-          href: item.href,
-        };
-      }
+const ListResults = ({
+  listData,
+  searchInit,
+  setAlbum,
+  handleDrag,
+  editMode,
+  extraClass,
+  urlNext,
+}: ListResultsPorps) => {
+  const Loading = ({ urlNext, searchInit }: LoadingPorps) => {
+    return (
+      <div className="load-more">
+          <div onClick={() => searchInit(urlNext)} className="button">
+            Load more
+          </div>
+      </div>
     );
-
-    setItems(usableData);
-    setUrlNext(searchData.albums.next);
-  }, [searchData]);
-
-  const fetchNextBatch = async () => {
-    setLodaing(true);
-    const newBatch = await queryData(urlNext);
-
-    if (!newBatch) return;
-    const newItems = newBatch.albums.items;
-    const newNextUrl = newBatch.albums.next;
-    setItems((prev: []) => [...prev, ...newItems]);
-
-    if (newItems.length > 0) {
-      setUrlNext((prev: string) => newNextUrl);
-    } else {
-      setUrlNext(false);
-    }
-    setLodaing(false);
   };
 
   return (
-    <div>
-      {items.length ? (
-        <div className="search-results">
-          {items.map((item: Record<any, any>, i: number) => {
-            const key = item.id + i.toString();
-            return <AlbumItem key={key} setAlbum={setAlbum} albumData={item} />;
-          })}
-          <div className="load-more">
-            {!loading && urlNext && (
-              <div onClick={fetchNextBatch} className="button">
-                Load more
+    <div className={extraClass ? extraClass + " album-list" : "album-list"}>
+      <div className="search-results">
+        {listData &&
+          listData.map((item: Record<any, any>, index: number) => {
+            const key = item.id + index.toString();
+            return (
+              <div
+                className="album-envelope"
+                key={key}
+                draggable={editMode}
+                onDrop={(e) => {
+                  handleDrag && handleDrag.dragDrop(e, index);
+                }}
+                onDragOver={(e) => {
+                  handleDrag && handleDrag.dragOver(e);
+                }}
+                onDragStart={(e) => {
+                  handleDrag && handleDrag.dragStart(e, index);
+                }}
+              >
+                <AlbumItem
+                  editMode={editMode}
+                  setAlbum={setAlbum}
+                  albumData={item}
+                />
               </div>
-            )}
-          </div>
-        </div>
-      ) : (
-        <div className="no-results">
-          <p> No albums found</p>
-        </div>
-      )}
+            );
+          })}
+
+        {searchInit && urlNext && <Loading searchInit={searchInit} urlNext={urlNext} />}
+      </div>
     </div>
   );
 };

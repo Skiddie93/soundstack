@@ -6,24 +6,31 @@
     display: flex;
   }
   &.open {
-    background-color: $element;
     svg {
       transform: rotate(180deg);
-    }
-    * {
-      background-color: $element;
     }
   }
 
   .default-wrapper {
+    text-transform: capitalize;
+    max-width: 300px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .default {
+    padding-bottom: 16px;
   }
   .data-wrapper {
     .options {
+      background-color: $element;
       position: absolute;
       bottom: 0;
-      left: 50%;
-      transform: translate(-50%, 100%);
+      left: 100%;
+      transform: translate(-100%, 100%);
       z-index: 99;
+      width: 200px;
+      text-transform: capitalize;
     }
   }
   .options {
@@ -36,10 +43,33 @@
 
 .select-title {
   display: flex;
-  align-self: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
   font-size: 25px;
   font-weight: 400;
+  width: 100%;
+  .segment-mode {
+    span {
+      cursor: pointer;
+    }
 
+    @media (max-width: 500px) {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  .segment-select {
+    display: flex;
+    @media (max-width: 500px) {
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      align-items: center;
+    }
+  }
   svg {
     display: block !important;
   }

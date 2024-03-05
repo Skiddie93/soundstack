@@ -2,7 +2,7 @@
 import { chartSingle } from "@/services/charts";
 import { chartRequest } from "@/services/dbCharts";
 import { useState } from "react";
-import EditListResults from "@/components/EditListResults";
+import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";
 import EditListNames from "@/components/EditListNames";
 import { List } from "@/types/types";
@@ -62,7 +62,7 @@ const Page = ({ params }: PageProps) => {
     return (
       <>
         <div className="editor-view">
-          <EditListResults
+          <ListResults
             handleDrag={handleDrag}
             listData={albums}
             setAlbum={setAlbum}

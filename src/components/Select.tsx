@@ -1,9 +1,12 @@
 import { Dispatch } from "react";
 import isVisible from "@/utils/useIsVisible";
 import { FaCaretDown } from "react-icons/fa";
-
+interface dataSegment {
+  id: string;
+  value: string;
+}
 interface Props {
-  data: Record<string, string | number>[];
+  data: dataSegment[];
   setSelected: Dispatch<any>;
   current: string | number;
 }
@@ -28,7 +31,7 @@ const Select = ({ data, setSelected, current }: Props) => {
             return (
               <div
                 onClick={() => {
-                  setSelected(item.value);
+                  setSelected(item);
                   visibility.setVisible(false);
                 }}
                 key={item.id}

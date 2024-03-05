@@ -1,10 +1,15 @@
 "use client";
-import EditListResults from "@/components/EditListResults";
+import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";
 import Select from "@/components/Select";
 import { useEffect, useState } from "react";
 
-const selectData = [
+interface dataSegment {
+  id: string;
+  value: string;
+}
+
+const selectDataYears: dataSegment[] = [
   {
     id: "2024",
     value: "2024",
@@ -327,21 +332,179 @@ const selectData = [
   },
 ];
 
+const selectDataGenres: dataSegment[] = [
+  {
+    id: "ambient",
+    value: "ambient",
+  },
+  {
+    id: "blues",
+    value: "blues",
+  },
+  {
+    id: "classical-music",
+    value: "classical music",
+  },
+  {
+    id: "country",
+    value: "country",
+  },
+  {
+    id: "dance",
+    value: "dance",
+  },
+  {
+    id: "electronic",
+    value: "electronic",
+  },
+  {
+    id: "experimental",
+    value: "experimental",
+  },
+  {
+    id: "folk",
+    value: "folk",
+  },
+  {
+    id: "hip-hop",
+    value: "hip hop",
+  },
+  {
+    id: "industrial-and-noise",
+    value: "industrial and noise",
+  },
+  {
+    id: "jazz",
+    value: "jazz",
+  },
+  {
+    id: "metal",
+    value: "metal",
+  },
+  {
+    id: "musical-theatre-and-entertainment",
+    value: "musical theatre and entertainment",
+  },
+  {
+    id: "new-age",
+    value: "new age",
+  },
+  {
+    id: "pop",
+    value: "pop",
+  },
+  {
+    id: "psychedelia",
+    value: "psychedelia",
+  },
+  {
+    id: "punk",
+    value: "punk",
+  },
+  {
+    id: "randb",
+    value: "randb",
+  },
+  {
+    id: "regional-music",
+    value: "regional music",
+  },
+  {
+    id: "rock",
+    value: "rock",
+  },
+  {
+    id: "singer-songwriter",
+    value: "singer songwriter",
+  },
+  {
+    id: "spoken-word",
+    value: "spoken word",
+  },
+  {
+    id: "ambient-pop",
+    value: "ambient pop",
+  },
+  {
+    id: "asmr",
+    value: "asmr",
+  },
+  {
+    id: "beatboxing",
+    value: "beatboxing",
+  },
+  {
+    id: "bugle-call",
+    value: "bugle call",
+  },
+  {
+    id: "comedy",
+    value: "comedy",
+  },
+  {
+    id: "dark-cabaret",
+    value: "dark cabaret",
+  },
+  {
+    id: "darkwave",
+    value: "darkwave",
+  },
+  {
+    id: "easy-listening",
+    value: "easy listening",
+  },
+  {
+    id: "field-recordings",
+    value: "field recordings",
+  },
+  {
+    id: "gospel",
+    value: "gospel",
+  },
+  {
+    id: "hanmai",
+    value: "hanmai",
+  },
+  {
+    id: "mantra",
+    value: "mantra",
+  },
+  {
+    id: "marching-band",
+    value: "marching band",
+  },
+  {
+    id: "mashup",
+    value: "mashup",
+  },
+  {
+    id: "mechanical-music",
+    value: "mechanical music",
+  },
+  {
+    id: "shibuya-kei",
+    value: "shibuya kei",
+  },
+  {
+    id: "ska",
+    value: "ska",
+  },
+  {
+    id: "sound-effects",
+    value: "sound effects",
+  },
+  {
+    id: "visual-kei",
+    value: "visual kei",
+  },
+  {
+    id: "ytpmv",
+    value: "ytpmv",
+  },
+];
+
 function Page() {
-  const [chart, setChart] = useState<any>(undefined);
   const [album, setAlbum] = useState<Record<any, any> | undefined>(undefined);
-  const [year, setYear] = useState<string>("2024");
-
-  const getData = async () => {
-    const req = await fetch(`./data/albums/${year}.json`);
-    const data = await req.json();
-
-    setChart(data);
-  };
-
-  useEffect(() => {
-    getData();
-  }, [year]);
 
   return (
     <>
@@ -351,27 +514,7 @@ function Page() {
 
       <div id="chart" className="chart">
         <div className="inner">
-          {chart && (
-            <>
-              <div className="title-bar">
-                <div className="select-title">
-                  RYM's best from{" "}
-                  <Select
-                    data={selectData}
-                    setSelected={setYear}
-                    current={year}
-                  />
-                </div>
-              </div>
-              <div className="chart-wrapper">
-                <EditListResults
-                  extraClass="frontpage-list"
-                  setAlbum={setAlbum}
-                  listData={chart}
-                />
-              </div>
-            </>
-          )}
+          <DisplayAlbumGrid setAlbum={setAlbum} />
         </div>
       </div>
     </>
@@ -379,3 +522,75 @@ function Page() {
 }
 
 export default Page;
+
+const DisplayAlbumGrid = ({ setAlbum }: any) => {
+  const [chart, setChart] = useState<any>(undefined);
+  const [segment, setSegment] = useState<dataSegment>({
+    id: "2024",
+    value: "2024",
+  });
+  const [selectData, setSelectedData] =
+    useState<dataSegment[]>(selectDataYears);
+
+  console.log(segment);
+
+  const dataFolder = selectDataYears == selectData ? "years" : "genres";
+
+  const getData = async () => {
+    const req = await fetch(`./data/${dataFolder}/${segment.id}.json`);
+    const data = await req.json();
+
+    setChart(data);
+  };
+
+  useEffect(() => {
+    getData();
+  }, [segment]);
+
+  const DataToggler = () => {
+    const changeData = (data: dataSegment[], segment: dataSegment) => {
+      setSelectedData(data);
+      setSegment(segment);
+    };
+    return (
+      <div className="options">
+        <span onClick={() => changeData(selectDataYears, selectDataYears[0])}>
+          Years
+        </span>
+        |
+        <span onClick={() => changeData(selectDataGenres, selectDataGenres[0])}>
+          Genres
+        </span>
+      </div>
+    );
+  };
+
+  return (
+    <>
+      <>
+        <div className="title-bar">
+          <div className="select-title">
+            <div className="segment-select">
+              RYM's best from{" "}
+              <Select
+                data={selectData}
+                setSelected={setSegment}
+                current={segment.value}
+              />
+            </div>
+            <div className="segment-mode">
+              <DataToggler />
+            </div>
+          </div>
+        </div>
+        <div className="chart-wrapper">
+          <ListResults
+            extraClass="frontpage-list"
+            setAlbum={setAlbum}
+            listData={chart}
+          />
+        </div>
+      </>
+    </>
+  );
+};
