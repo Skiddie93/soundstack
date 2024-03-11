@@ -1,4 +1,4 @@
-import { getLocalStorage, setLocalStorage } from "@/utils/useLocalStorage";
+import { getLocalStorage } from "@/utils/useLocalStorage";
 import { useEffect, useState } from "react";
 import { List } from "@/types/types";
 import { IoMdAdd } from "react-icons/io";

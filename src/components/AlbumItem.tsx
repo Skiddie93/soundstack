@@ -15,7 +15,7 @@ const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
   const contextMenuRef = useRef<any>(null);
 
   const albumName = albumData.name;
-  const albumCoverSmall = albumData.images[1].url;
+  const albumCoverSmall = albumData.images[1]?.url || "";
   const albumYear = albumData.release_date.split("-")[0];
   const artist = albumData.artists
     .map((artist: Record<any, any>) => artist.name)

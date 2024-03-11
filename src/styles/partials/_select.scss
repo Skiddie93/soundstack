@@ -53,6 +53,9 @@
   .segment-mode {
     span {
       cursor: pointer;
+      &.active{
+        text-decoration: underline;
+      }
     }
 
     @media (max-width: 500px) {

@@ -532,8 +532,6 @@ const DisplayAlbumGrid = ({ setAlbum }: any) => {
   const [selectData, setSelectedData] =
     useState<dataSegment[]>(selectDataYears);
 
-  console.log(segment);
-
   const dataFolder = selectDataYears == selectData ? "years" : "genres";
 
   const getData = async () => {
@@ -552,13 +550,24 @@ const DisplayAlbumGrid = ({ setAlbum }: any) => {
       setSelectedData(data);
       setSegment(segment);
     };
+    const isActive = (thisData: dataSegment[]) => {
+      if (thisData == selectData) return "active";
+      return "";
+    };
+
     return (
       <div className="options">
-        <span onClick={() => changeData(selectDataYears, selectDataYears[0])}>
+        <span
+          className={isActive(selectDataYears)}
+          onClick={() => changeData(selectDataYears, selectDataYears[0])}
+        >
           Years
         </span>
         |
-        <span onClick={() => changeData(selectDataGenres, selectDataGenres[0])}>
+        <span
+          className={isActive(selectDataGenres)}
+          onClick={() => changeData(selectDataGenres, selectDataGenres[0])}
+        >
           Genres
         </span>
       </div>
