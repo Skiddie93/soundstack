@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 import queryData from "@/utils/querySearch";
 import { IoMdRemove } from "react-icons/io";
+
 
 interface EditListNamesProps {
   albums: Record<string, any> | undefined;
   handleDrag?: any;
   editMode?: boolean;
-  setAlbum?: any;
+  setAlbum?: React.Dispatch<SetStateAction<Record<string, any>>>;
   removeAlbum?: (id: string) => void;
 }
 
@@ -15,7 +16,7 @@ interface AlbumProps {
   index: number;
   handleDrag?: any;
   editMode?: boolean;
-  setAlbum?: any;
+  setAlbum?: React.Dispatch<SetStateAction<Record<string, any>>>;
   removeAlbum?: (id: string) => void;
 }
 
@@ -55,7 +56,7 @@ const Album = ({
   const [isOverElement, setIsOverElement] = useState(false);
   const name = album.name;
   const artist = album.artists
-    .map((artist: Record<any, any>) => artist.name)
+    .map((artist: Record<string, any>) => artist.name)
     .join(" & ");
 
   const href = album.href;
@@ -75,7 +76,7 @@ const Album = ({
       player.scrollIntoView({ behavior: "smooth" });
     }
 
-    setAlbum(album);
+    if (setAlbum && album) setAlbum(album);
   };
 
   return (
@@ -85,13 +86,13 @@ const Album = ({
       }}
       className={handleClassName()}
       draggable={editMode}
-      onDragStart={(e) => handleDrag.dragStart(e, index)}
+      onDragStart={(e) => handleDrag?.dragStart(e, index)}
       onDrop={(e) => {
-        handleDrag.dragDrop(e, index);
+        handleDrag?.dragDrop(e, index);
         setIsOverElement(false);
       }}
       onDragOver={(e) => {
-        handleDrag.dragOver(e);
+        handleDrag?.dragOver(e);
         setIsOverElement(true);
       }}
       onDragLeave={() => setIsOverElement(false)}

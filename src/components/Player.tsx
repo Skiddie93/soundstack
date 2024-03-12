@@ -38,7 +38,7 @@ const Player = ({ album }: Props) => {
     const validTrackId: string = firstValidTrack?.id || reorderQueue[0]?.id;
 
     const index = tracks.items.findIndex(
-      (item: any) => item.id == validTrackId
+      (item: Record<string, any>) => item.id == validTrackId
     );
 
     return index;
@@ -87,7 +87,7 @@ const Player = ({ album }: Props) => {
     setCurrentTrack(newTrack);
   };
 
-  const tracksClass = (trackId: any, preview: any) => {
+  const tracksClass = (trackId: string, preview: string) => {
     const base = "track-wrapper ";
     const isActive = trackId == currentTrack.id ? "active" : "";
     const hasPreview = preview ? "" : "disabled ";

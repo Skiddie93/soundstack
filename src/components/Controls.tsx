@@ -10,9 +10,9 @@ import { getLocalStorage, setLocalStorage } from "./../utils/useLocalStorage";
 
 interface Props {
   handleMoveTrack: (direction: "next" | "prev") => void;
-  playerRef: any;
+  playerRef: React.RefObject<HTMLAudioElement>;
   audioIsLoaded: boolean;
-  currentTrack: any;
+  currentTrack: string;
 }
 
 const Controls = ({
@@ -21,11 +21,11 @@ const Controls = ({
   audioIsLoaded,
   currentTrack,
 }: Props) => {
-  const [currentTime, setCurrentTime] = useState(0);
-  const [volume, setVolume] = useState(getLocalStorage("volume") || '50');
+  const [currentTime, setCurrentTime] = useState("0");
+  const [volume, setVolume] = useState(getLocalStorage("volume") || "50");
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const duration = playerRef.current?.duration || "0";
+  const duration = playerRef.current?.duration.toString() || "0";
 
   const handlePlayPause = () => {
     if (audioIsLoaded && playerRef.current) {
@@ -38,7 +38,7 @@ const Controls = ({
   const handleScrollTrack = (e: ChangeEvent<HTMLInputElement>) => {
     if (audioIsLoaded && playerRef.current) {
       const time = parseFloat(e.currentTarget.value);
-      setCurrentTime(time);
+      setCurrentTime(time.toString());
       playerRef.current.currentTime = time;
     }
   };
@@ -47,16 +47,17 @@ const Controls = ({
     const volume = e.currentTarget.value;
     setVolume(volume);
     setLocalStorage("volume", volume);
+    if (!playerRef.current) return;
     playerRef.current.volume = +volume / 100;
   };
 
   useEffect(() => {
-    setCurrentTime(0);
+    setCurrentTime("0");
   }, [currentTrack]);
 
   useEffect(() => {
     handlePlayPause();
-    if (audioIsLoaded) {
+    if (audioIsLoaded && playerRef.current) {
       playerRef.current.volume = +volume / 100;
     }
   }, [isPlaying, audioIsLoaded]);
@@ -114,8 +115,8 @@ const Controls = ({
       <div className="timeline">
         <RangeInput
           onChange={handleScrollTrack}
-          value={currentTime}
-          max={duration}
+          value={parseFloat(currentTime)}
+          max={parseFloat(duration)}
         />
       </div>
     </div>

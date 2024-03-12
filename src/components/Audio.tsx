@@ -1,11 +1,18 @@
 import { useEffect, useState } from "react";
 
+interface PropsAudio {
+  currentTrack: Record<string, any>;
+  playerRef: React.RefObject<any>;
+  handleMoveTrack: (direction: "next" | "prev") => void;
+  setAudioIsLoaded: (isLoaded: boolean) => void;
+}
+
 const Audio = ({
   currentTrack,
   playerRef,
   handleMoveTrack,
   setAudioIsLoaded,
-}: any) => {
+}: PropsAudio) => {
   const [currentTrackURL, setCurentTrackURL] = useState(
     currentTrack.preview_url
   );
@@ -16,17 +23,16 @@ const Audio = ({
   }, [currentTrack]);
 
   const handleLoaded = () => {
-    setAudioIsLoaded(true)
+    setAudioIsLoaded(true);
   };
 
-  const Track = ({ track }: any) => {
+  const Track = ({ track }: { track: string }) => {
     return (
       <>
         <audio
           onLoadedData={handleLoaded}
           onEnded={() => handleMoveTrack("next")}
           ref={playerRef}
-          
         >
           <source src={track || ""} type="audio/mp3" />
         </audio>

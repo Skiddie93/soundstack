@@ -33,16 +33,16 @@ const Page = ({ params }: PageProps) => {
     };
 
     const handleDrag = {
-      dragStart(e: any, index: number) {
-        e.dataTransfer.setData("fromIndex", index);
+      dragStart(e: React.DragEvent, index: number) {
+        e.dataTransfer.setData("fromIndex", index.toString());
       },
-      dragDrop(e: any, index: number) {
+      dragDrop(e: React.DragEvent, index: number) {
         const from = parseInt(e.dataTransfer.getData("fromIndex"));
         const to = index;
         handleChartChange(from, to);
       },
-      dragOver(e: any) {
-        let event = e as Event;
+      dragOver(e: React.DragEvent) {
+        let event = e;
         event.stopPropagation();
         event.preventDefault();
       },

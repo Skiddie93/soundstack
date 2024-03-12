@@ -28,9 +28,9 @@ const ListResults = ({
   const Loading = ({ urlNext, searchInit }: LoadingPorps) => {
     return (
       <div className="load-more">
-          <div onClick={() => searchInit(urlNext)} className="button">
-            Load more
-          </div>
+        <div onClick={() => searchInit(urlNext)} className="button">
+          Load more
+        </div>
       </div>
     );
   };
@@ -65,7 +65,9 @@ const ListResults = ({
             );
           })}
 
-        {searchInit && urlNext && <Loading searchInit={searchInit} urlNext={urlNext} />}
+        {searchInit && urlNext && (
+          <Loading searchInit={searchInit} urlNext={urlNext} />
+        )}
       </div>
     </div>
   );

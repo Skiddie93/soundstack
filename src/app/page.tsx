@@ -2,11 +2,15 @@
 import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";
 import Select from "@/components/Select";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Dispatch, SetStateAction } from "react";
 
 interface dataSegment {
   id: string;
   value: string;
+}
+
+interface PropsDisplayGrid {
+  setAlbum: Dispatch<SetStateAction<Record<string, any> | undefined>>;
 }
 
 const selectDataYears: dataSegment[] = [
@@ -504,7 +508,7 @@ const selectDataGenres: dataSegment[] = [
 ];
 
 function Page() {
-  const [album, setAlbum] = useState<Record<any, any> | undefined>(undefined);
+  const [album, setAlbum] = useState<Record<string, any> | undefined>(undefined);
 
   return (
     <>
@@ -523,7 +527,7 @@ function Page() {
 
 export default Page;
 
-const DisplayAlbumGrid = ({ setAlbum }: any) => {
+const DisplayAlbumGrid = ({ setAlbum }: PropsDisplayGrid) => {
   const [chart, setChart] = useState<any>(undefined);
   const [segment, setSegment] = useState<dataSegment>({
     id: "2024",

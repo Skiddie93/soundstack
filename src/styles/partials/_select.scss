@@ -51,8 +51,13 @@
   font-weight: 400;
   width: 100%;
   .segment-mode {
+    .options{
+      display: flex;
+      gap: 5px;
+    }
     span {
       cursor: pointer;
+      line-height: 1.5;
       &.active{
         text-decoration: underline;
       }

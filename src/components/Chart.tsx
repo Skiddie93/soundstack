@@ -3,14 +3,14 @@ import { MdModeEditOutline } from "react-icons/md";
 import { AiOutlineCheck } from "react-icons/ai";
 import { setLocalStorage } from "@/utils/useLocalStorage";
 import { List } from "@/types/types";
-import { useState, useEffect } from "react";
+import { useState, useEffect, SetStateAction } from "react";
 import isVisible from "@/utils/useIsVisible";
 import Link from "next/link";
-import {onClickEnter} from "@/utils/onClickEnter"
+import { onClickEnter } from "@/utils/onClickEnter";
 
 interface ChartProps {
   list: Record<string, any>;
-  setListData: any;
+  setListData: React.Dispatch<SetStateAction<Record<string, any>>>;
 }
 
 export const Chart = ({ list, setListData }: ChartProps) => {
@@ -48,28 +48,29 @@ export const Chart = ({ list, setListData }: ChartProps) => {
 
   return (
     <div ref={visibility.element} className="list-item" key={list.id}>
-      
       {!visibility.visible ? (
         <>
-        {list.albums.length > 0 ?
-         <>
-          <Link href={editorPath}>{list.name}</Link>{" "}
-          <small>({list.albums.length})</small>
-          </>
-          :
-          <>
-          <p>{list.name}</p>
-          <small>({list.albums.length})</small>
-          </>
-        }
+          {list.albums.length > 0 ? (
+            <>
+              <Link href={editorPath}>{list.name}</Link>{" "}
+              <small>({list.albums.length})</small>
+            </>
+          ) : (
+            <>
+              <p>{list.name}</p>
+              <small>({list.albums.length})</small>
+            </>
+          )}
         </>
       ) : (
         <>
           <input
-          onKeyPress={(e) => onClickEnter(e, () => {
-            editListName(list.id, inputValue);
-            visibility.setVisible(false);})
-          }
+            onKeyPress={(e) =>
+              onClickEnter(e, () => {
+                editListName(list.id, inputValue);
+                visibility.setVisible(false);
+              })
+            }
             onChange={(e) => {
               setInputValue(e.target.value);
             }}

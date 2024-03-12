@@ -1,4 +1,10 @@
-import { Dispatch, SetStateAction, useState, useRef, useEffect } from "react";
+import React, {
+  Dispatch,
+  SetStateAction,
+  useState,
+  useRef,
+  useEffect,
+} from "react";
 import queryData from "@/utils/querySearch";
 import StackListContext from "./StackListContext";
 import { IoMdAdd } from "react-icons/io";
@@ -23,7 +29,7 @@ const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
 
   const href = albumData.href;
 
-  const closeContextMenu = (e: any) => {
+  const closeContextMenu = (e: Event) => {
     if (!openMenu.current || !contextMenuRef.current) return;
     if (
       !openMenu.current.contains(e.target) &&
@@ -53,7 +59,7 @@ const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
     setAlbum(album);
   };
 
-  const openContextMenu = (e: any) => {
+  const openContextMenu = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     e.stopPropagation();
 
     setContextState(!contextState);
