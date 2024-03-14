@@ -10,7 +10,7 @@ import { onClickEnter } from "@/utils/onClickEnter";
 
 interface ChartProps {
   list: Record<string, any>;
-  setListData: React.Dispatch<SetStateAction<Record<string, any>>>;
+  setListData: React.Dispatch<SetStateAction<List[]>>
 }
 
 export const Chart = ({ list, setListData }: ChartProps) => {
