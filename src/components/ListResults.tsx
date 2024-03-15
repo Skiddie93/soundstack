@@ -7,9 +7,9 @@ interface LoadingPorps {
 }
 
 interface ListResultsPorps {
-  listData: Record<any, any>;
+  listData: Record<string, any>;
   searchInit?: (urlNext: string) => void;
-  setAlbum: Dispatch<SetStateAction<Record<any, any> | undefined>>;
+  setAlbum: Dispatch<SetStateAction<Record<string, any> | undefined>>;
   handleDrag?: any;
   editMode?: boolean;
   extraClass?: string;
@@ -64,7 +64,9 @@ const ListResults = ({
               </div>
             );
           })}
-
+        {listData?.length < 1 && <div>
+          No albums found
+          </div>}
         {searchInit && urlNext && (
           <Loading searchInit={searchInit} urlNext={urlNext} />
         )}

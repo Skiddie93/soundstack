@@ -9,7 +9,7 @@ export const chartRequest = {
         chartSingle.moveToPublished(chart.id);
         window.location.href = `/chart/${chart.id}`;
       })
-      .catch(() => alert("Try again"));
+      .catch((err) => alert("Error: " + err.message));
   },
 
   async getChart(id: string) {
