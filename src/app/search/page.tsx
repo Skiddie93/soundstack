@@ -9,7 +9,7 @@ export default function Page() {
   const [album, setAlbum] = useState<Record<any, any> | undefined>(undefined);
 
   const DisplayAlbumGrid = () => {
-    const [searchData, setSearchData] = useState<Record<any, any>>([]);
+    const [searchData, setSearchData] = useState<Record<any, any>|undefined>(undefined);
     const [nextUrl, setNextUrl] = useState<string | undefined>(undefined);
 
     const searchParams = useSearchParams();
@@ -35,21 +35,22 @@ export default function Page() {
             };
           }
         );
-        const nextUrl = usableData.length
+        const nextUrl = usableData.length != 0
           ? searchResults.albums.next
           : undefined;
         setNextUrl(nextUrl);
-        setSearchData((prev: []) => [...prev, ...usableData]);
+        setSearchData((prev: []) =>prev? [...prev, ...usableData]: usableData);
       }
     };
 
     useEffect(() => {
       if (searchTerm) {
-        setSearchData([]);
-        setNextUrl(undefined);
         searchInit();
+        setNextUrl(undefined);
       }
     }, [searchTerm]);
+
+    const hasResults = searchData?.length < 1? false:true
 
     return (
       <>
@@ -61,6 +62,7 @@ export default function Page() {
             listData={searchData}
           />
         )}
+        {hasResults === false && <div> No albums found</div>}
       </>
     );
   };

@@ -64,9 +64,6 @@ const ListResults = ({
               </div>
             );
           })}
-        {listData?.length < 1 && <div>
-          No albums found
-          </div>}
         {searchInit && urlNext && (
           <Loading searchInit={searchInit} urlNext={urlNext} />
         )}
