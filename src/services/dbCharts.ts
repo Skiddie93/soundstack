@@ -4,12 +4,24 @@ import { chartSingle } from "./charts";
 
 export const chartRequest = {
   async createChart(chart: Record<string, any>) {
-    await setDoc(doc(db, "charts", chart.id), chart)
+    const req = await setDoc(doc(db, "charts", chart.id), chart)
       .then(() => {
         chartSingle.moveToPublished(chart.id);
         window.location.href = `/chart/${chart.id}`;
+        setTimeout(() => {
+          window.location.href = `/chart/${chart.id}`;
+        }, 2000);
+
+        return {
+          success: true,
+          message: "Successfully published. Redirecting...",
+        };
       })
-      .catch((err) => alert("Error: " + err.message));
+      .catch((err) => {
+        return { success: false, message: err.message };
+      });
+
+    return req;
   },
 
   async getChart(id: string) {

@@ -1,0 +1,56 @@
+.toast-notification {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 50px 25px;
+  z-index: 999;
+  overflow: hidden;
+  .toast {
+    width: 300px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $element;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    gap: 10px;
+    position: relative;
+    animation: appear ease-in-out 1s;
+    animation-fill-mode: forwards !important;
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    &.success {
+      background: #2b5536;
+    }
+
+    &.error {
+      background: #a22d2d;
+    }
+    &.warning {
+      background: #b06c24;
+    }
+    .text {
+      width: 100%;
+    }
+
+    .icon {
+      flex: 0;
+      display: flex;
+      align-items: center;
+      svg {
+        height: 23px;
+        width: auto;
+      }
+    }
+  }
+}

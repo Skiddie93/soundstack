@@ -1,16 +1,21 @@
 "use client";
 import { chartSingle } from "@/services/charts";
 import { chartRequest } from "@/services/dbCharts";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";
+import { ToastContext } from "@/utils/context";
 import EditListNames from "@/components/EditListNames";
 import { List } from "@/types/types";
 interface PageProps {
   params: { id: string };
 }
 const Page = ({ params }: PageProps) => {
-  const [album, setAlbum] = useState<Record<any, any> | undefined>(undefined);
+  const [album, setAlbum] = useState<Record<string, any> | undefined>(
+    undefined
+  );
+
+  const initToast = useContext(ToastContext) as any;
 
   const Editor = () => {
     const data = chartSingle.getChart(params.id);
@@ -59,6 +64,15 @@ const Page = ({ params }: PageProps) => {
       });
     };
 
+    const publish: any = async (chart: Record<string, any>) => {
+      const req = await chartRequest.createChart(chart);
+
+      console.log(req.message);
+      const success = req.success ? "success" : "error";
+
+      initToast(req.message, success);
+    };
+
     return (
       <>
         <div className="editor-view">
@@ -78,7 +92,9 @@ const Page = ({ params }: PageProps) => {
         {chart && albums.length > 0 && (
           <div
             className="button editor-button"
-            onClick={() => chartRequest.createChart(chart)}
+            onClick={() => {
+              publish(chart);
+            }}
           >
             PUBLISH
           </div>
