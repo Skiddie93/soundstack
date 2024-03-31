@@ -4,10 +4,13 @@ const queryData = async (
   url: string
 ): Promise<Record<string, any> | undefined> => {
   let token = await getToken();
+  //let token = { access_token: "123" };
+  if (!token)
+    return {
+      error: { message: "could not authenticat request" },
+    };
 
-  if (!token) return;
-
-  const req = await fetch(url, {
+  const req: any = await fetch(url, {
     headers: {
       Authorization: "Bearer " + token.access_token,
     },

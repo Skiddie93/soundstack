@@ -4,7 +4,7 @@ import { chartRequest } from "@/services/dbCharts";
 import { useState, useContext } from "react";
 import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";
-import { ToastContext } from "@/utils/context";
+import { ToastContext } from "@/app/layout";
 import EditListNames from "@/components/EditListNames";
 import { List } from "@/types/types";
 interface PageProps {
@@ -15,7 +15,10 @@ const Page = ({ params }: PageProps) => {
     undefined
   );
 
-  const initToast = useContext(ToastContext) as any;
+  const initToast = useContext(ToastContext) as unknown as (
+    message: string,
+    type: string
+  ) => void;
 
   const Editor = () => {
     const data = chartSingle.getChart(params.id);

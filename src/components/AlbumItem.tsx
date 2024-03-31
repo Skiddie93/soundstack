@@ -4,10 +4,12 @@ import React, {
   useState,
   useRef,
   useEffect,
+  useContext,
 } from "react";
 import queryData from "@/utils/querySearch";
 import StackListContext from "./StackListContext";
 import { IoMdAdd } from "react-icons/io";
+import { ToastContext } from "@/app/layout";
 
 interface ListItemProps {
   albumData: Record<string, any>;
@@ -19,6 +21,10 @@ const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
   const [contextState, setContextState] = useState<Boolean>(false);
   const openMenu = useRef<any>(null);
   const contextMenuRef = useRef<any>(null);
+  const initToast = useContext(ToastContext) as unknown as (
+    message: string,
+    success: string
+  ) => void;
 
   const albumName = albumData.name;
   const albumCoverSmall = albumData.images[1]?.url || "";
@@ -54,9 +60,10 @@ const AlbumItem = ({ albumData, setAlbum, editMode }: ListItemProps) => {
     if (player) {
       player.scrollIntoView({ behavior: "smooth" });
     }
-    console.log(href, album);
 
-    setAlbum(album);
+    album?.error
+      ? initToast(album?.error?.message || "Could not fetch data", "error")
+      : setAlbum(album);
   };
 
   const openContextMenu = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {

@@ -1,15 +1,23 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import ListResults from "@/components/ListResults";
 import Player from "@/components/Player";
 import queryData from "@/utils/querySearch";
 import { useSearchParams } from "next/navigation";
+import { ToastContext } from "@/app/layout";
 
 export default function Page() {
   const [album, setAlbum] = useState<Record<any, any> | undefined>(undefined);
 
+  const initToast = useContext(ToastContext) as unknown as (
+    message: string,
+    success: string
+  ) => void;
+
   const DisplayAlbumGrid = () => {
-    const [searchData, setSearchData] = useState<Record<any, any>|undefined>(undefined);
+    const [searchData, setSearchData] = useState<Record<any, any> | undefined>(
+      undefined
+    );
     const [nextUrl, setNextUrl] = useState<string | undefined>(undefined);
 
     const searchParams = useSearchParams();
@@ -20,8 +28,13 @@ export default function Page() {
       const url =
         nextUrl ||
         `https://api.spotify.com/v1/search?q=${queryString}&type=album&limit=12`;
+
       const searchResults = await queryData(url);
-      if (searchResults) {
+      console.log(searchResults);
+
+      if (searchResults?.albums) {
+        console.log(searchResults);
+
         const usableData = searchResults.albums.items.map(
           (item: Record<string, any>) => {
             return {
@@ -35,11 +48,17 @@ export default function Page() {
             };
           }
         );
-        const nextUrl = usableData.length != 0
-          ? searchResults.albums.next
-          : undefined;
+        const nextUrl =
+          usableData.length != 0 ? searchResults.albums.next : undefined;
         setNextUrl(nextUrl);
-        setSearchData((prev: []) =>prev? [...prev, ...usableData]: usableData);
+        setSearchData((prev: []) =>
+          prev ? [...prev, ...usableData] : usableData
+        );
+      } else {
+        initToast(
+          searchResults?.error?.message || "Could not fetch data",
+          "error"
+        );
       }
     };
 
@@ -50,7 +69,7 @@ export default function Page() {
       }
     }, [searchTerm]);
 
-    const hasResults = searchData?.length < 1? false:true
+    const hasResults = searchData?.length < 1 ? false : true;
 
     return (
       <>
