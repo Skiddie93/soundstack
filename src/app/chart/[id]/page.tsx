@@ -35,7 +35,7 @@ const Page = ({ params }: PageProps) => {
             <>
               <div className="title-bar">
                 <h1>{chart.name}</h1>
-                <div onClick={saveDivAsImage}>
+                <div onClick={() => saveDivAsImage(chart.name)}>
                   <IoCamera />
                 </div>
               </div>
