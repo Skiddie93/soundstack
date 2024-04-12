@@ -52,7 +52,7 @@ const Content = ({ children }: children) => {
       <Toast context={setInitToast} />
 
       <ToastContext.Provider value={initToast}>
-        <div className="container">{children}</div>
+        {initToast && <div className="container">{children}</div>}
       </ToastContext.Provider>
     </>
   );

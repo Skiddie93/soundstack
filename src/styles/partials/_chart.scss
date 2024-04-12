@@ -96,25 +96,25 @@
       }
 
       @media (min-width: 1401px) {
-        &:nth-child(6n + 6) {
-          margin-top: 50px;
+        &:nth-child(5n) {
+          margin-bottom: 50px;
         }
       }
       @media (min-width: 1025px) and (max-width: 1400px) {
-        &:nth-child(5n + 5) {
-          margin-top: 50px;
+        &:nth-child(4n) {
+          margin-bottom: 50px;
         }
       }
 
       @media (min-width: 701px) and (max-width: 1024px) {
-        &:nth-child(4n + 4) {
-          margin-top: 50px;
+        &:nth-child(3n) {
+          margin-bottom: 50px;
         }
       }
 
       @media (min-width: 451px) and (max-width: 700px) {
-        &:nth-child(3n + 3) {
-          margin-top: 50px;
+        &:nth-child(2n) {
+          margin-bottom: 50px;
         }
       }
 
