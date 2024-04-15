@@ -84,7 +84,7 @@ const DisplayAlbumGrid = ({ setAlbum }: DisplayAlbumGridProps) => {
     }
   }, [searchTerm]);
 
-  const hasResults = searchData?.length < 1 ? false : true;
+  const hasResults = searchData?.length == 0 ? false : true;
 
   return (
     <>
