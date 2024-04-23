@@ -1,8 +1,8 @@
 "use client";
+import "../styles/global.scss";
 import Header from "@/components/partials/_header";
 import Search from "@/components/Search";
 import Toast from "@/components/Toast";
-import "../styles/global.scss";
 import { PiPlaylistFill } from "react-icons/pi";
 import { createContext, useState } from "react";
 
